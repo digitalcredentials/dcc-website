@@ -40,20 +40,22 @@ html {
 }
 
 body, p {
-	color: #515867; 
+	color: #000000; 
 	font: 400 1rem/1.625rem "Open Sans", sans-serif;
+	font-size: 1.3rem;
+	line-height: 2rem;
 }
 
 h1 {
-	color: #1e266d;
-	font-weight: 700;
+	color: #000000;
+	font-weight: bold;
 	font-size: 2.5rem;
 	line-height: 3.125rem;
 	letter-spacing: -0.5px;
 }
 
 h2 {
-	color: #1e266d;
+	color: #dc4a76;
 	font-weight: 700;
 	font-size: 2rem;
 	line-height: 2.625rem;
@@ -61,7 +63,7 @@ h2 {
 }
 
 h3 {
-	color: #1e266d;
+	color: #000000;
 	font-weight: 700;
 	font-size: 1.75rem;
 	line-height: 2.375rem;
@@ -94,6 +96,7 @@ h6 {
 	font-size: 2.75rem;
 	line-height: 3.5rem;
 	letter-spacing: -0.7px;
+	font-weight:lighter;
 	color: #ffffff;
 }
 
@@ -202,13 +205,13 @@ a:hover {
 
 .btn-solid-lg {
 	display: inline-block;
-	padding: 1.625rem 2.625rem 1.625rem 2.625rem;
+	padding: 2rem 2.625rem 2rem 2.625rem;
 	border: 1px solid #ff6c02;
 	border-radius: 32px;
 	background-color: #ff6c02;
 	color: #ffffff;
-	font-weight: 600;
-	font-size: 0.875rem;
+	font-weight:bolder;
+	font-size: 1.5rem;
 	line-height: 0;
 	text-decoration: none;
 	transition: all 0.2s;
@@ -481,7 +484,7 @@ input[type='checkbox'] {
 }
 
 .navbar .navbar-brand {
-	padding-top: 0.25rem;
+	padding-top: 0.5rem;
 	padding-bottom: 0.25rem;
 }
 
@@ -792,15 +795,15 @@ input[type='checkbox'] {
 }
 
 .basic-2 .intro {
-	margin-bottom: 9.5rem;
+	margin-bottom: 6rem;
 }
 
 .basic-2 .image-container {
 	margin-bottom: 3.75rem;
 }
 
-.basic-2 .text-container p {
-	margin-bottom: 1.75rem;
+.basic-2 .text-container {
+	margin-bottom: 3.75rem;
 }
 
 
@@ -1054,6 +1057,10 @@ input[type='checkbox'] {
 
 .form-1 .h2-heading {
 	margin-bottom: 0.75rem;
+	font-weight:100;
+	font-size:2.3rem;
+	line-height:3.8rem;
+	color:black;
 }
 
 .form-1 .p-heading {
@@ -1294,7 +1301,7 @@ a:hover.back-to-top {
 	
 	/* General Styles */
 	.h2-heading {
-		width: 35.25rem;
+		width: 50.25rem;
 		margin-right: auto;
 		margin-left: auto;
 	}
@@ -1309,7 +1316,6 @@ a:hover.back-to-top {
 
 	/* Navigation */
 	.navbar {
-		padding-top: 1.75rem;
 		background-color: #ffffff;
 		border-bottom: none;
 		transition: all 0.2s;
