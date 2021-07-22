@@ -337,14 +337,14 @@ a:hover {
 .form-control-select {
 	display: block; /* needed for proper display of the label in Firefox, IE, Edge */
 	width: 100%;
-	padding-top: 1.125rem;
-	padding-bottom: 0.125rem;
+	padding-top: .75rem;
+	padding-bottom: 0.75rem;
 	padding-left: 1.625rem;
 	border: 1px solid #cbcbd1;
 	border-radius: 32px;
 	background-color: #ffffff;
-	color: #515867;
-	font-size: 0.875rem;
+	color: black;
+	font-size: 1.25rem;
 	line-height: 1.875rem;
 	transition: all 0.2s;
 	-webkit-appearance: none; /* removes inner shadow on form inputs on ios safari */
@@ -1085,13 +1085,15 @@ input[type='checkbox'] {
 	top: 1rem;
 }
 
-.form-1 .btn-solid-lg {
+.form-1 .btn-solid-lg,
+.lightbox-basic .btn-solid-lg {
 	margin-top: 2rem;
 	background-color: #dc4a76;
 	border: #dc4a76;
 }
 
-.form-1 .btn-solid-lg:hover {
+.form-1 .btn-solid-lg:hover,
+.lightbox-basic .btn-solid-lg:hover {
 	color: #FFFFFF;
 	background-color: #e1688d;
 }
@@ -1439,6 +1441,11 @@ a:hover.back-to-top {
 		margin-bottom: 0;
 		text-align: left;
 	}
+
+	.lightbox-basic h2 {
+		font-size: 2rem;
+	}
+
 	/* end of details lightbox */
 
 
