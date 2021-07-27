@@ -489,8 +489,8 @@ input[type='checkbox'] {
 }
 
 .navbar .logo-image img {
-    width: 300px;
-	height: 93px;
+	width: 200px;
+	height: 62;
 	margin-bottom:.25rem;
 }
 
@@ -1294,6 +1294,7 @@ a:hover.back-to-top {
 		padding: 1.75rem 2rem 0.875rem 2rem;
 	}
 	/* end of extra pages */
+
 }
 /* end of min-width 768px */
 
@@ -1321,6 +1322,11 @@ a:hover.back-to-top {
 		background-color: #ffffff;
 		border-bottom: none;
 		transition: all 0.2s;
+	}
+	
+	.navbar .logo-image img {
+		width: 300px;
+		height: 93px;
 	}
 
 	.navbar.top-nav-collapse {
