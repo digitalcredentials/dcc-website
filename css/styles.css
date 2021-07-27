@@ -618,7 +618,8 @@ input[type='checkbox'] {
 }
 
 .header .text-container {
-	margin-bottom: 4rem;
+	margin-bottom: 6rem;
+	margin-top: 4rem;
 }
 
 .header .h1-large {
@@ -796,8 +797,9 @@ input[type='checkbox'] {
 	margin-bottom: 4rem;
 }
 
-.basic-2 .image-container {
-	margin-bottom: 3.75rem;
+.basic-2 .image-container,
+.basic-3 .image-container {
+	margin-bottom: 1.75rem;
 }
 
 .basic-2 .text-container {
