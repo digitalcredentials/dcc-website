@@ -94,7 +94,7 @@ h6 {
 
 .h1-large {
 	font-size: 2.75rem;
-	line-height: 3.5rem;
+	line-height: 2.75rem;
 	letter-spacing: -0.7px;
 	font-weight:lighter;
 	color: #ffffff;
@@ -610,8 +610,8 @@ input[type='checkbox'] {
 /*    Header     */
 /*****************/
 .header {
-	padding-top: 7rem;
-	padding-bottom: 2.5rem;
+	padding-top: 2rem;
+	padding-bottom: 0rem;
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/photo-1.png') center center no-repeat;
 	background-size: cover;
 	text-align: left;
@@ -622,8 +622,11 @@ input[type='checkbox'] {
 	margin-top: 4rem;
 }
 
-.header .h1-large {
-	margin-bottom: 1.5rem;
+.header .h1-large ,
+.mission .h1-large{
+	padding-top:1.5rem;
+	padding-bottom: 3rem;
+	font-size: 2rem;
 }
 
 .header .p-large {
@@ -640,18 +643,11 @@ input[type='checkbox'] {
 /*    Mission     */
 /*****************/
 .mission {
-	padding-top: 10rem;
-	padding-bottom: 10rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/bg-2.jpg') center center no-repeat;
 	background-size: cover;
 	text-align: center;
-}
-
-.mission .text-container {
-
-}
-
-.mission .h1-large {
 }
 
 .mission .p-large {
@@ -691,8 +687,9 @@ input[type='checkbox'] {
 /*     Introduction     */
 /************************/
 .basic-1 {
-	padding-top: 4rem;
+	padding-top: 2rem;
 	padding-bottom: 3rem;
+	margin-top: -5rem;
 }
 
 .basic-1 img {
@@ -784,7 +781,7 @@ input[type='checkbox'] {
 /*     Details 1     */
 /*********************/
 .basic-2 {
-	padding-top: 4rem;
+	padding-top: 3rem;
 	background: url('../images/details-1-background.png') center center no-repeat;
 	background-size: cover;
 }
@@ -1049,8 +1046,8 @@ input[type='checkbox'] {
 /*     Newsletter     */
 /**********************/
 .form-1 {
-	padding-top: 9.5rem;
-	padding-bottom: 8.5rem;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
 	text-align: center;
 	background-color:rgb(233, 231, 231);
 }
@@ -1264,7 +1261,40 @@ a:hover.back-to-top {
 	.header .btn-solid-lg {
 		margin-bottom: 0;
 	}
+
+	.header{
+		padding-top: 6rem;
+		padding-bottom: 0.5rem;
+	}
+
+	.header .h1-large,
+	.mission .h1-large{
+		font-size: 2.75rem;
+		line-height: 3.5rem;
+	}
 	/* end of header */
+
+	.basic-1{
+		margin-top: 0rem;
+	}
+
+	.mission {
+		padding-top: 10rem;
+		padding-bottom: 10rem;
+		background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/bg-2.jpg') center center no-repeat;
+		background-size: cover;
+		text-align: center;
+	}
+
+	.mission .h1-large {
+	}
+
+	.form-1 {
+		padding-top: 8rem;
+		padding-bottom: 8rem;
+		text-align: center;
+		background-color:rgb(233, 231, 231);
+	}
 
 
 	/* Newsletter */
@@ -1383,7 +1413,7 @@ a:hover.back-to-top {
 	/* Header */
 	.header {
 		padding-top: 10rem;
-		padding-bottom: 7rem;
+		padding-bottom: 1rem;
 		text-align: left;
 	}
 
@@ -1401,6 +1431,9 @@ a:hover.back-to-top {
 
 
 	/* Introduction */
+	.basic-1 {
+		padding-top: 3rem;
+	}
 	.basic-1 img {
 		margin-bottom: 0;
 	}
@@ -1576,7 +1609,7 @@ a:hover.back-to-top {
 	.header {
 		overflow-x: hidden;
 		padding-top: 10.75rem;
-		padding-bottom: 13rem;
+		padding-bottom: 4rem;
 	}
 
 	.header .text-container {
