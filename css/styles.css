@@ -56,7 +56,7 @@ h1 {
 
 h2,
 #mce-succes-response {
-	color: #dc4a76;
+	color: maroon;
 	font-weight: 700;
 	font-size: 1.5rem;
 	line-height: 2.625rem;
@@ -269,10 +269,10 @@ a:hover {
 .btn-outline-lg {
 	display: inline-block;
 	padding: 1.625rem 2.625rem 1.625rem 2.625rem;
-	border: 1px solid #dc4a76;
+	border: 1px solid maroon;
 	border-radius: 32px;
 	background-color: transparent;
-	color: #dc4a76;
+	color: maroon;
 	font-weight: 600;
 	font-size: 0.875rem;
 	line-height: 0;
@@ -281,7 +281,7 @@ a:hover {
 }
 
 .btn-outline-lg:hover {
-	background-color: #dc4a76;
+	background-color: maroon;
 	color: #ffffff;
 	text-decoration: none;
 }
@@ -540,7 +540,7 @@ input[type='checkbox'] {
 
 .navbar .nav-item.dropdown.show .nav-link,
 .navbar .nav-item .nav-link:hover{
-	color: #dc4a76;
+	color: maroon;
 }
 
 /* Dropdown Menu */
@@ -1089,14 +1089,14 @@ input[type='checkbox'] {
 .form-1 .btn-solid-lg,
 .lightbox-basic .btn-solid-lg {
 	margin-top: 2rem;
-	background-color: #dc4a76;
-	border: #dc4a76;
+	background-color: maroon;
+	border: maroon;
 }
 
 .form-1 .btn-solid-lg:hover,
 .lightbox-basic .btn-solid-lg:hover {
 	color: #FFFFFF;
-	background-color: #e1688d;
+	background-color: #BF0204;
 }
 
 
