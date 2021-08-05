@@ -613,7 +613,7 @@ input[type='checkbox'] {
 .header {
 	padding-top: 2rem;
 	padding-bottom: 0rem;
-	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/photo-1.png') center center no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/photo-1.png') center center no-repeat;
 	background-size: cover;
 	text-align: left;
 }
