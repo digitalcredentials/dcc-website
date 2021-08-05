@@ -1086,18 +1086,29 @@ input[type='checkbox'] {
 	top: 1rem;
 }
 
+.form-1 a {
+	color: #0F6190;
+}
+
+.form-1 a:hover {
+	color: #093A57;
+}
+
 .form-1 .btn-solid-lg,
 .lightbox-basic .btn-solid-lg {
 	margin-top: 2rem;
 	background-color: maroon;
 	border: maroon;
+	color: white;
 }
 
 .form-1 .btn-solid-lg:hover,
 .lightbox-basic .btn-solid-lg:hover {
 	color: #FFFFFF;
-	background-color: #BF0204;
+	background-color: #9B0001;
 }
+
+
 
 
 /******************/
