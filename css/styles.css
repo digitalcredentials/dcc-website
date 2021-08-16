@@ -23,10 +23,12 @@ Table Of Contents:
 
 /*****************************************
 Colors:
-- Buttons - orange #ff6c02
-- Headings text - navy blue #1e266d
-- Body text - dark gray #515867
+- Buttons - maroon #800000
+- Button highlighted - lighter maroon #9B0001
+- Headings text - maroon #800000
+- Body text - black #000000
 - Backgrounds - light gray #f9f9f9
+- Footer Background - dark gray #343434
 ******************************************/
 
 
@@ -207,9 +209,9 @@ a:hover {
 .btn-solid-lg {
 	display: inline-block;
 	padding: 2rem 2.625rem 2rem 2.625rem;
-	border: 1px solid #ff6c02;
+	border: 1px solid maroon;
 	border-radius: 32px;
-	background-color: #ff6c02;
+	background-color: maroon;
 	color: #ffffff;
 	font-weight:bolder;
 	font-size: 1.5rem;
@@ -219,9 +221,9 @@ a:hover {
 }
 
 .btn-solid-lg:hover {
-	border: 1px solid #ff6c02;
-	background-color: transparent;
-	color: #ff6c02; /* needs to stay here because of the color property of a tag */
+	border: 1px solid #9B0001;
+	background-color: #9B0001;
+	color: white; /* needs to stay here because of the color property of a tag */
 	text-decoration: none;
 }
 
@@ -606,6 +608,10 @@ input[type='checkbox'] {
 	font-size: 1.25rem;
 }
 
+.h1 .thankyou-header {
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
 
 /*****************/
 /*    Header     */
@@ -656,7 +662,7 @@ input[type='checkbox'] {
 	margin-bottom: 2rem;
 }
 
-.mission .btn-solid-lg {
+.btn-solid-lg {
 	margin-right: 0.5rem;
 	margin-bottom: 0.75rem;
 }
