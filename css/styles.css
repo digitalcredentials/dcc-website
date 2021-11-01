@@ -808,6 +808,31 @@ input[type='checkbox'] {
 }
 
 .basic-2 .text-container {
+	margin-bottom: 1rem;
+}
+
+/*********************/
+/*     Projects     */
+/*********************/
+.projects {
+	padding-top: 3rem;
+	background: url('../images/details-1-background.png') center center no-repeat;
+	background-size: cover;
+}
+
+.projects h2 {
+	margin-bottom: 1.5rem;
+}
+
+.projects .intro {
+	margin-bottom: 4rem;
+}
+
+.projects .image-container {
+	margin-bottom: 1.75rem;
+}
+
+.projects .text-container {
 	margin-bottom: 3.75rem;
 }
 
@@ -926,7 +951,7 @@ input[type='checkbox'] {
 /*********************/
 .basic-3 {
 	padding-top: 3rem;
-	padding-bottom: 5rem;
+	padding-bottom: 0rem;
 }
 
 .basic-3 .text-container {
@@ -1092,11 +1117,13 @@ input[type='checkbox'] {
 	top: 1rem;
 }
 
-.form-1 a {
+.form-1 a,
+.projects a {
 	color: #0F6190;
 }
 
-.form-1 a:hover {
+.form-1 a:hover,
+.projects a:hover {
 	color: #093A57;
 }
 
@@ -1492,6 +1519,20 @@ a:hover.back-to-top {
 	}
 	/* end of details 1 */
 
+	/* Projects */
+	.projects .image-container {
+		margin-bottom: 0;
+	}
+
+	.projects .text-container {
+		margin-top: 3.75rem;
+	}
+
+	.projects h2 {
+		margin-right: 2rem;
+	}
+	/* end of projects */
+
 
 	/* Details Lightbox */
 	.lightbox-basic {
@@ -1672,6 +1713,15 @@ a:hover.back-to-top {
 	}
 	/* end of details 1 */
 
+	/* Projects */
+	.projects .intro h2 {
+		margin-right: 10rem;
+	}
+
+	.projects .text-container {
+		margin-top: 6.5rem;
+	}
+	/* end of projects */
 
 	/* Details Lightbox */
 	.lightbox-basic .image-container {
