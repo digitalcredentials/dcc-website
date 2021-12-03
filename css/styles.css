@@ -835,6 +835,13 @@ input[type='checkbox'] {
 .projects .text-container {
 	margin-bottom: 3.75rem;
 }
+.project-paragraph {
+	color: white;
+	text-align: start;
+	font-size: 1.75rem;
+	line-height: 1.5;
+	padding-left: 10rem;
+}
 
 
 /****************************/
@@ -1237,6 +1244,46 @@ a:hover.back-to-top {
 	background-color: #1e266d;
 }
 
+/*****************/
+/*    EduWallet Page    */
+/*****************/
+.eduwallet {
+	padding-bottom: 1.5rem;
+	background-color: #1f2936;
+	color:rgb(199, 199, 199);
+}
+
+.eduwallet .h1-large {
+	font-size: 6rem;
+}
+
+.eduwallet .h2-heading {
+	color: white;
+	font-size: 2rem;
+	padding-top: 2.5rem;
+}
+
+.eduwallet-icon {
+	width: 20rem;
+}	
+
+.download-icon {
+	padding-top:1.5rem;
+	width: 15rem;
+}
+
+.eduwallet-description {
+	color: white;
+	padding-top: 2rem;
+	font-size: 1.5rem;
+	line-height: 2.2rem;
+}
+
+.eduwallet .p-small {
+	color: white;
+	padding-top:2.5rem;
+}
+
 
 /***********************/
 /*     Extra Pages     */
@@ -1569,6 +1616,7 @@ a:hover.back-to-top {
 	/* end of details 3 */
 
 
+
 	/* Testimonials */
 	.slider-2 .swiper-container {
 		width: 90%;
@@ -1721,6 +1769,7 @@ a:hover.back-to-top {
 	.projects .text-container {
 		margin-top: 6.5rem;
 	}
+
 	/* end of projects */
 
 	/* Details Lightbox */
