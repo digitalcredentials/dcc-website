@@ -808,7 +808,47 @@ input[type='checkbox'] {
 }
 
 .basic-2 .text-container {
+	margin-bottom: 1rem;
+}
+
+/*********************/
+/*Projects Pull-quote*/
+/*********************/
+#projects-pull-quote {
+	padding-top: 3rem;
+	padding-bottom: 0rem;
+}
+
+/*********************/
+/*     Projects     */
+/*********************/
+.projects {
+	padding-top: 3rem;
+	background: url('../images/details-1-background.png') center center no-repeat;
+	background-size: cover;
+}
+
+.projects h2 {
+	margin-bottom: 1.5rem;
+}
+
+.projects .intro {
+	margin-bottom: 4rem;
+}
+
+.projects .image-container {
+	margin-bottom: 1.75rem;
+}
+
+.projects .text-container {
 	margin-bottom: 3.75rem;
+}
+.project-paragraph {
+	color: white;
+	text-align: start;
+	font-size: 1.75rem;
+	line-height: 1.5;
+	padding-left: 10rem;
 }
 
 
@@ -926,7 +966,7 @@ input[type='checkbox'] {
 /*********************/
 .basic-3 {
 	padding-top: 3rem;
-	padding-bottom: 5rem;
+	padding-bottom: 2rem;
 }
 
 .basic-3 .text-container {
@@ -1092,11 +1132,13 @@ input[type='checkbox'] {
 	top: 1rem;
 }
 
-.form-1 a {
+.form-1 a,
+.projects a {
 	color: #0F6190;
 }
 
-.form-1 a:hover {
+.form-1 a:hover,
+.projects a:hover {
 	color: #093A57;
 }
 
@@ -1209,7 +1251,6 @@ a.back-to-top {
 a:hover.back-to-top {
 	background-color: #1e266d;
 }
-
 
 /***********************/
 /*     Extra Pages     */
@@ -1375,8 +1416,8 @@ a:hover.back-to-top {
 	}
 	
 	.navbar .logo-image img {
-		width: 300px;
-		height: 93px;
+		width: 225px;
+		height: 70px;
 	}
 
 	.navbar.top-nav-collapse {
@@ -1492,6 +1533,20 @@ a:hover.back-to-top {
 	}
 	/* end of details 1 */
 
+	/* Projects */
+	.projects .image-container {
+		margin-bottom: 0;
+	}
+
+	.projects .text-container {
+		margin-top: 3.75rem;
+	}
+
+	.projects h2 {
+		margin-right: 2rem;
+	}
+	/* end of projects */
+
 
 	/* Details Lightbox */
 	.lightbox-basic {
@@ -1526,6 +1581,7 @@ a:hover.back-to-top {
 		margin-top: 3.5rem;
 	}
 	/* end of details 3 */
+
 
 
 	/* Testimonials */
@@ -1672,6 +1728,16 @@ a:hover.back-to-top {
 	}
 	/* end of details 1 */
 
+	/* Projects */
+	.projects .intro h2 {
+		margin-right: 10rem;
+	}
+
+	.projects .text-container {
+		margin-top: 6.5rem;
+	}
+
+	/* end of projects */
 
 	/* Details Lightbox */
 	.lightbox-basic .image-container {
