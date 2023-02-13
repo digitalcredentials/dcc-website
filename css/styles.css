@@ -103,9 +103,23 @@ h6 {
 	line-height: 1.5rem;
 }
 
+.h1-large {
+	font-size: 2.75rem;
+	line-height: 2.75rem;
+	letter-spacing: -0.7px;
+	font-weight:lighter;
+	color: #ffffff;
+}
+
 .p-large {
 	font-size: 1.125rem;
 	line-height: 1.75rem;
+}
+
+.p-larger-white-text {
+	font-size: 1.5rem;
+	line-height: 2.125rem;
+	color: #ffffff;
 }
 
 .p-small {
