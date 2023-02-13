@@ -42,11 +42,14 @@ html {
 	padding-top: 50px;
 }
 
-body, p {
+body, p, li {
 	color: #000000; 
 	font: 400 1rem/1.625rem "Open Sans", sans-serif;
 	font-size: 1.3rem;
 	line-height: 2rem;
+}
+
+p {
 	margin-bottom: 1.875rem;
 }
 
