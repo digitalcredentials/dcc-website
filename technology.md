@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Technology
-header: Our Technology
 ---
 ## Standards Support
 We are building an infrastructure for digital academic credentials that can support the education systems of the future.

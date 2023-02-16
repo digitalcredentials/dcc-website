@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Projects
-header: Our Projects
 ---
 ## Ecosystem Map
 We are building an infrastructure for digital academic credentials that can support the education systems of the future.

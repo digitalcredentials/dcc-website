@@ -1,7 +1,6 @@
 ---
 layout: default
-title: Projects
-header: Our Publications
+title: Publications
 ---
 * Whitepaper
 * Open Source Wallet Final Report

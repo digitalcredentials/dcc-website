@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Who We Are
-header: Who We Are
 call-to-action: true
 action-block:
   header: Help us build the digital credential infrastructure that fits the future of education.
