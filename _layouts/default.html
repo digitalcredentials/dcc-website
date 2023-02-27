@@ -22,19 +22,21 @@
     <!-- Other Pages Template -->
     {% else %}
       <!-- Page Banner -->
-      <header class="page-header">
+    <div class="quote-block">
+      <header>
         <div class="container">
           <div class="text-container">
-              <h1 class="h1-large">
+              <h1>
                 {{page.title}}
               </h1>
           </div>
         </div>
       </header>
+    </div>
 
-      <div class="container pb-1 mb-5">
-        {{ content }}
-      </div>
+    <div class="container page-content">
+      {{ content }}
+    </div>
     {% endif %}
     {% if page.action-block %}
       {% include call-to-action.html %}
