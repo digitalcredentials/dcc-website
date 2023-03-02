@@ -15,29 +15,30 @@
     <!-- Navbar -->
     {% include navigation.html %}
 
-    <!-- Homepage -->
+    <!-- If Homepage: -->
     {% if page.title == "Digital Credentials Consortium" %}
       {{ content }}
 
-    <!-- Other Pages Template -->
+    <!-- If any of the other content pages:  -->
     {% else %}
       <!-- Page Banner -->
-    <div class="page-head-block">
-      <header>
-        <div class="container">
-          <div class="text-container">
-              <h1>
-                {{page.title}}
-              </h1>
+      <div class="page-head-block">
+        <header>
+          <div class="container">
+            <div class="text-container">
+                <h1>
+                  {{page.title}}
+                </h1>
+            </div>
           </div>
-        </div>
-      </header>
-    </div>
+        </header>
+      </div>
 
-    <div class="container page-content">
-      {{ content }}
-    </div>
+      <div class="container page-content {{page.title | downcase | split: ' ' | join: '-'}}-page">
+        {{ content }}
+      </div>
     {% endif %}
+    
     {% if page.action-block %}
       {% include call-to-action.html %}
     {% endif %}

@@ -94,13 +94,7 @@ h3 {
 } 
 
 a {
-	color: var(--light-blue);
-	text-decoration: underline;
-}
-
-a:hover {
-	color: var(--light-blue-darker);
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 .no-line {
@@ -218,6 +212,16 @@ a:hover {
 	background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/photo-1.png') center center no-repeat !important;
 }
 
+.home-header a {
+	color: var(--light-blue);
+	text-decoration: underline;
+}
+
+.home-header a:hover {
+	color: var(--light-blue-darker);
+	text-decoration: underline;
+}
+
 
 /**********************/
 /*    Page Content    */
@@ -233,6 +237,14 @@ a:hover {
 .page-content {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.publications-page a {
+  color: var(--black);
+}
+
+.publications-page a:hover {
+  text-decoration: none;
 }
 
 .page-content h3,
@@ -293,7 +305,12 @@ a:hover {
 }
 
 .footer a {
+	color: var(--light-blue);
 	text-decoration: none;
+}
+
+.footer a:hover {
+	color: var(--light-blue-darker);
 }
 
 .footer .footer-col {
