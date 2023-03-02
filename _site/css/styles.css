@@ -4,16 +4,17 @@
 Table Of Contents:
 - General Styles
 - Navigation
+- Homepage
 - Page Content
-- Page Header Break
 - Call to Action Block
 - Footer
 - Media Queries
 ******************************************/
 
-/*****************************************
-Colors:
-******************************************/
+
+/**************************/
+/*         Colors         */
+/**************************/
 :root {
   --black: #000000;
   --white: #FFFFFF;
@@ -53,14 +54,6 @@ h1 {
 }
 
 h2 {
-
-	font-weight:100;
-	font-size:2.3rem;
-	line-height:3.8rem;
-	color: var(--black);
-}
-
-h3 {
 	color: var(--maroon);
 	font-weight: 700;
 	font-size: 1.5rem;
@@ -68,20 +61,16 @@ h3 {
 	letter-spacing: -0.4px;
 }
 
-h4 {
+h3 {
 	color: var(--black);
 	font-weight: 700;
-	font-size: 1.5rem;
-	line-height: 2.375rem;
+	font-size: 1rem;
+	line-height: 2.625rem;
 	letter-spacing: -0.4px;
 }
 
-h5 {
-	color: var(--black);
-	font-weight: 700;
-	font-size: 1.5rem;
-	line-height: 2.125rem;
-	letter-spacing: -0.4px;
+.black {
+  color: var(--black);
 }
 
 .p-large {
@@ -142,6 +131,7 @@ a:hover {
 	text-decoration: none;
 }
 
+
 /**********************/
 /*     Navigation     */
 /**********************/
@@ -197,9 +187,49 @@ a:hover {
 	font-size: 1.25rem;
 }
 
+
+/**********************/
+/*      Homepage      */
+/**********************/
+.quote-block {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/bg-2.jpg') center center no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+.quote-block .text-container {
+	margin-bottom: 6rem;
+	margin-top: 4rem;
+}
+
+.quote-block p {
+	font-weight: lighter;
+	line-height: 3.125rem;
+	font-size: 2.75rem;
+	line-height: 4rem;
+	letter-spacing: -0.7px;
+	color: var(--white);
+}
+
+.home-header {
+  margin-top: -10rem;
+	background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/photo-1.png') center center no-repeat !important;
+}
+
+
 /**********************/
 /*    Page Content    */
 /**********************/
+.page-head-block {
+	padding-top: 7rem;
+	padding-bottom: 7rem;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/bg-2.jpg') center center no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
 .page-content {
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -219,30 +249,6 @@ a:hover {
   width: 50%;
 }
 
-/*****************/
-/*    Page Header Breaks     */
-/*****************/
-.quote-block {
-	padding-top: 3rem;
-	padding-bottom: 3rem;
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/bg-2.jpg') center center no-repeat;
-	background-size: cover;
-	text-align: center;
-}
-
-.home-header {
-  margin-top: -6rem;
-	background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/photo-1.png') center center no-repeat !important;
-}
-
-.quote-block .text-container {
-	margin-bottom: 6rem;
-	margin-top: 4rem;
-}
-
-.quote-block .p-large {
-	margin-bottom: 2rem;
-}
 
 /**********************/
 /*     Call to Action Block     */
@@ -254,8 +260,12 @@ a:hover {
 	background-color: var(--off-white);
 }
 
-.action-block h2 {
+.action-block p {
 	margin-bottom: 0.75rem;
+	font-weight:100;
+	font-size:2.3rem;
+	line-height:3.8rem;
+	color: var(--black);
 }
 
 .action-block .p-heading {
@@ -267,6 +277,7 @@ a:hover {
 	margin-top: 2rem;
 	padding: 2rem 2.625rem 2rem 2.625rem;
 }
+
 
 /******************/
 /*     Footer     */
@@ -297,6 +308,7 @@ a:hover {
 .footer .li-space-lg li {
 	margin-bottom: 0.375rem;
 }
+
 
 /*************************/
 /*     Media Queries     */
@@ -340,12 +352,6 @@ a:hover {
 @media (min-width: 992px) {
 	
 	/* General Styles */
-	h2 {
-		width: 50.25rem;
-		margin-right: auto;
-		margin-left: auto;
-	}
-
 	.p-heading {
 		width: 34rem;
 		margin-right: auto;
