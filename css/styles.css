@@ -247,9 +247,19 @@ a {
   text-decoration: none;
 }
 
+.publications-page ul {
+  list-style-type: none;
+  padding-left: 2rem;
+}
+
+.publications-page li {
+  text-indent: -2rem;
+  margin-bottom: 1rem;
+}
+
 .page-content h3,
 .page-content h4 {
-  padding-top: 0.5rem;
+  /* padding-top: 0.5rem; */
 }
 
 .page-content img {
