@@ -15,7 +15,7 @@
     <!-- Navbar -->
     {% include navigation.html %}
 
-    <!-- If Homepage: -->
+    <!-- If Homepage, fill in HTML content: -->
     {% if page.title == "Digital Credentials Consortium" %}
       {{ content }}
 
@@ -26,22 +26,26 @@
         <header>
           <div class="container">
             <div class="text-container">
-                <h1>
-                  {{page.title}}
-                </h1>
+              <h1>
+                {{page.title}}
+              </h1>
             </div>
           </div>
         </header>
       </div>
 
+      <!-- Page content -->
       <div class="container page-content {{page.title | downcase | split: ' ' | join: '-'}}-page">
         {{ content }}
       </div>
     {% endif %}
     
+    <!-- Call to action block at bottom if applicable -->
     {% if page.action-block %}
       {% include call-to-action.html %}
     {% endif %}
+
+    <!-- Page footer -->
     {% include footer.html %}
   </body>
   <!-- Scripts -->
