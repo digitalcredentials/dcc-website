@@ -24,19 +24,17 @@
       <!-- Page Banner -->
       <div class="page-head-block">
         <header>
-          <div class="container">
-            <div class="text-container">
-              <h1>
-                {{page.title}}
-              </h1>
-            </div>
-          </div>
+          <h1>
+            {{page.title}}
+          </h1>
         </header>
       </div>
 
       <!-- Page content -->
-      <div class="container page-content {{page.title | downcase | split: ' ' | join: '-'}}-page">
-        {{ content }}
+      <div class="container-md {{page.title | downcase | split: ' ' | join: '-'}}-page">
+        <div class="content page-content">
+          {{ content }}
+        </div>
       </div>
     {% endif %}
     

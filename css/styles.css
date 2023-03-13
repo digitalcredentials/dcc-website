@@ -193,7 +193,7 @@ a {
 	text-align: center;
 }
 
-.quote-block .text-container {
+.quote-block .content {
 	margin-bottom: 6rem;
 	margin-top: 4rem;
 }
@@ -208,7 +208,9 @@ a {
 }
 
 .home-header {
-  margin-top: -10rem;
+  overflow-x: hidden;
+  /* margin-top: -10rem; */
+  /* margin-top: 10rem; */
 	background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/photo-1.png') center center no-repeat !important;
 }
 
@@ -222,6 +224,10 @@ a {
 	text-decoration: underline;
 }
 
+.home-header .content {
+  margin-top: 6rem;
+  margin-bottom: 5rem;
+}
 
 /**********************/
 /*    Page Content    */
@@ -234,9 +240,11 @@ a {
 	text-align: center;
 }
 
-.page-content {
+.content.page-content {
   padding-top: 2rem;
   padding-bottom: 2rem;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .publications-page a {
@@ -345,8 +353,8 @@ a {
 
 	/* Header */
 	.home-header{
-		padding-top: 6rem;
-		padding-bottom: 0.5rem;
+		/* padding-top: 6rem; */
+		/* padding-bottom: 0.5rem; */
 	}
 
 	h1 {
@@ -451,16 +459,9 @@ a {
 
 
 	/* Header */
-	.home-header {
-		padding-top: 10rem;
-		padding-bottom: 1rem;
-		text-align: left;
+	/* .home-header {
 	}
-
-	.home-header .text-container {
-		margin-top: 3.5rem;
-	}
-	/* end of header */
+   */
 
 
 	/* Footer */
@@ -503,15 +504,9 @@ a {
 @media (min-width: 1200px) {
 
 	/* Header */
-	.home-header {
-		overflow-x: hidden;
-		padding-top: 10.75rem;
-		padding-bottom: 4rem;
+	/* .home-header {
 	}
-
-	.home-header .text-container {
-		margin-top: 6.5rem;
-	}
+  */
 
 	.home-header img {
 		position: absolute;
