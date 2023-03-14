@@ -350,13 +350,13 @@ a {
 /*************************/
 
 /* Small and medium screen width */
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
 }
 /* End of small and medium screen width */
 
 
 /* Large screen width */
-@media (min-width: 992px) {
+@media only screen and (min-width: 992px) {
 	
 	/* Navigation */
 	.navbar {
@@ -456,7 +456,7 @@ a {
 
 
 /* X-large screen width */
-@media (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
 
 	/* Footer */
 	.footer .footer-col.first {
