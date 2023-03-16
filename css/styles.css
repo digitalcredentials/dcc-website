@@ -521,6 +521,11 @@ a.nav-link {
   }
   
   /* Homepage header section */
+  .home-header .content {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
   p.p-larger-white-text {
     font-size: 1rem;
   }
