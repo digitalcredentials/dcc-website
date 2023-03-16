@@ -42,6 +42,7 @@ body, p, li {
 	font: 400 1rem/1.625rem "Open Sans", sans-serif;
 	font-size: 1.3rem;
 	line-height: 2rem;
+  overflow-wrap: break-word;
 }
 
 h1 {
@@ -233,14 +234,14 @@ a.nav-link {
 }
 
 .quote-block .content {
-	margin-bottom: 6rem;
+	margin-bottom: 5rem;
 	margin-top: 4rem;
 }
 
 .quote-block p {
 	font-weight: lighter;
 	line-height: 3.125rem;
-	font-size: 2.75rem;
+	font-size: 2.3rem;
 	line-height: 4rem;
 	letter-spacing: -0.7px;
 	color: var(--white);
@@ -352,7 +353,7 @@ a.nav-link {
 /*     Footer     */
 /******************/
 .footer {
-	padding-top: 5.5rem;
+	padding-top: 3.5rem;
 	padding-bottom: 1.5rem;
 	background-color: var(--gray);
 }
@@ -397,8 +398,40 @@ a.nav-link {
 
 /* Medium screen width */
 @media only screen and (max-width: 992px) {
+  /* Adjust padding at top of page for decreased nav height */
   body {
     padding-top: 34.25px;
+  }
+  
+  /* Header type */
+  .home-header h1{
+    font-size: 2.4rem;
+  }
+
+  /* Quote/action blocks */
+  .quote-block p, .action-block p {
+    font-size: 2rem;
+    line-height: 3.5rem;
+  }
+  
+  .action-block {
+    padding-top: 3.5rem;
+    padding-bottom: 3rem;
+  }
+  
+  .quote-block .content {
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+  }
+
+  .quote-block {
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+  }
+  
+  /* Content page header */
+  .page-head-block h1 {
+    font-size: 2.7rem;
   }
 
   /* Navigation */
@@ -424,24 +457,106 @@ a.nav-link {
 
 /* Small screen width */
 @media only screen and (max-width: 768px) {
-  h1, .quote-block p, .action-block p {
+  /* Header type */
+  .home-header h1{
     font-size: 2.25rem;
     line-height: 3.2rem;
   }
-
-  p.p-larger-white-text {
-    font-size: 1.4rem;
+  
+  .quote-block p, .action-block p {
+    font-size: 1.7rem;
+    line-height: 3.2rem;
   }
+
+  /* Homepage header section */
+  p.p-larger-white-text {
+    font-size: 1.19rem;
+  }
+
+  .home-header .content {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  /* Content pages */
+  .content.page-content {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  /* Publication citation text */
+  .publications-page li {
+    font-size: 1.1rem;
+  }
+
 }
 /* End of small screen width */
 
 
 /* X-small screen width */
 @media only screen and (max-width: 576px) {
-  h1, .quote-block p, .action-block p {
-    font-size: 2rem;
+  h2 {
+    font-size: 1.3rem;
   }
 
+  p, li {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  /* Header block text */
+  .home-header h1, .quote-block p, .action-block p {
+    font-size: 1.5rem;
+    line-height: 2.8rem;
+  }
+  
+  /* Content page header */
+  .page-head-block h1 {
+    font-size: 2rem;
+  }
+  
+  /* Homepage header section */
+  p.p-larger-white-text {
+    font-size: 1rem;
+  }
+
+  /* Mid-page quote block on home */
+  .quote-block {
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+  }
+
+  /* Call to action block */
+  .action-block {
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .action-block .btn-solid-lg {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+
+  /* Publication citation text */
+  .publications-page li {
+    font-size: .9rem;
+  }
+
+  /* Footer section */
+  .footer {
+    padding-top: 1.5rem;
+    padding-bottom: 0;
+  }
+
+  .footer .p-small {
+    font-size: 0.8rem;
+  }
+
+  .footer .footer-col {
+    margin-bottom: 2rem;
+  }
+
+  /* Content page header section */
   .page-head-block {
     padding-top: 3.5rem;
     padding-bottom: 3.5rem;
