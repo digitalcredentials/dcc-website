@@ -434,6 +434,11 @@ a.nav-link {
     font-size: 2.7rem;
   }
 
+  /* Content page images */
+  .page-content img {
+    width: 70%;
+  }
+
   /* Navigation */
   a.nav-link {
     font-size: 1.1rem;
@@ -540,6 +545,11 @@ a.nav-link {
   /* Publication citation text */
   .publications-page li {
     font-size: .9rem;
+  }
+
+  /* Content page images */
+  .page-content img {
+    width: 85%;
   }
 
   /* Footer section */
