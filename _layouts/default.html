@@ -1,6 +1,12 @@
 <!doctype html>
 <html>
   <head>
+    {% if page.title == "404: Page not found" %}
+      <head>
+        <!-- TODO IMPORTANT: Change this base link for the 404 page any time the site URL is changed, otherwise resources won't load -->
+        <base href="https://digitalcredentials.github.io/dcc-website-jekyll/" target="_blank">
+      </head>
+    {% endif %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{{ page.title }}</title>
@@ -50,4 +56,5 @@
   <!-- Scripts -->
   <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
   <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+  <script src="js/redirect.js"></script> <!-- Script to handle redirect -->
 </html>
