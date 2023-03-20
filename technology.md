@@ -2,27 +2,10 @@
 layout: default
 title: Technology
 ---
-## Standards Support
-We are building an infrastructure for digital academic credentials that can support the education systems of the future.
-The Digital Credentials Consortium was founded in 2018 by leading universities with expertise in the design of verifiable digital credentials. Together, we are designing an infrastructure for digital credentials of academic achievement.
-## Verifiable Credentials / Open Badges v3
-We are building an infrastructure for digital academic credentials that can support the education systems of the future.
-The Digital Credentials Consortium was founded in 2018 by leading universities with expertise in the design of verifiable digital credentials. Together, we are designing an infrastructure for digital credentials of academic achievement.
-## Issuer
-We are building an infrastructure for digital academic credentials that can support the education systems of the future.
-The Digital Credentials Consortium was founded in 2018 by leading universities with expertise in the design of verifiable digital credentials. Together, we are designing an infrastructure for digital credentials of academic achievement.
-## Wallet (LCW and any wallets we recommend)
-We are building an infrastructure for digital academic credentials that can support the education systems of the future.
-The Digital Credentials Consortium was founded in 2018 by leading universities with expertise in the design of verifiable digital credentials. Together, we are designing an infrastructure for digital credentials of academic achievement.
-## Verifier (verify.dcconsortium.org and verifierplus.org)
-We are building an infrastructure for digital academic credentials that can support the education systems of the future.
-The Digital Credentials Consortium was founded in 2018 by leading universities with expertise in the design of verifiable digital credentials. Together, we are designing an infrastructure for digital credentials of academic achievement.
-## Registries
-We are building an infrastructure for digital academic credentials that can support the education systems of the future.
-The Digital Credentials Consortium was founded in 2018 by leading universities with expertise in the design of verifiable digital credentials. Together, we are designing an infrastructure for digital credentials of academic achievement.
-## Github Repo
-We are building an infrastructure for digital academic credentials that can support the education systems of the future.
-The Digital Credentials Consortium was founded in 2018 by leading universities with expertise in the design of verifiable digital credentials. Together, we are designing an infrastructure for digital credentials of academic achievement.
+## Our Technology
+We are exploring how recent advances credential data standards and cryptographically signed credentials can be used to rethink the way we recognize and transact with academic achievements.
+
+Building on earlier efforts by the participating institutions, we are now setting our sights on the design and governance of a technology infrastructure for academic credentials – transforming credentials into tokens of social and human capital that can create new opportunities for participation in education and industry. Our Technology Working Group is currently developing a white paper.
 
 ## As a learner, this technology will allow you to:
 * Maintain a compelling and verifiable record of your lifelong learning achievements to share with employers
