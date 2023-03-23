@@ -329,6 +329,12 @@ a.nav-link {
   width: 50%;
 }
 
+.row img {
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+}
+
 
 /**********************/
 /*     Call to Action Block     */
@@ -449,6 +455,10 @@ a.nav-link {
     width: 70%;
   }
 
+  .row img {
+    width: 100%;
+  }
+
   /* Navigation */
   a.nav-link {
     font-size: 1.1rem;
@@ -565,6 +575,10 @@ a.nav-link {
   /* Content page images */
   .page-content img {
     width: 85%;
+  }
+
+  .row img {
+    width: 100%;
   }
 
   /* Footer section */
