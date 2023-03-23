@@ -81,12 +81,6 @@ h3 {
 	line-height: 1.75rem;
 }
 
-.p-larger-white-text {
-	font-size: 1.5rem;
-	line-height: 2.125rem;
-	color: var(--white);
-}
-
 .p-small {
 	font-size: 0.875rem;
 	line-height: 1.5rem;
@@ -249,6 +243,7 @@ a.nav-link {
 	color: var(--white);
 }
 
+
 .home-header {
   overflow-x: hidden;
   /* margin-top: -10rem; */
@@ -270,6 +265,15 @@ a.nav-link {
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
+
+.home-header p {
+	font-size: 1.5rem;
+	line-height: 2.125rem;
+	color: var(--white);
+  text-align: right;
+  margin-top: 1rem;
+}
+
 
 /**********************/
 /*    Page Content    */
@@ -343,7 +347,7 @@ a.nav-link {
 	padding-top: 5rem;
 	padding-bottom: 5rem;
 	text-align: center;
-	background-color: var(--off-white);
+	background-color: var(--white);
 }
 
 .action-block p {
@@ -494,7 +498,7 @@ a.nav-link {
   }
 
   /* Homepage header section */
-  p.p-larger-white-text {
+  .home-header p {
     font-size: 1.19rem;
   }
 
@@ -547,7 +551,7 @@ a.nav-link {
     margin-bottom: 2rem;
   }
 
-  p.p-larger-white-text {
+  .home-header p {
     font-size: 1rem;
   }
 
