@@ -527,6 +527,7 @@ a.nav-link {
   p, li {
     font-size: 1.1rem;
     margin-bottom: 0.5rem;
+    line-height: 1.7rem;
   }
 
   /* Header block text */
