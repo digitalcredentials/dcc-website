@@ -4,17 +4,26 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{{ page.title }}</title>
+
+    <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap styles -->
     <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Local Stylesheet -->
     <link href="css/styles.css" rel="stylesheet">
+
     <!-- Favicon  -->
     <link rel="icon" href="images/cropped-fav-dc-b-32x32.png" sizes="32x32" />
     <link rel="icon" href="images/cropped-fav-dc-b-192x192.png" sizes="192x192" />
+
     {% if page.title == "404: Page not found" %}
       <!-- TODO IMPORTANT: Change this base link for the 404 page any time the site URL is changed, otherwise resources won't load -->
       <base href="https://digitalcredentials.github.io/dcc-website-jekyll/" target="_blank">
     {% endif %}
+
     {% if site.google_analytics and jekyll.environment == 'production' %}
       <!-- Google analytics tag -->
       {% include analytics.html %}
@@ -44,12 +53,12 @@
         <div class="content page-content">
           {{ content }}
         </div>
-      </div>
-    {% endif %}
 
-    <!-- Team members section if applicable -->
-    {% if page.team %}
-      {% include team-members.html %}
+        <!-- Team members section if applicable -->
+        {% if page.team %}
+          {% include team-members.html %}
+        {% endif %}
+      </div>
     {% endif %}
     
     <!-- Call to action block at bottom if applicable -->
