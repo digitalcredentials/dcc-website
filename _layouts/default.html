@@ -46,6 +46,11 @@
         </div>
       </div>
     {% endif %}
+
+    <!-- Team members section if applicable -->
+    {% if page.team %}
+      {% include team-members.html %}
+    {% endif %}
     
     <!-- Call to action block at bottom if applicable -->
     {% if page.action-block %}
