@@ -24,7 +24,7 @@ team:
     bio: Brandon Muramatsu works at the intersection of learning, technology innovation and scale. His work focuses on online and digital learning to improve teaching and learning with a focus on open education. He has been involved in the development of learning technologies and education technologies, curriculum and course development, open education / opencourseware and educational digital libraries over the last 25+ years.
     photo: /images/members/brandon.jpg
     website: http://www.mura.org/
-    linkedin: https://www.linkedin.com/in/bmuramatsu
+  
 
 # action-block:
 #   header: Help us build the digital credential infrastructure that fits the future of education.

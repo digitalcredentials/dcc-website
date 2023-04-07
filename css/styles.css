@@ -32,6 +32,7 @@ Table Of Contents:
 /**************************/
 /*     General Styles     */
 /**************************/
+
 body,
 html {
 	width: 100%;
@@ -347,6 +348,14 @@ a.nav-link {
   width: 100%;
 }
 
+/* Team member grid on "Who We Are" page */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 40px;
+  row-gap: 30px;
+}
+
 
 /**********************/
 /*     Call to Action Block     */
@@ -426,6 +435,11 @@ a.nav-link {
 
 /* Medium screen width */
 @media only screen and (max-width: 992px) {
+  /* Team member grid on "Who We Are" page */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
   /* Adjust padding at top of page for decreased nav height */
   body {
     padding-top: 34.25px;
