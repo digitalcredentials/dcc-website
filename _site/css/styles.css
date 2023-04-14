@@ -385,6 +385,13 @@ a.nav-link {
 	padding: 2rem 2.625rem 2rem 2.625rem;
 }
 
+.page-content .btn-solid-lg{
+	margin-top: -2rem;
+  margin-bottom: -2rem;
+	padding: 2rem 2.625rem 2rem 2.625rem;
+  color: var(--white);
+}
+
 
 /******************/
 /*     Footer     */
