@@ -21,7 +21,7 @@ DCC members focus on collaborative projects and individual institutional priorit
 
 Joining the Digital Credentials Consortium begins with a conversation, let’s talk!
 
-<div id="contact" class="action-block">
+<div id="contact" class="call-to-action mini">
 <div class="container-md">
 <div class="content">
   <a class="btn-solid-lg" href="" target="_blank">
@@ -58,7 +58,7 @@ For eligible non-profit or state-funded higher education or post-graduate educat
 
 Member Benefits last updated, March 29, 2023
 
-<div id="contact" class="action-block">
+<div id="contact" class="call-to-action mini">
 <div class="container-md">
 <div class="content">
   <a class="btn-solid-lg" href="" target="_blank">

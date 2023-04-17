@@ -51,7 +51,7 @@ body, p, li {
 h1 {
 	font-weight: lighter;
 	line-height: 3.125rem;
-	font-size: 2.75rem;
+	font-size: 2.25rem;
 	line-height: 3.75rem;
 	letter-spacing: -0.7px;
 	color: var(--white);
@@ -238,22 +238,22 @@ a.nav-link {
 /*      Homepage      */
 /**********************/
 .quote-block {
-	padding-top: 3rem;
-	padding-bottom: 3rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/bg-2.jpg') center center no-repeat;
 	background-size: cover;
 	text-align: center;
 }
 
 .quote-block .content {
-	margin-bottom: 5rem;
-	margin-top: 4rem;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
 }
 
 .quote-block p {
 	font-weight: lighter;
 	line-height: 3.125rem;
-	font-size: 2.3rem;
+	font-size: 2rem;
 	line-height: 4rem;
 	letter-spacing: -0.7px;
 	color: var(--white);
@@ -278,8 +278,8 @@ a.nav-link {
 }
 
 .home-header .content {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .home-header p {
@@ -295,8 +295,8 @@ a.nav-link {
 /*    Page Content    */
 /**********************/
 .page-head-block {
-	padding-top: 7rem;
-	padding-bottom: 7rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/bg-2.jpg') center center no-repeat;
 	background-size: cover;
 	text-align: center;
@@ -307,6 +307,11 @@ a.nav-link {
   padding-bottom: 1.5rem;
   padding-left: 5px;
   padding-right: 5px;
+}
+
+/* Content page header */
+.page-head-block h1 {
+  font-size: 2.75rem;
 }
 
 .page-content a {
@@ -371,28 +376,29 @@ ul.bullets-special {
 /**********************/
 /*     Call to Action Block     */
 /**********************/
-.action-block {
-	padding-top: 5rem;
-	padding-bottom: 5rem;
+.call-to-action {
+	padding-top: 2rem;
+	padding-bottom: 3rem;
 	text-align: center;
-	background-color: var(--white);
+	background-color: var(--off-white);
 }
 
-.action-block p {
+.call-to-action p {
 	margin-bottom: 0.75rem;
 	font-weight:100;
-	font-size:2.75rem;
-	line-height:4rem;
+	font-size: 1.625rem;
+	line-height: 3.2rem;
 	color: var(--black);
 }
 
-.action-block .p-heading {
-	margin-bottom: 3rem;
+.call-to-action .p-heading {
+	margin-bottom: 1.5rem;
 }
 
-.action-block .btn-solid-lg,
-.lightbox-basic .btn-solid-lg {
-	margin-top: 2rem;
+.call-to-action .btn-solid-lg,
+.lightbox-basic .btn-solid-lg,
+.page-content .btn-solid-lg {
+	margin-top: 0.5rem;
 	padding: 2rem 2.625rem 2rem 2.625rem;
 }
 
@@ -401,6 +407,13 @@ ul.bullets-special {
   margin-bottom: -2rem;
 	padding: 2rem 2.625rem 2rem 2.625rem;
   color: var(--white);
+}
+
+/* Limited-width call to action w/ no title or bgd color */
+.call-to-action.mini {
+  background-color: var(--white);
+  padding-top: 4rem;
+  padding-bottom: 2.5rem;
 }
 
 
@@ -465,16 +478,16 @@ ul.bullets-special {
   
   /* Header type */
   .home-header h1{
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
 
   /* Quote/action blocks */
-  .quote-block p, .action-block p {
-    font-size: 2rem;
-    line-height: 3.5rem;
+  .quote-block p, .call-to-action p {
+    font-size: 1.5rem;
+    line-height: 3rem;
   }
   
-  .action-block {
+  .call-to-action {
     padding-top: 3.5rem;
     padding-bottom: 3rem;
   }
@@ -491,7 +504,7 @@ ul.bullets-special {
   
   /* Content page header */
   .page-head-block h1 {
-    font-size: 2.7rem;
+    font-size: 2.25rem;
   }
 
   /* Content page images */
@@ -528,13 +541,13 @@ ul.bullets-special {
 @media only screen and (max-width: 768px) {
   /* Header type */
   .home-header h1{
-    font-size: 2.25rem;
+    font-size: 1.8rem;
     line-height: 3.2rem;
   }
   
-  .quote-block p, .action-block p {
-    font-size: 1.7rem;
-    line-height: 3.2rem;
+  .quote-block p, .call-to-action p {
+    font-size: 1.4rem;
+    line-height: 2.8rem;
   }
 
   /* Homepage header section */
@@ -575,9 +588,14 @@ ul.bullets-special {
   }
 
   /* Header block text */
-  .home-header h1, .quote-block p, .action-block p {
+  .home-header h1 {
     font-size: 1.5rem;
     line-height: 2.8rem;
+  }
+
+  .quote-block p, .call-to-action p {
+    font-size: 1.3rem;
+    line-height: 2.6rem;
   }
   
   /* Content page header */
@@ -602,14 +620,14 @@ ul.bullets-special {
   }
 
   /* Call to action block */
-  .action-block {
+  .call-to-action {
     padding-top: 2rem;
     padding-bottom: 2.5rem;
   }
 
-  .action-block .btn-solid-lg {
+  .call-to-action .btn-solid-lg {
     font-size: 1.2rem;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
   }
 
   /* Publication citation text */

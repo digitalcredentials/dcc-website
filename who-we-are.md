@@ -26,7 +26,7 @@ team:
     website: http://www.mura.org/
   
 
-# action-block:
+# call-to-action:
 #   header: Help us build the digital credential infrastructure that fits the future of education.
 #   button-text: Join the DCC
 #   link: 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Digital Credentials Consortium
-action-block:
+call-to-action:
   header: Help us build the digital credential infrastructure that fits the future of education.
   button-text: Sign up for updates
   link: http://eepurl.com/gic0Xf
