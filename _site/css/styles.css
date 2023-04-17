@@ -310,14 +310,6 @@ a.nav-link {
   color: var(--link-hover);
 }
 
-.publications-page a {
-  color: var(--black);
-}
-
-.publications-page a:hover {
-  text-decoration: none;
-}
-
 .publications-page ul {
   list-style-type: none;
   padding-left: 2rem;
