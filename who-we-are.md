@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Who We Are
-call-to-action: true
 team:
   - name: Kerri Lemoie
     title: Director of Technology
@@ -26,13 +25,7 @@ team:
     website: http://www.mura.org/
   
 
-# call-to-action:
-#   header: Help us build the digital credential infrastructure that fits the future of education.
-#   button-text: Join the DCC
-#   link: 
 ---
-
-## DCC Members
 
 Digital Credential Consortium members are non-profit or state-funded higher education or post-graduate education institutions from around the world. Get involved!
 

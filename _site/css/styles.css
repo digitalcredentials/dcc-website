@@ -373,9 +373,12 @@ ul.bullets-special {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 40px;
-  row-gap: 30px;
+  row-gap: 15px;
 }
 
+.team-grid h3, h4 {
+  font-size: 1.3rem;
+}
 
 /**********************/
 /*     Call to Action Block     */
@@ -605,6 +608,11 @@ ul.bullets-special {
   /* Content page header */
   .page-head-block h1 {
     font-size: 2rem;
+  }
+
+  /* Team member title */
+  .team-grid h3, h4 {
+    font-size: 1.2rem;
   }
   
   /* Homepage header section */
