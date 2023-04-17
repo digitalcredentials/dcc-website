@@ -63,6 +63,8 @@ h2 {
 	font-size: 1.5rem;
 	line-height: 2.625rem;
 	letter-spacing: -0.4px;
+  margin-top: 1rem;
+  margin-bottom: 0rem;
 }
 
 h3 {
@@ -93,6 +95,11 @@ h4 {
 .p-small {
 	font-size: 0.875rem;
 	line-height: 1.5rem;
+}
+
+p {
+  margin-bottom: 0.25rem;
+  margin-top: 0.25rem;
 }
 
 .li-space-lg li {
@@ -127,7 +134,7 @@ a {
 .btn-solid-lg:hover {
 	border: 1px solid var(--maroon-light);
 	background-color: var(--maroon-light);
-	color: var(--white); /* needs to stay here because of the color property of a tag */
+	color: var(--white) !important; /* needs to stay here because of the color property of a tag */
 	text-decoration: none;
 }
 
@@ -296,8 +303,8 @@ a.nav-link {
 }
 
 .content.page-content {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
   padding-left: 5px;
   padding-right: 5px;
 }
@@ -313,11 +320,23 @@ a.nav-link {
 .publications-page ul {
   list-style-type: none;
   padding-left: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .publications-page li {
   text-indent: -2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+/* Style for a list where a special bullet glyph
+is inserted into the content directly */
+ul.bullets-special {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1em;
+  text-indent: -1em;
 }
 
 .page-content h3,
