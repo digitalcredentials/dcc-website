@@ -48,6 +48,10 @@ body, p, li {
   overflow-wrap: break-word;
 }
 
+a {
+  text-decoration: underline;
+}
+
 h1 {
 	font-weight: lighter;
 	line-height: 3.125rem;
@@ -102,13 +106,13 @@ p {
   margin-top: 0.25rem;
 }
 
+.table {
+  margin-top: 2rem;
+}
+
 .li-space-lg li {
 	margin-bottom: 0.5rem;
 } 
-
-a {
-  text-decoration: underline;
-}
 
 .no-line {
 	text-decoration: none;
