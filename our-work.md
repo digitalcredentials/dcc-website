@@ -3,16 +3,16 @@ layout: default
 title: Our Work
 ---
 
-We are exploring how recent advances in credential data standards and cryptographically signed credentials can be used to rethink the way we recognize and transact with academic achievements.
+The Digital Credentials Consortium is exploring how recent advances in credential data standards and cryptographically signed credentials can be used to rethink the way we recognize and transact with academic achievements.
 
-Building on earlier efforts by the participating institutions, we are now setting our sights on the design and governance of a technology infrastructure for academic credentials – transforming credentials into tokens of social and human capital that can create new opportunities for participation in education and industry.
+Building on earlier efforts by the participating institutions, we are designing a governance system and technology infrastructure for academic credentials—transforming credentials into tokens of social and human capital that can create new opportunities for participation in education and industry. 
 
 
 <!-- Grid format that places text block and images side by side at wide screen size -->
 <div class="row">
 <div class="col-lg-5"  markdown="1">
 
-### As a learner, this technology will allow you to:
+### As a learner, this will allow you to:
 
 * Maintain a compelling and verifiable record of your lifelong learning achievements to share with employers
 * Receive your credentials digitally and safely
@@ -49,10 +49,13 @@ Building on earlier efforts by the participating institutions, we are now settin
 ## Our Activities
 
 ### Standards Support
+
 The DCC contributes to the efforts of open standards bodies that foster interoperability and collaboration around verifiable credentials including:
+
 * The World Wide Web Consortium (W3C) [Verifiable Credentials for Education Task Force (VC-EDU)](https://w3c-ccg.github.io/vc-ed/)
 * [W3C Credentials Community Working Group](https://www.w3.org/community/credentials/)
 * [Open Wallet Foundation](https://openwallet.foundation)
+
 And DCC works with 1EdTech on Open Badges and the Comprehensive Learner Record.
 
 ### Ecosystem Map
