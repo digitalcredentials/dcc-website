@@ -21,7 +21,7 @@ DCC members focus on collaborative projects and individual institutional priorit
 
 Joining the Digital Credentials Consortium begins with a conversation, let’s talk!
 
-<div id="contact" class="call-to-action mini">
+<div id="contact" class="call-to-action">
 <div class="container-md">
 <div class="content">
   <a class="btn-solid-lg" href="" target="_blank">

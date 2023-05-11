@@ -12,10 +12,10 @@ Table Of Contents:
 ******************************************/
 
 
-/**************************/
-/*         Colors         */
-/**************************/
 :root {
+  /**************************/
+  /*         Colors         */
+  /**************************/
   --black: #000000;
   --white: #FFFFFF;
   --off-white: rgb(233, 231, 231);
@@ -26,6 +26,12 @@ Table Of Contents:
   --link-hover: #093A57;
   --link-light: #55DDFF;
   --link-light-hover: #40B4D0;
+
+  /**************************/
+  /*         Constant       */
+  /**************************/
+  --nav-height-full: 99px;
+  --nav-height-min: 83.25px;
 }
 
 
@@ -37,7 +43,7 @@ body,
 html {
 	width: 100%;
 	height: 100%;
-	padding-top: 50px;
+	padding-top: calc(var(--nav-height-full) / 2);
 }
 
 body, p, li {
@@ -106,10 +112,6 @@ p {
   margin-top: 0.25rem;
 }
 
-.table {
-  margin-top: 2rem;
-}
-
 .li-space-lg li {
 	margin-bottom: 0.5rem;
 } 
@@ -151,10 +153,11 @@ p {
 	background-color: var(--white);
 }
 
-a.nav-link {
+a.nav-link, a.dropdown-item {
   font-weight: 700;
 	font-size: 1.25rem;
 	line-height: 0.875rem;
+  text-decoration: none;
 }
 
 .navbar .logo-image img {
@@ -183,7 +186,8 @@ a.nav-link {
 }
 
 .navbar .nav-item.dropdown.show .nav-link,
-.navbar .nav-item .nav-link:hover{
+.navbar .nav-item .nav-link:hover,
+a.dropdown-item:hover {
 	color: var(--maroon);
 }
 
@@ -194,7 +198,9 @@ a.nav-link {
 	background-color: var(--white);
 }
 
-/* end of dropdown menu */
+.dropdown-item:hover{
+  background-color: var(--white);
+}
 
 .navbar .navbar-toggler {
 	padding: 0;
@@ -380,8 +386,19 @@ ul.bullets-special {
   font-size: 1.3rem;
 }
 
+/* Table style */
+.table {
+  margin-top: 2rem;
+}
+
+thead {
+  position: sticky;
+  top: var(--nav-height-full);
+  background-color: var(--white);
+}
+
 /**********************/
-/*     Call to Action Block     */
+/* Call to Action Block */
 /**********************/
 .call-to-action {
 	padding-top: 2rem;
@@ -479,8 +496,14 @@ ul.bullets-special {
     grid-template-columns: repeat(1, 1fr);
   }
   /* Adjust padding at top of page for decreased nav height */
+  /* Why does the body have such weird padding math? I have no clue */
   body {
-    padding-top: 34.25px;
+    padding-top: calc(var(--nav-height-min) / 2 - 8px);
+  }
+
+  /* Table header sticky offset for same reason */
+  thead {
+    top: var(--nav-height-min);
   }
   
   /* Header type */
@@ -524,8 +547,15 @@ ul.bullets-special {
   }
 
   /* Navigation */
-  a.nav-link {
+  
+  a.nav-link, a.dropdown-item {
     font-size: 1.1rem;
+  }
+
+  .navbar .dropdown-menu {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0.25rem 0;
   }
 
   .navbar .logo-image img {
@@ -539,6 +569,10 @@ ul.bullets-special {
 
   .navbar .nav-item .nav-link {
     padding-left: 0;
+  }
+ 
+	.navbar .nav-item .dropdown-menu {
+    display: block;
   }
 }
 /* End of medium screen width */
@@ -681,6 +715,20 @@ ul.bullets-special {
 
 /* Large and X-Large */
 @media (min-width: 992px) {
+  /* Navigation bar */
+  .navbar .nav-item .dropdown-menu{ display: none; }
+  .navbar .nav-item:hover .dropdown-menu{ display: block; }
+  .navbar .nav-item .dropdown-menu {
+    margin-top:0;
+    border-bottom: 1px solid var(--off-white);
+  }
+  a.dropdown-item {
+    margin-top: 0.75rem;
+    margin-bottom: 0.5rem;
+    padding-left: 1.5rem;
+  }
+  /* end of navigation */
+
   /* Footer */
   .footer .footer-col {
     margin-bottom: 2rem;
