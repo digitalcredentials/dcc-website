@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Who We Are
+title: Team
 team:
   - name: Kerri Lemoie, Ph.D.
     bio: Kerri Lemoie, Ph.D. directs the development, planning, and strategy of verifiable digital credentialing technology at the DCC. Kerri has been working on the web for 25+ years as a web developer and in multiple leadership capacities and advisory roles. As one of the founding technical contributors to Open Badges, she is a recognized leader in the digital credentials ecosystem. Kerri completed her Ph.D. at Fielding Graduate University in Media Psychology. Her dissertation research focused on technology adoption of self-sovereign digital identity.
