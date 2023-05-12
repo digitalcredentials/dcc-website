@@ -28,7 +28,7 @@ Building on earlier efforts by the participating institutions, we are designing 
 </div>
 
 
-<div class="row">
+<div class="row mt-3">
 <div class="col-lg-7" markdown="1">
 
 ![My image Name](/images/photo-2.jpg)

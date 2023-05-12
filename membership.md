@@ -56,7 +56,7 @@ For eligible non-profit or state-funded higher education or post-graduate educat
 | Can participate in gathering(s) of DCC Members |  | ✕ | ✕ |
 {: .table}
 
-Member Benefits last updated, March 29, 2023
+_Member Benefits last updated, March 29, 2023_
 
 <div id="contact" class="call-to-action mini">
 <div class="container-md">

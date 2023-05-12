@@ -30,8 +30,8 @@ Table Of Contents:
   /**************************/
   /*         Constant       */
   /**************************/
-  --nav-height-full: 100px;
-  --nav-height-min: 85px;
+  --nav-height-full: 99px;
+  --nav-height-min: 83.25px;
 }
 
 
@@ -76,8 +76,8 @@ h2 {
 	font-size: 1.6rem;
 	line-height: 2.625rem;
 	letter-spacing: -0.4px;
-  margin-top: 1rem;
-  margin-bottom: 0rem;
+  margin-top: .75rem;
+  margin-bottom: -0.5rem;
 }
 
 h3 {
@@ -86,6 +86,8 @@ h3 {
 	font-size: 1.4rem;
 	line-height: 2.625rem;
 	letter-spacing: -0.4px;
+  margin-top: .75rem;
+  margin-bottom: -0.5rem;
 }
 
 h4 {
@@ -105,14 +107,30 @@ h4 {
 	line-height: 1.75rem;
 }
 
-.p-small {
+.p-footer {
 	font-size: 0.875rem;
 	line-height: 1.5rem;
 }
 
-p {
+p, ul {
+  margin-bottom: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+li {
   margin-bottom: 0.25rem;
   margin-top: 0.25rem;
+}
+
+.table {
+  margin-top: 2rem;
+}
+
+th {
+  position:sticky;
+  top: 90px;
+  z-index: 1;
+  background-color: var(--white);
 }
 
 .li-space-lg li {
@@ -154,7 +172,6 @@ p {
 .navbar {
 	border-bottom: 1px solid var(--off-white);
 	background-color: var(--white);
-  height: var(--nav-height-full);
 }
 
 a.nav-link, a.dropdown-item {
@@ -390,6 +407,10 @@ ul.bullets-special {
   font-size: 1.3rem;
 }
 
+.team-grid p {
+  font-size: 1.1rem;
+}
+
 /* Table style */
 .table {
   margin-top: 2rem;
@@ -454,7 +475,7 @@ thead {
 	background-color: var(--gray);
 }
 
-.footer .p-small{
+.footer .p-footer{
 	color:var(--off-white);
 }
 
@@ -551,10 +572,6 @@ thead {
 
   /* Navigation */
 
-  .navbar {
-    height: var(--nav-height-min);
-  }
-  
   a.nav-link, a.dropdown-item {
     font-size: 1.1rem;
   }
@@ -626,7 +643,15 @@ thead {
 /* X-small screen width */
 @media only screen and (max-width: 576px) {
   h2 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    margin-bottom: -0.25rem;
+  }
+  
+  h3 {
+    font-size: 1.25rem;
+    line-height: 1.8rem;
+    margin-bottom: -0.25rem;
   }
 
   p, li {
@@ -652,6 +677,11 @@ thead {
   }
 
   /* Team member title */
+  .team-grid p {
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+  }
+
   .team-grid h3, h4 {
     font-size: 1.2rem;
   }
@@ -703,7 +733,7 @@ thead {
     padding-bottom: 0;
   }
 
-  .footer .p-small {
+  .footer .p-footer {
     font-size: 0.8rem;
   }
 
