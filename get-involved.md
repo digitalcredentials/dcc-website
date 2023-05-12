@@ -30,3 +30,13 @@ If you’re interested in institutional membership, [we invite you to learn more
 
 </div>
 </div>
+
+
+<div id="contact" class="call-to-action mb-n4">
+<div class="container-md">
+<div class="content">
+  <p>{{ page.call-to-action.header }}</p>
+  <a class="btn-solid-lg" href="{{ page.call-to-action.link }}" target="_blank">{{ page.call-to-action.button-text }}</a>
+</div>
+</div>
+</div>

@@ -439,14 +439,20 @@ table td:nth-child(1){
 /* Call to Action Block */
 /**********************/
 .call-to-action {
-	padding-top: 2rem;
+	padding-top: 3rem;
 	padding-bottom: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 	text-align: center;
 	background-color: var(--off-white);
+  width: 100vw;
+  position: relative;
+  left: calc(-50vw + 50%);
 }
 
 .call-to-action p {
 	margin-bottom: 0.75rem;
+  margin-top: 0;
 	font-weight:100;
 	font-size: 1.625rem;
 	line-height: 3.2rem;
@@ -460,13 +466,6 @@ table td:nth-child(1){
 .call-to-action .btn-solid-lg,
 .lightbox-basic .btn-solid-lg,
 .page-content .btn-solid-lg {
-	margin-top: 0.5rem;
-	padding: 2rem 2.625rem 2rem 2.625rem;
-}
-
-.page-content .btn-solid-lg{
-	margin-top: -2rem;
-  margin-bottom: -2rem;
 	padding: 2rem 2.625rem 2rem 2.625rem;
   color: var(--white);
 }

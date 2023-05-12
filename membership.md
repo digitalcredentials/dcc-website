@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Join the Digital Credentials Consortium
+call-to-action:
+  button-text: Contact us about membership
+  link: 
 ---
 
 Help us build an infrastructure for digital academic credentials that can support the education systems of the future. Join leading institutions from around the world developing this infrastructure and issuing digital credentials for your learners and graduates. 
@@ -24,9 +27,7 @@ Joining the Digital Credentials Consortium begins with a conversation, let’s t
 <div id="contact" class="call-to-action">
 <div class="container-md">
 <div class="content">
-  <a class="btn-solid-lg" href="" target="_blank">
-  Contact us about membership
-  </a>
+  <a class="btn-solid-lg" href="{{ page.call-to-action.link }}" target="_blank">{{ page.call-to-action.button-text }}</a>
 </div>
 </div>
 </div>
@@ -58,12 +59,10 @@ For eligible non-profit or state-funded higher education or post-graduate educat
 {: .table}
 
 
-<div id="contact" class="call-to-action mini">
+<div id="contact" class="call-to-action mb-n4">
 <div class="container-md">
 <div class="content">
-  <a class="btn-solid-lg" href="" target="_blank">
-  Contact us about membership
-  </a>
+  <a class="btn-solid-lg" href="{{ page.call-to-action.link }}" target="_blank">{{ page.call-to-action.button-text }}</a>
 </div>
 </div>
 </div>
