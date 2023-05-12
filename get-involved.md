@@ -11,7 +11,7 @@ call-to-action:
 <div class="row">
 <div class="col-lg-6"  markdown="1">
 
-## Community at Large
+### Community at Large
 
 For the Community at Large, Digital Credentials Consortium provides many resources including our [publications]({{ site.baseurl }}/publications) and [open source software](https://github.com/digitalcredentials) to help you learn more about digital academic credentials.
 
@@ -20,7 +20,7 @@ Community members, both individuals and organizations, are invited to participat
 </div>
 <div class="col-lg-6" markdown="1">
 
-## Institutional Members
+### Institutional Members
 
 The Digital Credentials Consortium is a member based organization building an infrastructure for digital academic credentials that can support the education systems of the future.
 
