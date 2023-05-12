@@ -107,7 +107,7 @@ h4 {
 	line-height: 1.75rem;
 }
 
-.p-footer {
+.p-small {
 	font-size: 0.875rem;
 	line-height: 1.5rem;
 }
@@ -120,10 +120,6 @@ p, ul {
 li {
   margin-bottom: 0.25rem;
   margin-top: 0.25rem;
-}
-
-.table {
-  margin-top: 2rem;
 }
 
 th {
@@ -414,6 +410,12 @@ ul.bullets-special {
 /* Table style */
 .table {
   margin-top: 2rem;
+  width: 90%;
+  justify-self: center;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 thead {
@@ -421,6 +423,17 @@ thead {
   top: var(--nav-height-full);
   background-color: var(--white);
 }
+
+/* Center all columns */
+table td {
+  text-align: center;
+}
+
+/* Override rule above to left align specific columns */
+table td:nth-child(1){
+  text-align: left;
+}
+
 
 /**********************/
 /* Call to Action Block */
@@ -475,7 +488,7 @@ thead {
 	background-color: var(--gray);
 }
 
-.footer .p-footer{
+.footer .p-small{
 	color:var(--off-white);
 }
 
@@ -636,6 +649,10 @@ thead {
     font-size: 1.1rem;
   }
 
+  /* Table styling */
+  .table {
+    width: 100%;
+  }
 }
 /* End of small screen width */
 
@@ -658,6 +675,14 @@ thead {
     font-size: 1.1rem;
     margin-bottom: 0.5rem;
     line-height: 1.7rem;
+  }
+
+  td {
+    font-size: 0.85rem;
+  }
+
+  th {
+    font-size: 0.8rem;
   }
 
   /* Header block text */
@@ -733,7 +758,7 @@ thead {
     padding-bottom: 0;
   }
 
-  .footer .p-footer {
+  .footer .p-small {
     font-size: 0.8rem;
   }
 

@@ -37,26 +37,26 @@ For eligible non-profit or state-funded higher education or post-graduate educat
 
 |  | General Public | Member | Core Member |
 |-------|--------|---------|----|
-| Welcome to join DCC Community Calls | ✕ | ✕ | ✕ |
-| Can access DCC [open source software](https://github.com/digitalcredentials) (e.g., Github repositories) | ✕ | ✕ | ✕ |
-| Can receive general support for DCC open source software (e.g., via Github Issues) | ✕ | ✕ | ✕ |
-| Can make contributions to open source software (e.g., issue pull requests) | ✕ | ✕ | ✕ |
-| Can use open-source DCC software to issue digital credentials that are interoperable with DCC protocols | ✕ | ✕ | ✕ |
-| Open access to public [whitepapers, reports, specifications]({{ site.baseurl }}/publications) and documentation | ✕ | ✕ | ✕ |
-| Open access to [public credential verifier](http://verifierplus.org/) to verify any compatible digital academic credential | ✕ | ✕ | ✕ |
-| Open access to [Learner Credential Wallet](https://lcw.app/) in Apple App & Google Play Stores | ✕ | ✕ | ✕ |
-| Through DCC, can influence open standards for digital credentials, representing higher education |  | ✕ | ✕ |
-| Can choose to have DCC endorse issuance of credentials (does not imply endorsement of credential content) |  | ✕ | ✕ |
-| Can vote to elect the DCC Leadership Council |  | ✕ | ✕ |
-| Can participate in DCC Working Groups (e.g., Technology Working Group and others to be determined) |  | ✕ | ✕ |
-| Can nominate “external experts” to participate on DCC Working Groups; the Leadership Council approves participation |  | ✕ | ✕ |
-| Can serve on the DCC Leadership Council, which sets and oversees DCC strategy |  |  | ✕ |
-| Can be invited by the DCC Leadership Council to serve on Leadership Council Committees |  |  | ✕ |
-| Can request priority support from DCC team, especially for production services |  |  | ✕ |
-| Can participate in gathering(s) of DCC Members |  | ✕ | ✕ |
+| Welcome to join DCC Community Calls | ✓ | ✓ | ✓ |
+| Can access DCC [open source software](https://github.com/digitalcredentials) (e.g., Github repositories) | ✓ | ✓ | ✓ |
+| Can receive general support for DCC open source software (e.g., via Github Issues) | ✓ | ✓ | ✓ |
+| Can make contributions to open source software (e.g., issue pull requests) | ✓ | ✓ | ✓ |
+| Can use open-source DCC software to issue digital credentials that are interoperable with DCC protocols | ✓ | ✓ | ✓ |
+| Open access to public [whitepapers, reports, specifications]({{ site.baseurl }}/publications) and documentation | ✓ | ✓ | ✓ |
+| Open access to [public credential verifier](http://verifierplus.org/) to verify any compatible digital academic credential | ✓ | ✓ | ✓ |
+| Open access to [Learner Credential Wallet](https://lcw.app/) in Apple App & Google Play Stores | ✓ | ✓ | ✓ |
+| Through DCC, can influence open standards for digital credentials, representing higher education |  | ✓ | ✓ |
+| Can choose to have DCC endorse issuance of credentials (does not imply endorsement of credential content) |  | ✓ | ✓ |
+| Can vote to elect the DCC Leadership Council |  | ✓ | ✓ |
+| Can participate in DCC Working Groups (e.g., Technology Working Group and others to be determined) |  | ✓ | ✓ |
+| Can nominate “external experts” to participate on DCC Working Groups; the Leadership Council approves participation |  | ✓ | ✓ |
+| Can serve on the DCC Leadership Council, which sets and oversees DCC strategy |  |  | ✓ |
+| Can be invited by the DCC Leadership Council to serve on Leadership Council Committees |  |  | ✓ |
+| Can request priority support from DCC team, especially for production services |  |  | ✓ |
+| Can participate in gathering(s) of DCC Members |  | ✓ | ✓ |
+|_Member Benefits last updated, March 29, 2023_|
 {: .table}
 
-_Member Benefits last updated, March 29, 2023_
 
 <div id="contact" class="call-to-action mini">
 <div class="container-md">
