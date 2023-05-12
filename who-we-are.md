@@ -1,8 +1,6 @@
 ---
 layout: default
 title: Who We Are
-call-to-action:
-  header: If you represent a higher education or post-graduate institution we invite you to <a href="/membership">learn more about membership</a>.
 ---
 
 Digital Credential Consortium members are non-profit or state-funded higher education or postgraduate education institutions from around the world. The DCC is led by a Leadership Council elected by the DCC membership and is supported by a [team of professionals]({{ site.baseurl }}/team).
@@ -26,7 +24,7 @@ Digital Credential Consortium members are non-profit or state-funded higher educ
 <div id="contact" class="call-to-action mb-n4">
 <div class="container-md">
 <div class="content">
-  <p>{{ page.call-to-action.header | flatify}}</p>
+  <p>If you represent a higher education or post-graduate institution we invite you to <a href="{{ site.baseurl }}/membership">learn more about membership</a>.</p>
 </div>
 </div>
 </div>
