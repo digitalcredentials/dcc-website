@@ -149,7 +149,7 @@ th {
 	color: var(--white);
 	font-weight:bolder;
 	font-size: 1.5rem;
-	line-height: 0;
+	line-height: 1.6;
 	text-decoration: none;
 	transition: all 0.2s;
 }
@@ -466,7 +466,7 @@ table td:nth-child(1){
 .call-to-action .btn-solid-lg,
 .lightbox-basic .btn-solid-lg,
 .page-content .btn-solid-lg {
-	padding: 2rem 2.625rem 2rem 2.625rem;
+	padding: 0.75rem 2.625rem;
   color: var(--white);
 }
 
