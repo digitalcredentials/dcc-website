@@ -26,7 +26,7 @@ Digital Credential Consortium members are non-profit or state-funded higher educ
 <div id="contact" class="call-to-action mb-n4">
 <div class="container-md">
 <div class="content">
-  <p>{{ page.call-to-action.header | flatify | flatify}}</p>
+  <p>{{ page.call-to-action.header | flatify}}</p>
 </div>
 </div>
 </div>
