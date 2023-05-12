@@ -30,8 +30,8 @@ Table Of Contents:
   /**************************/
   /*         Constant       */
   /**************************/
-  --nav-height-full: 99px;
-  --nav-height-min: 83.25px;
+  --nav-height-full: 100px;
+  --nav-height-min: 85px;
 }
 
 
@@ -43,7 +43,10 @@ body,
 html {
 	width: 100%;
 	height: 100%;
-	padding-top: calc(var(--nav-height-full) / 2);
+}
+
+body {
+	padding-top: var(--nav-height-full);
 }
 
 body, p, li {
@@ -70,7 +73,7 @@ h1 {
 h2 {
 	color: var(--maroon);
 	font-weight: 700;
-	font-size: 1.5rem;
+	font-size: 1.6rem;
 	line-height: 2.625rem;
 	letter-spacing: -0.4px;
   margin-top: 1rem;
@@ -80,7 +83,7 @@ h2 {
 h3 {
 	color: var(--black);
 	font-weight: 700;
-	font-size: 1.5rem;
+	font-size: 1.4rem;
 	line-height: 2.625rem;
 	letter-spacing: -0.4px;
 }
@@ -151,6 +154,7 @@ p {
 .navbar {
 	border-bottom: 1px solid var(--off-white);
 	background-color: var(--white);
+  height: var(--nav-height-full);
 }
 
 a.nav-link, a.dropdown-item {
@@ -363,7 +367,7 @@ ul.bullets-special {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 0.5rem;
+  gpadding-top: 0.5rem;
   padding-bottom: 0.5rem;
   width: 50%;
 }
@@ -496,9 +500,8 @@ thead {
     grid-template-columns: repeat(1, 1fr);
   }
   /* Adjust padding at top of page for decreased nav height */
-  /* Why does the body have such weird padding math? I have no clue */
   body {
-    padding-top: calc(var(--nav-height-min) / 2 - 8px);
+    padding-top: var(--nav-height-min);
   }
 
   /* Table header sticky offset for same reason */
@@ -547,6 +550,10 @@ thead {
   }
 
   /* Navigation */
+
+  .navbar {
+    height: var(--nav-height-min);
+  }
   
   a.nav-link, a.dropdown-item {
     font-size: 1.1rem;
