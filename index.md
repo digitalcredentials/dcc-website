@@ -50,7 +50,7 @@ Our mission is to create a trusted, distributed, and shared infrastructure that 
   </div>
 </div>
 
-<div id="contact" class="call-to-action mb-n4 mt-0">
+<div id="contact" class="call-to-action homepage">
 <div class="container-md">
 <div class="content">
   <p>{{ page.call-to-action.header }}</p>

@@ -32,7 +32,7 @@ If you’re interested in institutional membership, [we invite you to learn more
 </div>
 
 
-<div id="contact" class="call-to-action mb-n4">
+<div id="contact" class="call-to-action content-page-bottom">
 <div class="container-md">
 <div class="content">
   <p>{{ page.call-to-action.header }}</p>

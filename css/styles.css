@@ -125,7 +125,6 @@ li {
 th {
   position:sticky;
   top: 90px;
-  z-index: 1;
   background-color: var(--white);
 }
 
@@ -192,7 +191,7 @@ a.nav-link, a.dropdown-item {
 	margin-bottom: 0.5rem;
 }
 
-.navbar .nav-item .nav-link {
+.navbar .nav-item .nav-link, .dropdown-item {
 	padding-top: 0.625rem;
 	padding-bottom: 0.625rem;
   padding-left: 1rem;
@@ -200,6 +199,11 @@ a.nav-link, a.dropdown-item {
 	color: var(--black);
 	text-decoration: none;
 	transition: all 0.2s ease;
+}
+
+li.nav-item, .dropdown-menu li {
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
 }
 
 .navbar .nav-item.dropdown.show .nav-link,
@@ -324,6 +328,8 @@ a.dropdown-item:hover {
 .page-head-block {
 	padding-top: 3rem;
 	padding-bottom: 3rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/bg-2.jpg') center center no-repeat;
 	background-size: cover;
 	text-align: center;
@@ -470,11 +476,15 @@ table td:nth-child(1){
   color: var(--white);
 }
 
-/* Limited-width call to action w/ no title or bgd color */
-.call-to-action.mini {
-  background-color: var(--white);
-  padding-top: 4rem;
-  padding-bottom: 2.5rem;
+/* Call to action margins for homepage */
+.call-to-action.homepage {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Call to action margins for sitting at the bottom of a content page */
+.call-to-action.content-page-bottom {
+  margin-bottom: -1.5rem;
 }
 
 
@@ -554,7 +564,7 @@ table td:nth-child(1){
   }
   
   .call-to-action {
-    padding-top: 3.5rem;
+    padding-top: 3rem;
     padding-bottom: 3rem;
   }
   
@@ -591,7 +601,7 @@ table td:nth-child(1){
   .navbar .dropdown-menu {
     margin-top: 0;
     margin-bottom: 0;
-    padding: 0.25rem 0;
+    padding: 0 0;
   }
 
   .navbar .logo-image img {
@@ -729,7 +739,7 @@ table td:nth-child(1){
   /* Call to action block */
   .call-to-action {
     padding-top: 2rem;
-    padding-bottom: 2.5rem;
+    padding-bottom: 2rem;
   }
 
   .call-to-action .btn-solid-lg {
@@ -773,6 +783,29 @@ table td:nth-child(1){
 }
 /* End of x-small screen width */
 
+/* X-x-small screen width */
+@media only screen and (max-width: 390px) {
+  td {
+    font-size: 0.75rem;
+  }
+
+  th {
+    font-size: 0.7rem;
+  }
+}
+/* End of x-x-small screen width */
+
+/* X-x-x-small screen width */
+@media only screen and (max-width: 350px) {
+  td {
+    font-size: 0.65rem;
+  }
+
+  th {
+    font-size: 0.65rem;
+  }
+}
+/* End of x-x-x-small screen width */
 
 /* Large and X-Large */
 @media (min-width: 992px) {

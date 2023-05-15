@@ -59,7 +59,7 @@ For eligible non-profit or state-funded higher education or post-graduate educat
 {: .table}
 
 
-<div id="contact" class="call-to-action mb-n4">
+<div id="contact" class="call-to-action content-page-bottom">
 <div class="container-md">
 <div class="content">
   <a class="btn-solid-lg" href="{{ page.call-to-action.link }}" target="_blank">{{ page.call-to-action.button-text }}</a>
