@@ -6,6 +6,11 @@ team:
     title: Director of Technology, Digital Credentials Consortium
     bio: Kerri Lemoie, Ph.D. directs the development, planning, and strategy of verifiable digital credentialing technology at the DCC. Kerri has been working on the web for 25+ years as a web developer and in multiple leadership capacities and advisory roles. As one of the founding technical contributors to Open Badges, she is a recognized leader in the digital credentials ecosystem. Kerri completed her Ph.D. at Fielding Graduate University in Media Psychology. Her dissertation research focused on technology adoption of self-sovereign digital identity. 
     photo: /images/members/klemoie.jpg
+      
+  - name: Dmitri Zagidulin
+    title: Lead Technical Architect
+    bio: Dmitri Zagidulin, a distributed systems engineer and authentication and credentials expert, is the Technical Architect for the DCC. He also participates in hands-on development of core decentralization libraries, helps organize conferences, and contributes to open standards.
+    photo: /images/members/dzagidulin.jpg
 
   - name: Philipp Schmidt
     title: Director, Digital Credentials Consortium
@@ -17,11 +22,6 @@ team:
     bio: Brandon Muramatsu works at the intersection of learning, innovation and scale. Brandon leads the design and implementation of local, national and international strategic education initiatives at <a href="http://web.mit.edu/">MIT</a> for <a href="https://openlearning.mit.edu/">MIT Open Learning</a>. At MIT he manages learning technology and curriculum development projects, including the development of an infrastructure for digital academic credentials, the design of web applications and software tools for educators and learners to develop/author, use, reuse and share digital learning resources. Brandon earned his B.S. (1993) and M.S. (1995) in <a href="https://www.me.berkeley.edu/">Mechanical Engineering</a> from the <a href="https://www.berkeley.edu/">University of California, Berkeley</a>.
     photo: /images/members/bmuramatsu.jpg
     website: http://www.mura.org/
-  
-  - name: Dmitri Zagidulin
-    title: Lead Technical Architect
-    bio: Dmitri Zagidulin, a distributed systems engineer and authentication and credentials expert, is the Technical Architect for the DCC. He also participates in hands-on development of core decentralization libraries, helps organize conferences, and contributes to open standards. 
-    photo: /images/members/dzagidulin.jpg
 
   - name: Kayode Ezike
     title: Software Engineer
