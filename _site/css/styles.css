@@ -94,7 +94,7 @@ h4 {
   color: var(--black);
 	font-weight: 400;
 	font-size: 1.4rem;
-	line-height: 2.625rem;
+	line-height: 1.75rem;
 	letter-spacing: -0.4px;
 }
 
@@ -120,12 +120,6 @@ p, ul {
 li {
   margin-bottom: 0.25rem;
   margin-top: 0.25rem;
-}
-
-th {
-  position:sticky;
-  top: 90px;
-  background-color: var(--white);
 }
 
 .li-space-lg li {
@@ -426,9 +420,14 @@ ul.bullets-special {
 
 thead {
   position: sticky;
-  top: var(--nav-height-full);
+  top: calc(var(--nav-height-full) - 1px);
   background-color: var(--white);
 }
+
+th {
+  background-color: var(--white);
+}
+
 
 /* Center all columns */
 table td {
@@ -528,6 +527,15 @@ table td:nth-child(1){
 /*     Media Queries     */
 /*************************/
 
+@media (hover: none) {
+
+  /* Regular CSS rules here*/
+  thead {
+    position: static;
+  }
+  
+}  
+
 
 /* Large screen width */
 @media only screen and (max-width: 1200px) {
@@ -549,7 +557,7 @@ table td:nth-child(1){
 
   /* Table header sticky offset for same reason */
   thead {
-    top: var(--nav-height-min);
+    top: calc(var(--nav-height-min) - 1px);
   }
   
   /* Header type */
