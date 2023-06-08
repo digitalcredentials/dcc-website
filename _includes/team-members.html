@@ -11,22 +11,23 @@
             src="{{ site.baseurl }}{{ member.photo }}"
             style="border-radius: 25px;"
             class="mt-2 mb-3-xs"
+            alt="Photo of {{ member.name }}"
           />
         </div>
-        <div class="col-6 my-auto">
+        <div class="col-6">
           <h3 class="mb-0">{{ member.name }}</h3>
           <h4 class="mb-2 mt-n1">{{ member.title }}</h4>
           {% if member.website%}
-            <a href="{{ member.website }}"><i class="fa fa-globe fa-lg mr-2"></i></a>
+            <a href="{{ member.website }}" title="Personal Website"><i class="fa fa-globe fa-lg mr-2"></i></a>
           {% endif %}
           {% if member.linkedin%}
-            <a href="{{ member.linkedin }}"><i class="fa fa-linkedin fa-lg mr-2"></i></a>
+            <a href="{{ member.linkedin }}" title="LinkedIn"><i class="fa fa-linkedin fa-lg mr-2"></i></a>
           {% endif %}
           {% if member.github%}
-            <a href="{{ member.github }}"><i class="fa fa-github fa-lg mr-2"></i></a>
+            <a href="{{ member.github }}" title="GitHub"><i class="fa fa-github fa-lg mr-2"></i></a>
           {% endif %}
           {% if member.twitter%}
-            <a href="{{ member.twitter }}"><i class="fa fa-twitter fa-lg mr-2"></i></a>
+            <a href="{{ member.twitter }}" title="Twitter"><i class="fa fa-twitter fa-lg mr-2"></i></a>
           {% endif %}
         </div>
       </div>

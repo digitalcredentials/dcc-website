@@ -3,9 +3,10 @@ layout: default
 title: Team
 team:
   - name: Kerri Lemoie, Ph.D.
-    title: Director of Technology, Digital Credentials Consortium
+    title: Director of Technology
     bio: Kerri Lemoie, Ph.D. directs the development, planning, and strategy of verifiable digital credentialing technology at the DCC. Kerri has been working on the web for 25+ years as a web developer and in multiple leadership capacities and advisory roles. As one of the founding technical contributors to Open Badges, she is a recognized leader in the digital credentials ecosystem. Kerri completed her Ph.D. at Fielding Graduate University in Media Psychology. Her dissertation research focused on technology adoption of self-sovereign digital identity. 
     photo: /images/members/klemoie.jpg
+    linkedin: https://www.linkedin.com/in/kerrilemoie/
       
   - name: Dmitri Zagidulin
     title: Lead Technical Architect
@@ -13,8 +14,8 @@ team:
     photo: /images/members/dzagidulin.jpg
 
   - name: Philipp Schmidt
-    title: Director, Digital Credentials Consortium
-    bio: Philipp Schmidt is interim CTO of Axim and a research scientist and advisor for <a href="https://digitalcredentials.mit.edu/">digital credentials</a> at MIT. Prior to joining Axim, he was the Director of Digital Learning at the <a href="https://media.mit.edu/">MIT Media Lab</a>. He has extensive experience developing technology-enabled programs that increase opportunities for learning and education, including founding <a href="http://p2pu.org/">Peer 2 Peer University (P2PU)</a>, a non-profit that provides wrap-around support for online courses through a network of public libraries. He serves on the board of <a href="https://www.collegeunbound.edu/"College Unbound</a>, a degree-completion college for adult students and was a founding board member of the OpenCourseWare Consortium. He co-authored the <a href="http://www.capetowndeclaration.org/">Cape Town Open Education Declaration</a> and has developed a number of open standards for digital academic credentials including <a href="https://wiki.mozilla.org/images/5/59/OpenBadges-Working-Paper_012312.pdf">Mozilla Open Badges</a>. Philipp holds a computer science degree from FH Furtwangen in Germany and an MBA from MIT.
+    title: Director
+    bio: Philipp Schmidt is interim CTO of Axim and a research scientist and advisor for <a href="https://digitalcredentials.mit.edu/">digital credentials</a> at MIT. Prior to joining Axim, he was the Director of Digital Learning at the <a href="https://media.mit.edu/">MIT Media Lab</a>. He has extensive experience developing technology-enabled programs that increase opportunities for learning and education, including founding <a href="http://p2pu.org/">Peer 2 Peer University (P2PU)</a>, a non-profit that provides wrap-around support for online courses through a network of public libraries. He serves on the board of <a href="https://www.collegeunbound.edu/"College Unbound</a>, a degree-completion college for adult students and was a founding board member of the OpenCourseWare Consortium. He co-authored the <a href="http://www.capetowndeclaration.org/">Cape Town Open Education Declaration</a> and has developed a number of open standards for digital academic credentials including <a href="https://wiki.mozilla.org/images/5/59/OpenBadges-Working-Paper_012312.pdf">Mozilla Open Badges (PDF)</a>. Philipp holds a computer science degree from FH Furtwangen in Germany and an MBA from MIT.
     photo: /images/members/pschmidt.jpg
 
   - name: Brandon Muramatsu

@@ -13,7 +13,7 @@ Digital Credential Consortium members are non-profit or state-funded higher educ
 * Hasso Plattner Institute, University of Potsdam (Germany)
 * Massachusetts Institute of Technology (USA)
 * McMaster University (Canada)
-* Tecnologico De Monterrey (Mexico)
+* Tecnológico De Monterrey (Mexico)
 * Technical University of Munich (Germany)
 * University of California, Berkeley (USA)
 * University of California, Irvine (USA)

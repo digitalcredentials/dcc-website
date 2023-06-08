@@ -36,7 +36,7 @@ Joining the Digital Credentials Consortium begins with a conversation, let’s t
 
 For eligible non-profit or state-funded higher education or post-graduate education institutions, the Digital Credentials Consortium offers two levels of membership: Member and Core Member. Core Members are expected to be involved in the implementation of digital credential initiatives and are expected to contribute significantly to DCC.
 
-|  | General Public | Member | Core Member |
+| Member Benefit | General Public | Member | Core Member |
 |-------|--------|---------|----|
 | Welcome to join DCC Community Calls | ✓ | ✓ | ✓ |
 | Can access DCC [open source software](https://github.com/digitalcredentials) (e.g., Github repositories) | ✓ | ✓ | ✓ |
