@@ -12,7 +12,7 @@ Building on earlier efforts by the participating institutions, we are designing 
 <div class="row">
 <div class="col-lg-5"  markdown="1">
 
-### As a learner, this will allow you to:
+## As a learner, this will allow you to:
 
 * Maintain a compelling and verifiable record of your lifelong learning achievements to share with employers
 * Receive your credentials digitally and safely
@@ -36,7 +36,7 @@ Building on earlier efforts by the participating institutions, we are designing 
 </div>
 <div class="col-lg-5"  markdown="1">
 
-### For institutions, digital verifiable credentials enable you to:
+## For institutions, digital verifiable credentials enable you to:
 
 * Keep and distribute learner records in a way that is easy, safe, and inexpensive
 * Remove the risk of identity fraud
