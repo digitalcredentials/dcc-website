@@ -20,7 +20,7 @@ Community members, both individuals and organizations, are invited to participat
 </div>
 <div class="col-lg-6" markdown="1">
 
-## Institutional Members
+## Institutions
 
 
 
