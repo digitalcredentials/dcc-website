@@ -50,11 +50,5 @@ Our mission is to create a trusted, distributed, and shared infrastructure that 
   </div>
 </div>
 
-<div id="contact" class="call-to-action homepage">
-<div class="container-md">
-<div class="content">
-  <p>{{ page.call-to-action.header }}</p>
-  <a class="btn-solid-lg" href="{{ page.call-to-action.link }}" target="_blank">{{ page.call-to-action.button-text }}</a>
-</div>
-</div>
-</div>
+
+{% include call-to-action.html class="homepage"%}

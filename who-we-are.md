@@ -20,11 +20,4 @@ Digital Credential Consortium members are non-profit or state-funded higher educ
 * University of Milano-Bicocca (Italy)
 * University of Toronto (Canada)
 
-
-<div id="contact" class="call-to-action content-page-bottom">
-<div class="container-md">
-<div class="content">
-  <p>If you represent a higher education or post-graduate institution we invite you to <a href="{{ site.baseurl }}/membership">learn more about membership</a>.</p>
-</div>
-</div>
-</div>
+If you represent a higher education or post-graduate institution we invite you to [learn more about membership]({{ site.baseurl }}/membership).

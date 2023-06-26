@@ -22,6 +22,8 @@ Community members, both individuals and organizations, are invited to participat
 
 ## Institutional Members
 
+
+
 The Digital Credentials Consortium is a member based organization building an infrastructure for digital academic credentials that can support the education systems of the future.
 
 DCC members are non-profit or state-funded higher education or post-graduate education institutions around the world.
@@ -31,12 +33,4 @@ If you’re interested in institutional membership, [we invite you to learn more
 </div>
 </div>
 
-
-<div id="contact" class="call-to-action content-page-bottom">
-<div class="container-md">
-<div class="content">
-  <p>{{ page.call-to-action.header }}</p>
-  <a class="btn-solid-lg" href="{{ page.call-to-action.link }}" target="_blank">{{ page.call-to-action.button-text }}</a>
-</div>
-</div>
-</div>
+{% include call-to-action.html class="content-page-bottom"%}
