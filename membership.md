@@ -22,7 +22,7 @@ The DCC does much of its technical work through open standards organizations inc
 
 DCC members focus on collaborative projects and individual institutional priorities leveraging the consortium's technical leadership and expertise.
 
-Joining the Digital Credentials Consortium begins with a conversation, let’s talk!
+Joining the Digital Credentials Consortium begins with a conversation, please email us at dcc-membership-inquiry -at- mit -dot- edu.
 
 {% include call-to-action.html %}
 
