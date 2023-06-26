@@ -49,18 +49,25 @@ Digital Credential Consortium members are non-profit or state-funded higher educ
 
 ## Members
 
-* Delft University of Technology (The Netherlands)
-* Georgia Institute of Technology (USA)
-* Harvard University (USA)
-* Hasso Plattner Institute, University of Potsdam (Germany)
-* Massachusetts Institute of Technology (USA)
-* McMaster University (Canada)
-* Tecnológico De Monterrey (Mexico)
-* Technical University of Munich (Germany)
-* University of California, Berkeley (USA)
-* University of California, Irvine (USA)
-* University of Milano-Bicocca (Italy)
-* University of Toronto (Canada)
+* Delft University of Technology (The Netherlands) <sup>*†</sup>
+* Georgia Institute of Technology (USA) <sup>*†</sup>
+* Harvard University (USA) <sup>*†</sup>
+* Hasso Plattner Institute, University of Potsdam (Germany) <sup>*†</sup>
+* Massachusetts Institute of Technology (USA) <sup>*†</sup>
+* McMaster University (Canada) <sup>*†</sup>
+* Tecnológico De Monterrey (Mexico) <sup>*†</sup>
+* Technical University of Munich (Germany) <sup>*†</sup>
+* University of California, Berkeley (USA) <sup>*†</sup>
+* University of California, Irvine (USA) <sup>*†</sup>
+* University of Milano-Bicocca (Italy) <sup>*†</sup>
+* University of Toronto (Canada) <sup>*†</sup>
+* Western Governors University (USA) <sup>*</sup>
+
+<p class="p-small">
+<sup>*</sup> Core Member
+<br>
+<sup>†</sup> Founding Member
+</p>
 
 If you represent a higher education or post-graduate institution we invite you to [learn more about membership]({{ site.baseurl }}/membership).
 
