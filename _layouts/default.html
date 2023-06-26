@@ -52,12 +52,6 @@
       <div class="container-md {{page.title | downcase | split: ' ' | join: '-'}}-page">
         <div class="content page-content">
           {{ content }}
-
-        <!-- Team members section if applicable -->
-        {% if page.team %}
-          {% include team-members.html %}
-        {% endif %}
-        
         </div>
       </div>
     {% endif %}

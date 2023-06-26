@@ -49,6 +49,10 @@ body {
 	padding-top: var(--nav-height-full);
 }
 
+html {
+  scroll-padding-top: var(--nav-height-full);
+}
+
 body, p, li {
 	color: var(--black);
 	font: 400 1rem/1.625rem "Open Sans", sans-serif;
@@ -558,6 +562,10 @@ table td:nth-child(1){
   /* Adjust padding at top of page for decreased nav height */
   body {
     padding-top: var(--nav-height-min);
+  }
+  
+  html {
+    scroll-padding-top: var(--nav-height-min);
   }
 
   /* Table header sticky offset for same reason */
