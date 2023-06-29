@@ -19,11 +19,6 @@
     <link rel="icon" href="images/cropped-fav-dc-b-32x32.png" sizes="32x32" >
     <link rel="icon" href="images/cropped-fav-dc-b-192x192.png" sizes="192x192" >
 
-    {% if page.title == "404: Page not found" %}
-      <!-- TODO IMPORTANT: Change this base link for the 404 page any time the site URL is changed, otherwise resources won't load -->
-      <base href="https://digitalcredentials.github.io/dcc-website-jekyll/" target="_blank">
-    {% endif %}
-
     {% if site.google_analytics and jekyll.environment == 'production' %}
       <!-- Google analytics tag -->
       {% include analytics.html %}
