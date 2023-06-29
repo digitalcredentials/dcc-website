@@ -23,6 +23,11 @@
       <!-- Google analytics tag -->
       {% include analytics.html %}
     {% endif %}
+    
+    {% if page.title == "404: Page not found" %}
+      <!-- TODO IMPORTANT: Change this base link for the 404 page any time the site URL is changed, otherwise resources won't load -->
+      <base href="https://digitalcredentials.github.io/dcc-website-jekyll/" target="_blank">
+    {% endif %}
   </head>
   <body>
     <!-- Navbar -->
