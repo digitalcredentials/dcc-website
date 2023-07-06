@@ -10,16 +10,16 @@
             {% for item in site.data.pagelist.pages %}
               {% if item.subpages[0] %}
                 <li class="nav-item dropdown">
-                  <a class="nav-link  dropdown-toggle" href="{{ item.url }}" data-bs-toggle="dropdown">{{ item.page }}</a>
+                  <a class="nav-link  dropdown-toggle" href="{{ site.baseurl }}{{ item.url }}" data-bs-toggle="dropdown">{{ item.page }}</a>
                   <ul class="dropdown-menu">
                     {% for entry in item.subpages %}
-                      <li><a class="dropdown-item" href="{{ entry.url }}">{{ entry.page }}</a></li>
+                      <li><a class="dropdown-item" href="{{ site.baseurl }}{{ entry.url }}">{{ entry.page }}</a></li>
                     {% endfor %}
                   </ul>
                 </li>
               {% else %}
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="{{ item.url }}" data-target="#navbarToggler">{{ item.page }}</a>
+                    <a class="nav-link page-scroll" href="{{ site.baseurl }}{{ item.url }}" data-target="#navbarToggler">{{ item.page }}</a>
                 </li>
               {% endif %}
             {% endfor %}
