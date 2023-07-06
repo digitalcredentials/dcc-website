@@ -1,0 +1,12 @@
+pages:
+  - page: Our Work
+    url: /our-work
+  - page: Who We Are
+    url: /who-we-are
+  - page: Resources
+    url: /resources
+  - page: Get Involved
+    url: /get-involved
+    subpages:
+      - page: Membership
+        url: /membership
