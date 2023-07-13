@@ -293,7 +293,7 @@ a.dropdown-item:hover {
   overflow-x: hidden;
   /* margin-top: -10rem; */
   /* margin-top: 10rem; */
-	background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/photo-3.jpg') center center no-repeat !important;
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/photo-3.jpg') 60% 60% no-repeat !important;
 }
 
 .home-header a {
@@ -312,7 +312,7 @@ a.dropdown-item:hover {
 }
 
 .home-header p {
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 	line-height: 2.125rem;
 	color: var(--white);
   text-align: right;
@@ -324,8 +324,8 @@ a.dropdown-item:hover {
 /*    Page Content    */
 /**********************/
 .page-head-block {
-	padding-top: 3rem;
-	padding-bottom: 3rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
   padding-left: 0.75rem;
   padding-right: 0.75rem;
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/bg-2.jpg') center center no-repeat;
@@ -657,7 +657,7 @@ p.call-to-action-mini {
 
   /* Homepage header section */
   .home-header p {
-    font-size: 1.19rem;
+    font-size: 1.2rem;
   }
 
   .home-header .content {
@@ -748,7 +748,7 @@ p.call-to-action-mini {
   }
 
   .home-header p {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   /* Mid-page quote block on home */
@@ -789,8 +789,8 @@ p.call-to-action-mini {
 
   /* Content page header section */
   .page-head-block {
-    padding-top: 3.5rem;
-    padding-bottom: 3.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 }
 /* End of x-small screen width */
