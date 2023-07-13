@@ -72,6 +72,7 @@ h1 {
 	line-height: 3.75rem;
 	letter-spacing: -0.7px;
 	color: var(--white);
+  margin-bottom: 0;
 }
 
 h2 {
