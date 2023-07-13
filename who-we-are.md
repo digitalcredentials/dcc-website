@@ -73,10 +73,10 @@ The DCC is led by a Leadership Council elected by the DCC membership and is supp
 
 <!-- TODO This below is a redundant call to action code b/c I couldn't figure
 out how to pass the internal link in the header through to the includes -->
-<div id="contact" class="call-to-action {{include.class}}">
+<div id="contact" class="call-to-action pt-4 pb-4">
 <div class="container-md">
 <div class="content">
-    <p>
+    <p class="call-to-action-mini mb-3 mt-3">
       If you represent a higher education or post-graduate institution we invite you to <a href="{{ site.baseurl }}/membership">learn more about membership</a>.
     </p>
 </div>

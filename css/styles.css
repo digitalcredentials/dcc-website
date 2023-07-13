@@ -469,8 +469,12 @@ table td:nth-child(1){
   margin-top: 0;
 	font-weight:100;
 	font-size: 1.625rem;
-	line-height: 3.2rem;
+	line-height: 160%;
 	color: var(--black);
+}
+
+p.call-to-action-mini {
+  font-size: 1.3rem;
 }
 
 .call-to-action .p-heading {
@@ -568,7 +572,10 @@ table td:nth-child(1){
   /* Quote/action blocks */
   .quote-block p, .call-to-action p {
     font-size: 1.5rem;
-    line-height: 3rem;
+  }
+
+  p.call-to-action-mini {
+    font-size: 1.3rem;
   }
   
   .call-to-action {
@@ -642,7 +649,10 @@ table td:nth-child(1){
   
   .quote-block p, .call-to-action p {
     font-size: 1.4rem;
-    line-height: 2.8rem;
+  }
+
+  p.call-to-action-mini {
+    font-size: 1.2rem;
   }
 
   /* Homepage header section */
@@ -710,7 +720,10 @@ table td:nth-child(1){
 
   .quote-block p, .call-to-action p {
     font-size: 1.3rem;
-    line-height: 2.6rem;
+  }
+
+  p.call-to-action-mini {
+    font-size: 1.1rem;
   }
   
   /* Content page header */
