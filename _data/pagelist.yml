@@ -1,4 +1,6 @@
 pages:
+  - page: Home
+    url: /
   - page: Our Work
     url: /our-work
   - page: Who We Are
