@@ -353,14 +353,14 @@ a.dropdown-item:hover {
   color: var(--link-hover);
 }
 
-.publications-page ul {
+.resources-page ul {
   list-style-type: none;
   padding-left: 2rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
-.publications-page li {
+.resources-page li {
   text-indent: -2rem;
   margin-bottom: 0.5rem;
   margin-top: 0.5rem;
@@ -662,7 +662,7 @@ table td:nth-child(1){
   }
 
   /* Publication citation text */
-  .publications-page li {
+  .resources-page li {
     font-size: 1.1rem;
   }
 
@@ -756,7 +756,7 @@ table td:nth-child(1){
   }
 
   /* Publication citation text */
-  .publications-page li {
+  .resources-page li {
     font-size: .9rem;
   }
 
