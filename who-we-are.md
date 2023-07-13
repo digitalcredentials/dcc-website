@@ -71,6 +71,16 @@ The DCC is led by a Leadership Council elected by the DCC membership and is supp
 <sup>†</sup> Founding Member
 </p>
 
-If you represent a higher education or post-graduate institution we invite you to [learn more about membership]({{ site.baseurl }}/membership).
+<!-- TODO This below is a redundant call to action code b/c I couldn't figure
+out how to pass the internal link in the header through to the includes -->
+<div id="contact" class="call-to-action {{include.class}}">
+<div class="container-md">
+<div class="content">
+    <p>
+      If you represent a higher education or post-graduate institution we invite you to <a href="{{ site.baseurl }}/membership">learn more about membership</a>.
+    </p>
+</div>
+</div>
+</div>
 
 {% include team-members.html %}
