@@ -3,7 +3,7 @@ layout: default
 title: Join the Digital Credentials Consortium
 call-to-action:
   button-text: Contact us about membership
-  link: mailto:dcc-membership-inquiry@mit.edu
+  link: https://docs.google.com/forms/d/e/1FAIpQLSeRw9AFvZpy-TDzzNeT5kmolBEnoeWdsRQOVqag9vNab1VyBA/viewform?usp=sf_link
 ---
 
 Help us build an infrastructure for digital academic credentials that can support the education systems of the future. Join leading institutions from around the world developing this infrastructure and issuing digital credentials for your learners and graduates. 
