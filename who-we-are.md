@@ -45,7 +45,9 @@ team:
     photo: /images/members/jchartrand.jpg
 ---
 
-Digital Credential Consortium members are non-profit or state-funded higher education or postgraduate education institutions from around the world on a mission to create a trusted, distributed, and shared infrastructure that will become the standard for issuing, storing, displaying, and verifying academic credentials, digitally.
+Digital Credential Consortium members are non-profit or state-funded higher education or postgraduate education institutions from around the world.
+
+The DCC Mission: to create a trusted, distributed, and shared infrastructure that will become the standard for issuing, storing, displaying, and verifying academic credentials, digitally.
 
 The DCC is led by a Leadership Council elected by the DCC membership and is supported by a [team of professionals](#team).
 
