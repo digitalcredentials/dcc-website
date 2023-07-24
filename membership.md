@@ -1,9 +1,6 @@
 ---
 layout: default
 title: Join the Digital Credentials Consortium
-call-to-action:
-  button-text: Contact us about membership
-  link: https://docs.google.com/forms/d/e/1FAIpQLSeRw9AFvZpy-TDzzNeT5kmolBEnoeWdsRQOVqag9vNab1VyBA/viewform?usp=sf_link
 ---
 
 Help us build an infrastructure for digital academic credentials that can support the education systems of the future. Join leading institutions from around the world developing this infrastructure and issuing digital credentials for your learners and graduates. 
@@ -22,9 +19,7 @@ The DCC does much of its technical work through open standards organizations inc
 
 DCC members focus on collaborative projects and individual institutional priorities leveraging the consortium's technical leadership and expertise.
 
-Joining the Digital Credentials Consortium begins with a conversation, please email us at dcc-membership-inquiry -at- mit -dot- edu.
-
-{% include call-to-action.html %}
+Joining the Digital Credentials Consortium begins with a conversation, please email us at <a href="mailto:dcc-membership-inquiry@mit.edu">dcc-membership-inquiry@mit.edu</a>.
 
 ## Member Benefits
 
@@ -51,8 +46,3 @@ For eligible non-profit or state-funded higher education or post-graduate educat
 | Can participate in gathering(s) of DCC Members |  | ✓ | ✓ |
 |_Member Benefits last updated, March 29, 2023_|
 {: .table}
-
-
-
-
-{% include call-to-action.html class="content-page-bottom"%}
