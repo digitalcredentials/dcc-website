@@ -32,7 +32,7 @@ For eligible non-profit or state-funded higher education or post-graduate educat
 | Can receive general support for DCC open source software (e.g., via Github Issues) | ✓ | ✓ | ✓ |
 | Can make contributions to open source software (e.g., issue pull requests) | ✓ | ✓ | ✓ |
 | Can use open-source DCC software to issue digital credentials that are interoperable with DCC protocols | ✓ | ✓ | ✓ |
-| Open access to public [whitepapers, reports, specifications]({{ site.baseurl }}/publications) and documentation | ✓ | ✓ | ✓ |
+| Open access to public [whitepapers, reports, specifications]({{ site.baseurl }}/resources) and documentation | ✓ | ✓ | ✓ |
 | Open access to [public credential verifier](http://verifierplus.org/) to verify any compatible digital academic credential | ✓ | ✓ | ✓ |
 | Open access to [Learner Credential Wallet](https://lcw.app/) in Apple App & Google Play Stores | ✓ | ✓ | ✓ |
 | Through DCC, can influence open standards for digital credentials, representing higher education |  | ✓ | ✓ |
