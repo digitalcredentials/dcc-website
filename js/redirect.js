@@ -2,7 +2,7 @@
 // Checks current URL and changes it to another based on a redirect list
 
 // TODO IMPORTANT: If site is moved to a custom domain instead of a github projects page, this variable should be changed to 0 since there's no subdomain on the root
-var pathSegmentsToKeep = 1;
+var pathSegmentsToKeep = 0;
 
 var l = window.location;
 var extension = "/" + l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/');
