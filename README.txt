@@ -1,1 +1,0 @@
-A one page HTML/CSS/Bootstrap website for the Digital Credentials. The design is based off of the previous site which was made in Wordpress, and was built on the Kora web template: https://inovatik.com/kora-saas-app-website-bootstrap-html-template.html
