@@ -9,7 +9,7 @@ title: Resources
 * Hamilton Duffy, K., Gallersdörfer, U., Goodell, J., Lisle, M., Muramatsu, B., Schmidt, P. (2021, May). *Learner Credential Wallet Specification.* [{{ site.url | prepend: site.baseurl }}/docs/Learner-Credential-Wallet-Specification-May-2021.pdf]({{ site.baseurl }}/docs/Learner-Credential-Wallet-Specification-May-2021.pdf)
 * Camilleri A, Muramatsu B. & Schmidt, P. (2022) *Credentials to Employment: The Last Mile.* [{{ site.url | prepend: site.baseurl }}/docs/Credentials-to-Employment-The-Last-Mile.pdf]({{ site.baseurl }}/docs/Credentials-to-Employment-The-Last-Mile.pdf)
 * Schmidt, J.P., Muramatsu, B., Walsh, G. & Zagidulin D. (2022) *Open Source Student Wallet Final Report.* [{{ site.url | prepend: site.baseurl }}/docs/Open%20Source%20Student%20Wallet%20Final%20Report%20-%20Public%20Web%20Version.pdf]({{ site.baseurl }}/docs/Open%20Source%20Student%20Wallet%20Final%20Report%20-%20Public%20Web%20Version.pdf)
-* Lemoie, K., Schmidt, J,. & Muramatsu, B. (2023). *Making Sense of the Key Data Standards for Verifiable LERs* [Whitepaper]. Digital Credentials Consortium. [{{ site.url | prepend: site.baseurl }}/docs/Open%20Source%20Student%20Wallet%20Final%20Report%20-%20Public%20Web%20Version.pdf]({{ site.baseurl }}/docs/DCC-Making-Sense-of-Key-Data-Standards-for-Verifiable-LERs.pdf)
+* Lemoie, K., Schmidt, J,. & Muramatsu, B. (2023). *Making Sense of the Key Data Standards for Verifiable LERs* [Whitepaper]. Digital Credentials Consortium. [{{ site.url | prepend: site.baseurl }}/docs/DCC-Making-Sense-of-Key-Data-Standards-for-Verifiable-LERs.pdf]({{ site.baseurl }}/docs/DCC-Making-Sense-of-Key-Data-Standards-for-Verifiable-LERs.pdf)
 
 
 ## Presentations
