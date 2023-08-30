@@ -5,11 +5,10 @@ title: Join the Digital Credentials Consortium
 
 Help us build an infrastructure for digital academic credentials that can support the education systems of the future. Join leading institutions from around the world developing this infrastructure and issuing digital credentials for your learners and graduates. 
 
-* ◆ We can help your institution make sense of the standards and technologies to implement a system to support your digital academic credentials.
-* ◆ We are a leading voice in ensuring that the approaches, infrastructure and software used to support digital academic credentials reflect the values and needs of higher education institutions.
-* ◆ We are among the world’s experts on verifiable credentials for education. We bring our technical expertise and experience issuing credentials to help your institution.
-* ◆ We have open source software and the expertise to help you get started today.
-{: .bullets-special}
+* We can help your institution make sense of the standards and technologies to implement a system to support your digital academic credentials.
+* We are a leading voice in ensuring that the approaches, infrastructure and software used to support digital academic credentials reflect the values and needs of higher education institutions.
+* We are among the world’s experts on verifiable credentials for education. We bring our technical expertise and experience issuing credentials to help your institution.
+* We have open source software and the expertise to help you get started today.
 
 ## We invite you to get involved!
 
