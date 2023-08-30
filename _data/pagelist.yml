@@ -1,3 +1,5 @@
+# List of site pages used to populate the navbar. To add a dropdown
+# under any page insert listings as subpages.
 pages:
   - page: Home
     url: /
