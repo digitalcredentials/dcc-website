@@ -33,4 +33,5 @@ If you’re interested in institutional membership, [we invite you to learn more
 </div>
 </div>
 
+<!-- Call to action section -->
 {% include call-to-action.html class="content-page-bottom"%}

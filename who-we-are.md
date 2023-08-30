@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Who We Are
+call-to-action:
+  header: If you represent a higher education or post-graduate institution we invite you to <a href="/membership">learn more about membership</a>.
 team:
   - name: Kerri Lemoie, Ph.D.
     title: Director of Technology
@@ -67,22 +69,15 @@ The DCC is led by a Leadership Council elected by the DCC membership and is supp
 * University of Toronto (Canada) <sup>*†</sup>
 * Western Governors University (USA) <sup>*</sup>
 
+<!-- HTML Formatting for a small legend for the member section -->
 <p class="p-small">
 <sup>*</sup> Core Member
 <br>
 <sup>†</sup> Founding Member
 </p>
 
-<!-- TODO This below is a redundant call to action code b/c I couldn't figure
-out how to pass the internal link in the header through to the includes -->
-<div id="contact" class="call-to-action pt-4 pb-4">
-<div class="container-md">
-<div class="content">
-    <p class="call-to-action-mini mb-3 mt-3">
-      If you represent a higher education or post-graduate institution we invite you to <a href="{{ site.baseurl }}/membership">learn more about membership</a>.
-    </p>
-</div>
-</div>
-</div>
+<!-- Call to action section -->
+{% include call-to-action.html class="pb-4 pt-4" inner-class="call-to-action-mini mb-3 mt-3" %}
 
+<!-- Team members list section, drawing data from frontmatter -->
 {% include team-members.html %}
