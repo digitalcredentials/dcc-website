@@ -67,6 +67,7 @@ The DCC is led by a Leadership Council elected by the DCC membership and is supp
 * University of Toronto (Canada) <sup>*†</sup>
 * Western Governors University (USA) <sup>*</sup>
 
+<!-- HTML Formatting for a small legend for the member section -->
 <p class="p-small">
 <sup>*</sup> Core Member
 <br>

@@ -1,29 +1,34 @@
+<!-- Site navigation bar, fixed to top of window -->
 <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-light d-print-inline">
-    <div class="container-fluid">
-        <a id="navbar-logo" class="navbar-brand logo-image" href="{{ site.baseurl }}/"><img src="images/DCC_navbar-logo.png" alt="Digital Credentials Consortium"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
+  <div class="container-fluid">
+    <!-- DCC logo img which links to homepage -->
+    <a id="navbar-logo" class="navbar-brand logo-image" href="{{ site.baseurl }}/"><img src="images/DCC_navbar-logo.png" alt="Digital Credentials Consortium"></a>
 
-        <div class="collapse navbar-collapse" id="navbarToggler">
-          <ul class="navbar-nav ml-auto">
-            {% for item in site.data.pagelist.pages %}
-              {% if item.subpages[0] %}
-                <li class="nav-item dropdown">
-                  <a class="nav-link  dropdown-toggle" href="{{ site.baseurl }}{{ item.url }}" data-bs-toggle="dropdown">{{ item.page }}</a>
-                  <ul class="dropdown-menu">
-                    {% for entry in item.subpages %}
-                      <li><a class="dropdown-item" href="{{ site.baseurl }}{{ entry.url }}">{{ entry.page }}</a></li>
-                    {% endfor %}
-                  </ul>
-                </li>
-              {% else %}
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="{{ site.baseurl }}{{ item.url }}" data-target="#navbarToggler">{{ item.page }}</a>
-                </li>
-              {% endif %}
-            {% endfor %}
-          </ul>
-        </div>
+    <!-- Toggle button when page list is collapsed -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarToggler">
+      <ul class="navbar-nav ml-auto">
+        <!-- The list of pages is pulled from /_data/pagelist.yml. Currently it allows for two levels of page hierarchy. -->
+        {% for item in site.data.pagelist.pages %}
+          {% if item.subpages[0] %}
+            <li class="nav-item dropdown">
+              <a class="nav-link  dropdown-toggle" href="{{ site.baseurl }}{{ item.url }}" data-bs-toggle="dropdown">{{ item.page }}</a>
+              <ul class="dropdown-menu">
+                {% for entry in item.subpages %}
+                  <li><a class="dropdown-item" href="{{ site.baseurl }}{{ entry.url }}">{{ entry.page }}</a></li>
+                {% endfor %}
+              </ul>
+            </li>
+          {% else %}
+            <li class="nav-item">
+                <a class="nav-link page-scroll" href="{{ site.baseurl }}{{ item.url }}" data-target="#navbarToggler">{{ item.page }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
     </div>
-    </nav>
+  </div>
+</nav>
