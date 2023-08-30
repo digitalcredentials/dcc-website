@@ -50,5 +50,5 @@ Our mission is to create a trusted, distributed, and shared infrastructure that 
   </div>
 </div>
 
-
+<!-- Call to action section -->
 {% include call-to-action.html class="homepage"%}

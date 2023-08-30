@@ -1,14 +1,15 @@
-
+<!-- A "call to action block" is a page-wide light grey block containing a large
+header paragraph, and a rounded button below it. Each of these elements are optional. -->
 <div id="contact" class="call-to-action {{include.class}}">
-<div class="container-md">
-<div class="content">
-  {% if page.call-to-action.header %}
-    <p>{{ page.call-to-action.header }}</p>
-  {% endif %}
+  <div class="container-md">
+    <div class="content">
+      {% if page.call-to-action.header %}
+        <p class="{{include.inner-class}}">{{ page.call-to-action.header }}</p>
+      {% endif %}
 
-  {% if page.call-to-action.button-text %}
-    <a class="btn-solid-lg" href="{{ page.call-to-action.link }}" target="_blank">{{ page.call-to-action.button-text }}</a>
-  {% endif %}
-</div>
-</div>
+      {% if page.call-to-action.button-text %}
+        <a class="btn-solid-lg" href="{{ page.call-to-action.link }}" target="_blank">{{ page.call-to-action.button-text }}</a>
+      {% endif %}
+    </div>
+  </div>
 </div>
