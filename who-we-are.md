@@ -3,13 +3,13 @@ layout: default
 title: Who We Are
 team:
   - name: Kerri Lemoie, Ph.D.
-    title: Director of Technology
-    bio: <b>Kerri Lemoie, Ph.D.</b> directs the development, planning, and strategy of verifiable digital credentialing technology at the DCC. Kerri has been working on the web for 25+ years as a web developer and in multiple leadership capacities and advisory roles. As one of the founding technical contributors to Open Badges, she is a recognized leader in the digital credentials ecosystem. Kerri completed her Ph.D. at Fielding Graduate University in Media Psychology. Her dissertation research focused on technology adoption of self-sovereign digital identity.
+    title: Director
+    bio: <b>Kerri Lemoie, Ph.D.</b> directs the development, planning, and strategy of the DCC. Kerri has been working on the web for 25+ years as a web developer and in multiple leadership capacities and advisory roles. As one of the founding technical contributors to Open Badges, she is a recognized leader in the digital credentials ecosystem. Kerri completed her Ph.D. at Fielding Graduate University in Media Psychology. Her dissertation research focused on technology adoption of self-sovereign digital identity.
     photo: /images/members/klemoie.jpg
     linkedin: https://www.linkedin.com/in/kerrilemoie/
 
   - name: Philipp Schmidt
-    title: Director
+    title: Advisor
     bio: <b>Philipp Schmidt</b> is CTO of Axim Collaborative and a research scientist and advisor for digital credentials at MIT. Prior to joining Axim, he was the Director of Digital Learning at the <a href="https://media.mit.edu/">MIT Media Lab</a>. He co-authored the <a href="http://www.capetowndeclaration.org/">Cape Town Open Education Declaration</a> and has developed a number of open standards for digital academic credentials including <a href="https://wiki.mozilla.org/images/5/59/OpenBadges-Working-Paper_012312.pdf">Mozilla Open Badges</a>. Philipp holds a CS degree from FH Furtwangen in Germany and an MBA from MIT.
     photo: /images/members/pschmidt.jpg
 
