@@ -59,7 +59,7 @@ The DCC contributes to the efforts of open standards bodies that foster interope
 And DCC works with 1EdTech on Open Badges and the Comprehensive Learner Record.
 
 ### Ecosystem Map
-Through the convening of stakeholders representing higher education, workforce boards, human resources platforms, advocacy groups and think tanks, the DCC, along with the strategic communications support of [NationSwell](https://nationswell.com/), is collaborating on mapping the Learning and Employment Record (LER) Ecosystem. This collaboration will produce a digital tool mapping the LER lifecycle and the workstreams and interactions between key stakeholders, including the value proposition for learners, administrators, and employers. 
+Through the convening of stakeholders representing higher education, workforce boards, human resources platforms, advocacy groups and think tanks, the DCC collaborated on mapping the Learning and Employment Record (LER) Ecosystem. This digital tool describes the LER lifecycle and the workstreams and interactions between key stakeholders, including the value proposition for learners, administrators, and employers. [Visit the LER Ecosystem Map](https://lermap.t3networkhub.org/). 
 
 ### Open Source Software
 All of the software developed by DCC for issuing and verifying credentials, its wallet and verifier, and underlying libraries are [open source and available on Github](https://github.com/digitalcredentials/).
