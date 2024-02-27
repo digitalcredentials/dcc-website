@@ -17,7 +17,7 @@
           />
         </div>
         <div class="col-6">
-          <div class="mb-0 mt-0 team-name">{{ member.name }}</div>
+          <div class="mb-0 mt-0 team-name"><a name="{{ member.anchor }}"></a>{{ member.name }}</div>
           <div class="mb-1 mt-n1 team-title">{{ member.title }}</div>
           {% if member.website%}
             <a href="{{ member.website }}" title="Personal Website"><i class="fa fa-globe fa-lg mr-2"></i></a>

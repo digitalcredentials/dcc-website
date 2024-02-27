@@ -6,7 +6,14 @@ pages:
   - page: Our Work
     url: /our-work
   - page: Who We Are
-    url: /who-we-are
+    url: /members
+    subpages:
+      - page: Members
+        url: /members
+      - page: Team
+        url: /team
+      - page: Leadership Council
+        url: /leadershipcouncil
   - page: Resources
     url: /resources
   - page: Get Involved

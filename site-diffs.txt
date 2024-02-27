@@ -1,0 +1,635 @@
+diff --git a/_data/pagelist.yml b/_data/pagelist.yml
+index 4b0d2cc..18aaab2 100644
+--- a/_data/pagelist.yml
++++ b/_data/pagelist.yml
+@@ -6,11 +6,20 @@ pages:
+   - page: Our Work
+     url: /our-work
+   - page: Who We Are
+-    url: /who-we-are
++    url: /members
++    subpages:
++      - page: Members
++        url: /members
++      - page: Team
++        url: /team
++      - page: Leadership Council
++        url: /leadershipcouncil
+   - page: Resources
+     url: /resources
++  - page: Blog
++    url: /blog
+   - page: Get Involved
+     url: /get-involved
+     subpages:
+       - page: Membership
+-        url: /membership
+\ No newline at end of file
++        url: /membership
+diff --git a/_includes/footer.html b/_includes/footer.html
+index a1dcb00..ab183ef 100644
+--- a/_includes/footer.html
++++ b/_includes/footer.html
+@@ -1,37 +1,18 @@
+ <!-- Site Footer -->
+ <div class="footer">
+   <div class="container">
+-      <div class="row justify-content-center">
+-              <div class="col-8 col-md-4 mx-auto">
+-                  <img class="img-fluid" src="images/logo-mit-footer.png" style="width:240px" alt="MIT Open Learning">
+-                  <p class="p-small">
+-                      © 2023 MIT<br><br>
+-                      MIT Open Learning<br>
+-                      600 Technology Square<br>
+-                      Cambridge, MA 02139<br><br>
+-                      Massachusetts Institute of Technology<br><br>
+-                      <a href="https://accessibility.mit.edu/" target="blank">Accessibility</a>
+-                  </p>
+-              </div> <!-- end of footer-col -->
+-              <div class="col-8 col-md-4 mx-auto">
+-                  <p class="p-small">
+-                      <b>DCC Core Members</b><br>
+-                      Delft University of Technology (The Netherlands)<br>
+-                      Georgia Tech (USA)<br>
+-                      Harvard University (USA)<br>
+-                      Hasso Plattner Institute, University of Potsdam (Germany)<br>
+-                      Massachusetts Institute of Technology (USA)<br>
+-                      McMaster University (Canada)<br>
+-                      Tecnologico De Monterrey (Mexico)<br>
+-                      TU Munich (Germany)<br>
+-                      UC Berkeley (USA)<br>
+-                      UC Irvine (USA)<br>
+-                      University of Milano-Bicocca (Italy)<br>
+-                      University of Toronto (Canada)<br>
+-                      Western Governors University (USA) <br><br>
+-                  </p>
+-              </div> <!-- end of footer-col -->
+-      </div> <!-- end of row -->
+-  </div> <!-- end of container -->
++      <div class="col-8 mx-auto">
++        <div class="row justify-content-center">
++          <a href="https://openlearning.mit.edu/"><img class="img-fluid" src="{{ site.baseurl }}/images/logo-mit-footer.png" style="width:240px" alt="MIT Open Learning" /></a>
++        </div> <!-- end of row -->
++        <div class="row justify-content-center">
++          <p class="p-small" style="text-align: center;">© 2023 MIT</p>
++        </div> <!-- end of row -->
++        <div class="row justify-content-center">
++          <p class="p-small" style="text-align: center;"><a href="https://accessibility.mit.edu/" target="blank">Accessibility</a></p>
++        </div>  <!-- end of row -->
++      </div> <!-- end of column -->
++  </div> <!-- end of row -->
++</div> <!-- end of container -->
+ </div> <!-- end of footer -->  
+ <!-- end of footer -->
+diff --git a/_includes/lc list.html b/_includes/lc list.html
+new file mode 100644
+index 0000000..61f1b9d
+--- /dev/null
++++ b/_includes/lc list.html	
+@@ -0,0 +1,69 @@
++<!DOCTYPE html>
++<html>
++<head>
++<meta name="viewport" content="width=device-width, initial-scale=1">
++<style>
++* {
++  box-sizing: border-box;
++}
++
++/* Create two equal columns that floats next to each other */
++.column {
++  float: left;
++  width: 50%;
++  padding: 10px;
++  height: 300px; /* Should be removed. Only for demonstration */
++}
++
++/* Clear floats after the columns */
++.row:after {
++  content: "";
++  display: table;
++  clear: both;
++}
++</style>
++</head>
++<body>
++
++<div class="row">
++  <div class="column">
++    <p><b> Alexander Braun </b><br>
++Senior Vice President Digitalization and IT Systems and Chief Information Officer, Technical University of Munich <p>
++
++
++<b> Kristine Collins </b><br>
++Dean of Continuing Education, University of California, Irvine<p>
++
++<b> José Escamilla </b><br>
++Associate Director, Institute for the Future of Education, Tecnológico de Monterrey<p>
++
++<b> Stephen Harmon </b><br>
++Director of Education Innovation, Center for 21st Century Universities, Georgia Institute of Technology<p>
++
++<b> Henry Leitner </b><br>
++Associate Dean and Chief Innovation Technology Officer, Division of Continuing Education, Harvard University</p>
++
++<b> Alberto Leporati </b> <br>
++Associate Professor, Computer Science, Università degli Studi di Milano-Bicocca</p></p>
++  </div>
++  <div class="column">
++ 
++<p><b> Christoph Meinel </b><br>
++President and CEO, Hasso Plattner Institute for IT-Systems Engineering </p>
++
++<b> Mihnea Moldoveanu </b><br>
++Professor and Vice Dean of Learning and Innovation Rotman School of Management, University of Toronto</p>
++
++<b> Krishna Rajagopal (chair) </b><br>
++William A. M. Burden Professor of Physics, Massachusetts Institute of Technology</p>
++
++<b> Richard Russo </b><br>
++Dean, Extended Education, University of California, Berkeley</p>
++
++<b> Heather Sheardown </b><br>
++Dean, Faculty of Engineering, McMaster University</p>
++
++<b> Willem van Valkenburg </b><br>
++Executive Director TU Delft Extension School for Continuing Education, Technische Universiteit Delft</p></p>
++  </div>
++</div>
+diff --git a/_includes/navigation.html b/_includes/navigation.html
+index 0d6014d..69fd9f5 100644
+--- a/_includes/navigation.html
++++ b/_includes/navigation.html
+@@ -2,7 +2,7 @@
+ <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-light d-print-inline">
+   <div class="container-fluid">
+     <!-- DCC logo img which links to homepage -->
+-    <a id="navbar-logo" class="navbar-brand logo-image" href="{{ site.baseurl }}/"><img src="images/DCC_navbar-logo.png" alt="Digital Credentials Consortium"></a>
++    <a id="navbar-logo" class="navbar-brand logo-image" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/DCC_navbar-logo.png" alt="Digital Credentials Consortium"></a>
+ 
+     <!-- Toggle button when page list is collapsed -->
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+diff --git a/_includes/team-members.html b/_includes/team-members.html
+index b4c93c7..1ce5235 100644
+--- a/_includes/team-members.html
++++ b/_includes/team-members.html
+@@ -17,7 +17,7 @@
+           />
+         </div>
+         <div class="col-6">
+-          <div class="mb-0 mt-0 team-name">{{ member.name }}</div>
++          <div class="mb-0 mt-0 team-name"><a name="{{ member.anchor }}"></a>{{ member.name }}</div>
+           <div class="mb-1 mt-n1 team-title">{{ member.title }}</div>
+           {% if member.website%}
+             <a href="{{ member.website }}" title="Personal Website"><i class="fa fa-globe fa-lg mr-2"></i></a>
+diff --git a/_layouts/default.html b/_layouts/default.html
+index 61825d5..ce38e57 100644
+--- a/_layouts/default.html
++++ b/_layouts/default.html
+@@ -11,13 +11,13 @@
+     <!-- Font Awesome Icons -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <!-- Bootstrap styles -->
+-    <link href="css/bootstrap.css" rel="stylesheet">
++    <link href="{{ site.baseurl }}/css/bootstrap.css" rel="stylesheet">
+     <!-- Local Stylesheet -->
+-    <link href="css/styles.css" rel="stylesheet">
++    <link href="{{ site.baseurl }}/css/styles.css" rel="stylesheet">
+ 
+     <!-- Favicon  -->
+-    <link rel="icon" href="images/cropped-fav-dc-b-32x32.png" sizes="32x32" >
+-    <link rel="icon" href="images/cropped-fav-dc-b-192x192.png" sizes="192x192" >
++    <link rel="icon" href="{{ site.baseurl }}/images/cropped-fav-dc-b-32x32.png" sizes="32x32" >
++    <link rel="icon" href="{{ site.baseurl }}/images/cropped-fav-dc-b-192x192.png" sizes="192x192" >
+ 
+     {% if site.google_analytics and jekyll.environment == 'production' %}
+       <!-- Google analytics tag -->
+@@ -60,8 +60,8 @@
+     {% include footer.html %}
+     
+     <!-- Scripts --> 
+-    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+-    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+-    <script src="js/redirect.js"></script> <!-- Script to handle redirect -->
++    <script src="{{ site.baseurl }}/js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
++    <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
++    <script src="{{ site.baseurl }}/js/redirect.js"></script> <!-- Script to handle redirect -->
+   </body>
+ </html>
+diff --git a/_layouts/posts.html b/_layouts/posts.html
+new file mode 100644
+index 0000000..e86e3b8
+--- /dev/null
++++ b/_layouts/posts.html
+@@ -0,0 +1,70 @@
++<!doctype html>
++<html lang="en">
++  <head>
++    <meta charset="utf-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1">
++    <title>DCC Blog - {{ page.title }}</title>
++
++    <!-- Google fonts -->
++    <link rel="preconnect" href="https://fonts.gstatic.com">
++    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
++    <!-- Font Awesome Icons -->
++    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
++    <!-- Bootstrap styles -->
++    <link href="{{ site.baseurl }}/css/bootstrap.css" rel="stylesheet">
++    <!-- Local Stylesheet -->
++    <link href="{{ site.baseurl }}/css/styles.css" rel="stylesheet">
++
++    <!-- Favicon  -->
++    <link rel="icon" href="{{ site.baseurl }}/images/cropped-fav-dc-b-32x32.png" sizes="32x32" >
++    <link rel="icon" href="{{ site.baseurl }}/images/cropped-fav-dc-b-192x192.png" sizes="192x192" >
++
++    {% if site.google_analytics and jekyll.environment == 'production' %}
++      <!-- Google analytics tag -->
++      {% include analytics.html %}
++    {% endif %}
++    
++    {% if page.title == "404: Page not found" %}
++      <!-- TODO IMPORTANT: Change this base link for the 404 page any time the site URL is changed, otherwise resources won't load -->
++      <base href="https://digitalcredentials.mit.edu/" target="_blank">
++    {% endif %}
++  </head>
++  <body>
++    <!-- Navbar -->
++    {% include navigation.html %}
++      <!-- Page Banner -->
++      <div class="page-head-block">
++        <header>
++          <h1>
++            DCC Blog 
++          </h1>
++        </header>
++      </div>
++
++      <!-- Page content -->
++      <div class="container-md {{page.title | downcase | split: ' ' | join: '-'}}-page">
++        <div class="content page-content">
++          <header>
++          <h2>
++            {{ page.title }}
++          </h2>
++        </header>
++        <header>
++          <h6 class="post-author">
++            <a href="../../../..{{ site.baseurl }}/team#{{ page.author-anchor }}">{{ page.author }}</a><br>
++            {{ page.date | date: "%b %d, %Y"}}
++          </h6>
++        </header>
++          {{ content }}
++        </div>
++      </div>
++    
++    <!-- Page footer -->
++    {% include footer.html %}
++    
++    <!-- Scripts --> 
++    <script src="{{ site.baseurl }}/js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
++    <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
++    <script src="{{ site.baseurl }}/js/redirect.js"></script> <!-- Script to handle redirect -->
++  </body>
++</html>
+diff --git a/_posts/2024-01-02-dcc-new-year.md b/_posts/2024-01-02-dcc-new-year.md
+new file mode 100644
+index 0000000..676a98f
+--- /dev/null
++++ b/_posts/2024-01-02-dcc-new-year.md
+@@ -0,0 +1,6 @@
++---
++layout: posts
++author: Kerri Lemoie
++author-anchor: kerri-lemoie
++title: A new year at the DCC
++---
+diff --git a/blog.md b/blog.md
+new file mode 100644
+index 0000000..feb0d16
+--- /dev/null
++++ b/blog.md
+@@ -0,0 +1,14 @@
++---
++layout: default
++title: Blog
++---
++
++Learn more about the DCC and our work.
++
++
++{% for post in site.posts %}
++  <p>
++    <h6><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> - {{ post.author }} - {{ post.date | date: "%b %d, %Y"}}</h6>
++  </p>
++{% endfor %}
++
+diff --git a/css/styles.css b/css/styles.css
+index 5a74519..c19a72d 100644
+--- a/css/styles.css
++++ b/css/styles.css
+@@ -103,6 +103,11 @@ h4 {
+ 	letter-spacing: -0.4px;
+ }
+ 
++h6.post-author {
++  padding-top: 0.35em;
++  padding-bottom: 0.35em;
++}
++
+ .black {
+   color: var(--black);
+ }
+@@ -417,6 +422,15 @@ ul.bullets-special {
+   font-size: 1.1rem;
+ }
+ 
++/* LC Members */
++
++.lccolumn {
++  float: left;
++  width: 50%;
++  padding: 10px;
++  height: 300px; 
++}
++
+ /* Table style */
+ .table {
+   margin-top: 2rem;
+diff --git a/images/members/alexphoto.jpeg b/images/members/alexphoto.jpeg
+deleted file mode 100644
+index 4bff05c..0000000
+Binary files a/images/members/alexphoto.jpeg and /dev/null differ
+diff --git a/leadershipcouncil.md b/leadershipcouncil.md
+new file mode 100644
+index 0000000..79314a8
+--- /dev/null
++++ b/leadershipcouncil.md
+@@ -0,0 +1,57 @@
++---
++layout: default
++title: Leadership Council 
++---
++## Leadership Council
++
++The DCC is governed by a Leadership Council, elected by its membership. The Leadership Council oversees the administration and budget of the DCC and, together with the Director of the DCC, provides its strategic direction. Members of the Leadership Council also provide input from their own institutions. <br> 
++<br> The Leadership Council members are:
++
++<!-- Grid format that places text block and images side by side at wide screen size -->
++<div class="row">
++<div class="col-lg-6"  markdown="1">
++
++<b> Alexander Braun </b><br>
++Senior Vice President Digitalization and IT Systems and Chief Information Officer <br> Technical University of Munich 
++
++<b> Kristine Collins </b><br>
++Dean of Continuing Education <br> University of California, Irvine
++
++<b> José Escamilla </b><br>
++Associate Director, Institute for the Future of Education<br> Tecnológico de Monterrey
++
++<b> Stephen Harmon </b><br>
++Director of Education Innovation, Center for 21st Century Universities<br> Georgia Institute of Technology
++
++<b> Darin Hobbs </b><br>
++Vice President of Academic Records, Credentials & Career<br> Western Governors University
++
++<b> Henry Leitner </b><br>
++Associate Dean and Chief Innovation Technology Officer<br> Division of Continuing Education, Harvard University
++
++<b> Alberto Leporati </b> <br>
++Associate Professor, Computer Science<br> Università degli Studi di Milano-Bicocca
++
++</div>
++<div class="col-lg-6" markdown="1">
++
++<b> Christoph Meinel </b><br>
++President and CEO<br> Hasso Plattner Institute for IT-Systems Engineering 
++
++<b> Mihnea Moldoveanu </b><br>
++Professor and Vice Dean of Learning and Innovation Rotman School of Management<br> University of Toronto
++
++<b> Krishna Rajagopal (Chair) </b><br>
++William A. M. Burden Professor of Physics<br> Massachusetts Institute of Technology
++
++<b> Richard Russo </b><br>
++Dean, Extended Education<br> University of California, Berkeley
++
++<b> Heather Sheardown </b><br>
++Dean, Faculty of Engineering<br> McMaster University
++
++<b> Willem van Valkenburg </b><br>
++Executive Director TU Delft Extension School for Continuing Education<br> Delft University of Technology
++</div>
++</div>
++
+diff --git a/members.md b/members.md
+new file mode 100644
+index 0000000..4065b5e
+--- /dev/null
++++ b/members.md
+@@ -0,0 +1,37 @@
++---
++layout: default
++title: Members  
++---
++Digital Credential Consortium members are non-profit or state-funded higher education or postgraduate education institutions from around the world. We are working together to achieve the DCC mission to create a trusted, distributed, and shared infrastructure that will become the standard for issuing, storing, displaying, and verifying academic credentials, digitally.
++## Members
++
++* Delft University of Technology (The Netherlands) <sup>*†</sup>
++* Georgia Institute of Technology (USA) <sup>*†</sup>
++* Harvard University (USA) <sup>*†</sup>
++* Hasso Plattner Institute, University of Potsdam (Germany) <sup>*†</sup>
++* Massachusetts Institute of Technology (USA) <sup>*†</sup>
++* McMaster University (Canada) <sup>*†</sup>
++* Tecnológico De Monterrey (Mexico) <sup>*†</sup>
++* Technical University of Munich (Germany) <sup>*†</sup>
++* University of California, Berkeley (USA) <sup>*†</sup>
++* University of California, Irvine (USA) <sup>*†</sup>
++* University of Milano-Bicocca (Italy) <sup>*†</sup>
++* University of Toronto (Canada) <sup>*†</sup>
++* Western Governors University (USA) <sup>*</sup>
++
++<!-- HTML Formatting for a small legend for the member section -->
++<p class="p-small">
++<sup>*</sup> Core Member
++<br>
++<sup>†</sup> Founding Member
++</p>
++
++<div id="contact" class="call-to-action pt-4 pb-4">
++<div class="container-md">
++<div class="content">
++    <p class="call-to-action-mini mb-3 mt-3">
++      If you represent a higher education or post-graduate institution we invite you to <a href="{{ site.baseurl }}/membership">learn more about membership</a>.
++    </p>
++</div>
++</div>
++</div>
+diff --git a/our-work.md b/our-work.md
+index 46ef764..b97ece5 100644
+--- a/our-work.md
++++ b/our-work.md
+@@ -59,7 +59,7 @@ The DCC contributes to the efforts of open standards bodies that foster interope
+ And DCC works with 1EdTech on Open Badges and the Comprehensive Learner Record.
+ 
+ ### Ecosystem Map
+-Through the convening of stakeholders representing higher education, workforce boards, human resources platforms, advocacy groups and think tanks, the DCC collaborated on mapping the Learning and Employment Record (LER) Ecosystem. This digital tool describes the LER lifecycle and the workstreams and interactions between key stakeholders, including the value proposition for learners, administrators, and employers. [Visit the LER Ecosystem Map](https://lermap.t3networkhub.org/). 
++Through the convening of stakeholders representing higher education, workforce boards, human resources platforms, advocacy groups and think tanks, the DCC, along with the strategic communications support of [NationSwell](https://nationswell.com/), is collaborating on mapping the Learning and Employment Record (LER) Ecosystem. This collaboration will produce a digital tool mapping the LER lifecycle and the workstreams and interactions between key stakeholders, including the value proposition for learners, administrators, and employers. 
+ 
+ ### Open Source Software
+ All of the software developed by DCC for issuing and verifying credentials, its wallet and verifier, and underlying libraries are [open source and available on Github](https://github.com/digitalcredentials/).
+diff --git a/resources.md b/resources.md
+index ddd1194..77e4425 100644
+--- a/resources.md
++++ b/resources.md
+@@ -21,12 +21,4 @@ title: Resources
+ * Schmidt, J. (2022) *Bridging the Last Mile: Credentials to Employment.* AACRAO Technology and Transfer Summit. [{{ site.url | prepend: site.baseurl }}/docs/2021_AACRAO_Technology_Transfer Summit-Bridging_the_Last_Mile.pdf]({{ site.baseurl }}/docs/2021_AACRAO_Technology_Transfer Summit-Bridging_the_Last_Mile.pdf)
+ * Muramatsu, B., (2022) *Learner Credential Wallet [slide deck].* March 2022 Verifiable Credentials for Education Task Force. [{{ site.url | prepend: site.baseurl }}/docs/VC-EDU_Briefing-032822s.pdf]({{ site.baseurl }}/docs/VC-EDU_Briefing-032822s.pdf)
+ * Leu, S., Muramatsu, B., Murphy, S., Schmidt, J.P., (2022) *Digital Credentials and the Last Mile to Employment [slide deck].* Open Learning Talks. [{{ site.url | prepend: site.baseurl }}/docs/2022-11-17_DCC_Open_Learning_Talk-Last_Mile_Report.pdf]({{ site.baseurl }}/docs/2022-11-17_DCC_Open_Learning_Talk-Last_Mile_Report.pdf)
+-* Lemoie, K., (2022) Digital Credentials Consortium Overview [slide deck]. InCommon Technical Advisory Committee Charter. [{{ site.url | prepend: site.baseurl }}/docs/2022-10-08_InCommon_TAC.pdf]({{ site.baseurl }}/docs/2022-10-08_InCommon_TAC.pdf)
+-
+-  ## Community Call Recordings
+-* Mühle, A. (2022) Digital Credentials for Higher Education Institutions - DiBiHo & Lemoie, K. (2022) Open Badges 3.0 [Webinar]. DCC Community Call, Sept 22, 2022. [Recording](https://mit.zoom.us/rec/share/bZOfPdkSTYhh3rPYzqs7b_Vm3ePuAug4ceM9ii9Rb8iOMbr-ssablQoV27Yq-Kq0.UlC0YPDXRrsEVER8)
+-* Lemoie, K. (2022) Open Badges 3.0 & W3C Verifiable Credentials [Webinar]. DCC Community Call, December 8, 2022. [Recording](https://mit.zoom.us/rec/share/eT2coyj7goIRko-kAygcCDrEKCXPChYvZCb-IDYPZ5W-A9IBYjDw9IQTLdGx5LdP.GJU8KYWrd6GjDKRm?startTime=1670522729000)
+-* Lee, J, Parhar, Y. & Gupta, K. (2023) Learner's Credentials - Center for 21st Century Universities, Georgia Institute of Technology [Webinar]. DCC Community Call, March 9, 2023. [Recording](https://mit.zoom.us/rec/share/tz3cr-1z9J9d_Jqjrr0wQoEITsqnXhStVpWnWnhPuIpK0zZj-LjvhOtVw_H_XkhX.pRQ-Vvnj2MbVF98S?startTime=1678385076000)
+-* Grant, S. & Ward, R. (2023) Implementing Micro-credentialing Initiatives in Higher Education [Webinar]. DCC Community Call, July 12, 2023. [Recording](https://mit.zoom.us/rec/share/ckXKysL7YFM2OjPbK1qc1sZrJLQimBSPn7uvjRUTNVcuBgs29I9Ack2Gsr9AuqzT.V2RgkyKg7PhmPzpb?startTime=1689177935000)
+-* Travers, N. & Zanville, H. (2023) Lessons Learned and Milestones Ahead: Credential As You Go and Learn & Work Ecosystem Library [Webinar]. DCC Community Call, October 24, 2023. [Recording](https://mit.zoom.us/rec/share/j7QZYUlU5yNWtf_u-BaRavzKSlUO8JuChpsqBqd7-VXP07CPmkizbBCLbCn1qfal.rDM84gr4srmTqR6S?startTime=1698166818000)
+-* Piskin, A. & Suprun, K. (2024) Diia: digital educational credentials in Ukraine [Webinar]. DCC Community Call, January 11, 2024. [Recording](https://mit.zoom.us/rec/share/cfzIaL8Y3JiQ0DWoLu7MunKMNNJLXH9ARJF-17mtRJXTwQM4N_VEx7eqgxo-tKnz.3gpD8LdnlTaZiCvL)
++* Lemoie, K., (2022) Digital Credentials Consortium Overview [slide deck]. InCommon Technical Advisory Committee Charter. [{{ site.url | prepend: site.baseurl }}/docs/2022-10-08_InCommon_TAC.pdf]({{ site.baseurl }}/docs/2022-10-08_InCommon_TAC.pdf) 
+diff --git a/team.md b/team.md
+new file mode 100644
+index 0000000..e77bc0a
+--- /dev/null
++++ b/team.md
+@@ -0,0 +1,61 @@
++---
++layout: default
++title: Our Team
++team: 
++  - name: Kerri Lemoie, Ph.D.
++    anchor: kerri-lemoie
++    title: Director
++    bio: <b>Kerri Lemoie, Ph.D.</b> directs the development, planning, and strategy of the DCC. Kerri has been working on the web for 25+ years as a web developer and in multiple leadership capacities and advisory roles. As one of the founding technical contributors to Open Badges, she is a recognized leader in the digital credentials ecosystem. Kerri completed her Ph.D. at Fielding Graduate University in Media Psychology. Her dissertation research focused on technology adoption of self-sovereign digital identity.
++    photo: /images/members/klemoie.jpg
++    linkedin: https://www.linkedin.com/in/kerrilemoie/
++
++  - name: Philipp Schmidt
++    anchor: philipp-schmidt
++    title: Advisor
++    bio: <b>Philipp Schmidt</b> is CTO of Axim Collaborative and a research scientist and advisor for digital credentials at MIT. Prior to joining Axim, he was the Director of Digital Learning at the <a href="https://media.mit.edu/">MIT Media Lab</a>. He co-authored the <a href="http://www.capetowndeclaration.org/">Cape Town Open Education Declaration</a> and has developed a number of open standards for digital academic credentials including <a href="https://wiki.mozilla.org/images/5/59/OpenBadges-Working-Paper_012312.pdf">Mozilla Open Badges</a>. Philipp holds a CS degree from FH Furtwangen in Germany and an MBA from MIT.
++    photo: /images/members/pschmidt.jpg
++
++  - name: Brandon Muramatsu
++    anchor: brandon-muramatsu
++    title: Associate Director, Special Projects, MIT Open Learning
++    bio: <b>Brandon Muramatsu</b> works at the intersection of learning, technology, innovation and scale, with a special focus on open education. Brandon leads the design and implementation of local, national and international strategic education initiatives at <a href="http://web.mit.edu/">MIT</a> for <a href="https://openlearning.mit.edu/">MIT Open Learning</a>. Current work includes the development of an infrastructure for digital academic credentials and the establishment of a STEAM high school utilizing open educational resources and project based learning. He earned his B.S. (1993) and M.S. (1995) in <a href="https://www.me.berkeley.edu/">Mechanical Engineering</a> from the <a href="https://www.berkeley.edu/">University of California, Berkeley</a>.
++    photo: /images/members/bmuramatsu.jpg
++    website: http://www.mura.org/
++      
++  - name: Dmitri Zagidulin
++    anchor: dmitri-zagidulin
++    title: Lead Technical Architect
++    bio: <b>Dmitri Zagidulin</b>, a distributed systems engineer and authentication and credentials expert, is the Technical Architect for the DCC. He also participates in hands-on development of core decentralization libraries, helps organize conferences, and contributes to open standards.
++    photo: /images/members/dzagidulin.jpg
++
++  - name: Kayode Ezike
++    anchor: kayode-ezike
++    title: Software Engineer
++    bio: My name is <b>Kayode Ezike</b>, but you can call me Ayo. I was born to two Nigerian Igbo immigrants in New York, where I have lived for most of my life, outside of school. When it was time for college, I shifted my focus to Electrical Engineering and Computer Science before specializing as a graduate student in system design and application development in Self-Sovereign Identity (SSI). Much of my work these days focuses on technologies that enable users to leverage their personal data for access to new opportunities. Outside of the DCC, this work happens primarily at Gobekli and other partner organizations that I am privileged to support. When I am not working, I enjoy singing, writing, lifting, and playing basketball.
++    photo: /images/members/kezike.jpg
++    website: https://ezike.io/
++    linkedin: https://www.linkedin.com/in/kayodeezike
++    github: https://github.com/kezike
++
++  - name: Gillian Walsh
++    anchor: gillian-walsh
++    title: Program Coordinator
++    bio: <b>Gillian Walsh</b> is the Program Coordinator for the MIT Refugee Action Hub (ReACT) and the Digital Credentials Consortium (DCC). Her work focuses on the design, implementation and evaluation of academic programming and technologies that promote equitable pathways for meaningful careers for learners across the world, particularly those from vulnerable communities. Gillian holds a BA in History from Kent State University and a Masters in International Higher Education and Intercultural Relations from Lesley University.
++    photo: /images/members/gwalsh.jpg
++    linkedin: https://www.linkedin.com/in/gwalsh311
++
++  - name: James Chartrand
++    anchor: james-chartrand
++    title: Senior Software Engineer
++    bio: <b>James Chartrand</b> has developed software for over thirty years, mostly in higher-ed, primarily designing and developing systems for collection, edit, analysis and publication of research data, with a focus on digital credentialing over the last five years.
++    linkedin: https://www.linkedin.com/in/james-chartrand-4544b717/
++    photo: /images/members/jchartrand.jpg
++---
++
++The DCC is lead by a team of professionals who are passionate about building technology and tools that support insitutions and learners.
++
++
++
++{% include team-members.html %}
++
++
+diff --git a/who-we-are.md b/who-we-are.md
+index 7589b05..8a7673e 100644
+--- a/who-we-are.md
++++ b/who-we-are.md
+@@ -8,22 +8,22 @@ team:
+     photo: /images/members/klemoie.jpg
+     linkedin: https://www.linkedin.com/in/kerrilemoie/
+ 
+-  - name: Gillian Walsh
+-    title: Program Coordinator
+-    bio: <b>Gillian Walsh</b> is the Program Coordinator for the Digital Credentials Consortium (DCC). Her work focuses on the design, implementation and evaluation of academic programming and technologies that promote equitable pathways for meaningful careers for learners across the world, particularly those from vulnerable communities. Gillian holds a BA in History from Kent State University and a Masters in International Higher Education and Intercultural Relations from Lesley University.
+-    photo: /images/members/gwalsh.jpg
+-    linkedin: https://www.linkedin.com/in/gwalsh311
++  - name: Philipp Schmidt
++    title: Advisor
++    bio: <b>Philipp Schmidt</b> is CTO of Axim Collaborative and a research scientist and advisor for digital credentials at MIT. Prior to joining Axim, he was the Director of Digital Learning at the <a href="https://media.mit.edu/">MIT Media Lab</a>. He co-authored the <a href="http://www.capetowndeclaration.org/">Cape Town Open Education Declaration</a> and has developed a number of open standards for digital academic credentials including <a href="https://wiki.mozilla.org/images/5/59/OpenBadges-Working-Paper_012312.pdf">Mozilla Open Badges</a>. Philipp holds a CS degree from FH Furtwangen in Germany and an MBA from MIT.
++    photo: /images/members/pschmidt.jpg
+ 
++  - name: Brandon Muramatsu
++    title: Associate Director, Special Projects, MIT Open Learning
++    bio: <b>Brandon Muramatsu</b> works at the intersection of learning, technology, innovation and scale, with a special focus on open education. Brandon leads the design and implementation of local, national and international strategic education initiatives at <a href="http://web.mit.edu/">MIT</a> for <a href="https://openlearning.mit.edu/">MIT Open Learning</a>. Current work includes the development of an infrastructure for digital academic credentials and the establishment of a STEAM high school utilizing open educational resources and project based learning. He earned his B.S. (1993) and M.S. (1995) in <a href="https://www.me.berkeley.edu/">Mechanical Engineering</a> from the <a href="https://www.berkeley.edu/">University of California, Berkeley</a>.
++    photo: /images/members/bmuramatsu.jpg
++    website: http://www.mura.org/
++      
+   - name: Dmitri Zagidulin
+     title: Lead Technical Architect
+     bio: <b>Dmitri Zagidulin</b>, a distributed systems engineer and authentication and credentials expert, is the Technical Architect for the DCC. He also participates in hands-on development of core decentralization libraries, helps organize conferences, and contributes to open standards.
+     photo: /images/members/dzagidulin.jpg
+ 
+-  - name: Alexandra Higuera
+-    title: Senior Software Engineer
+-    bio: <b>Alex Higuera</b> is a Senior Software Engineer at the DCC, working on verifiable credentials for use in higher learning. Previously, she worked as a Senior Software Engineer at Cengage, building platforms for higher learning and continuing education. Active at the intersection of technology, education, and community, Alex serves on the board of two international non-profits in her free time: <a href="https://neurotechx.org/">NeuroTechX</a> and <a href="https://worldcomputerexchange.org/">World Computer Exchange</a>.
+-    photo: /image/members/alexphoto.jpg
+-
+   - name: Kayode Ezike
+     title: Software Engineer
+     bio: My name is <b>Kayode Ezike</b>, but you can call me Ayo. I was born to two Nigerian Igbo immigrants in New York, where I have lived for most of my life, outside of school. When it was time for college, I shifted my focus to Electrical Engineering and Computer Science before specializing as a graduate student in system design and application development in Self-Sovereign Identity (SSI). Much of my work these days focuses on technologies that enable users to leverage their personal data for access to new opportunities. Outside of the DCC, this work happens primarily at Gobekli and other partner organizations that I am privileged to support. When I am not working, I enjoy singing, writing, lifting, and playing basketball.
+@@ -32,24 +32,17 @@ team:
+     linkedin: https://www.linkedin.com/in/kayodeezike
+     github: https://github.com/kezike
+ 
+- - name: James Chartrand
++  - name: Gillian Walsh
++    title: Program Coordinator
++    bio: <b>Gillian Walsh</b> is the Program Coordinator for the MIT Refugee Action Hub (ReACT) and the Digital Credentials Consortium (DCC). Her work focuses on the design, implementation and evaluation of academic programming and technologies that promote equitable pathways for meaningful careers for learners across the world, particularly those from vulnerable communities. Gillian holds a BA in History from Kent State University and a Masters in International Higher Education and Intercultural Relations from Lesley University.
++    photo: /images/members/gwalsh.jpg
++    linkedin: https://www.linkedin.com/in/gwalsh311
++
++  - name: James Chartrand
+     title: Senior Software Engineer
+     bio: <b>James Chartrand</b> has developed software for over thirty years, mostly in higher-ed, primarily designing and developing systems for collection, edit, analysis and publication of research data, with a focus on digital credentialing over the last five years.
+     linkedin: https://www.linkedin.com/in/james-chartrand-4544b717/
+     photo: /images/members/jchartrand.jpg
+-   
+-  - name: Philipp Schmidt
+-    title: Advisor
+-    bio: <b>Philipp Schmidt</b> is CTO of Axim Collaborative and a research scientist and advisor for digital credentials at MIT. Prior to joining Axim, he was the Director of Digital Learning at the <a href="https://media.mit.edu/">MIT Media Lab</a>. He co-authored the <a href="http://www.capetowndeclaration.org/">Cape Town Open Education Declaration</a> and has developed a number of open standards for digital academic credentials including <a href="https://wiki.mozilla.org/images/5/59/OpenBadges-Working-Paper_012312.pdf">Mozilla Open Badges</a>. Philipp holds a CS degree from FH Furtwangen in Germany and an MBA from MIT.
+-    photo: /images/members/pschmidt.jpg
+-
+-  - name: Brandon Muramatsu
+-    title: Associate Director, Special Projects, MIT Open Learning
+-    bio: <b>Brandon Muramatsu</b> works at the intersection of learning, technology, innovation and scale, with a special focus on open education. Brandon leads the design and implementation of local, national and international strategic education initiatives at <a href="http://web.mit.edu/">MIT</a> for <a href="https://openlearning.mit.edu/">MIT Open Learning</a>. Current work includes the development of an infrastructure for digital academic credentials and the establishment of a STEAM high school utilizing open educational resources and project based learning. He earned his B.S. (1993) and M.S. (1995) in <a href="https://www.me.berkeley.edu/">Mechanical Engineering</a> from the <a href="https://www.berkeley.edu/">University of California, Berkeley</a>.
+-    photo: /images/members/bmuramatsu.jpg
+-    website: http://www.mura.org/
+-      
+-
+ ---
+ 
+ Digital Credential Consortium members are non-profit or state-funded higher education or postgraduate education institutions from around the world.
