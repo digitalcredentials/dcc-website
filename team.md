@@ -19,6 +19,11 @@ team:
     title: Lead Technical Architect
     bio: <b>Dmitri Zagidulin</b>, a distributed systems engineer and authentication and credentials expert, is the Technical Architect for the DCC. He also participates in hands-on development of core decentralization libraries, helps organize conferences, and contributes to open standards.
     photo: /images/members/dzagidulin.jpg
+
+  - name: Alexandra Higuera
+    title: Senior Software Engineer
+    bio: <b>Alex Higuera</b> is a Senior Software Engineer at the DCC, working on verifiable credentials for use in higher learning. Previously, she worked as a Senior Software Engineer at Cengage, building platforms for higher learning and continuing education. Active at the intersection of technology, education, and community, Alex serves on the board of two international non-profits in her free time\: <a href="https://neurotechx.org/">NeuroTechX</a> and <a href="https://worldcomputerexchange.org/">World Computer Exchange</a>.
+    photo: /image/members/alexphoto.jpg
 ---
 
 The DCC is lead by a team of professionals who are passionate about building technology and tools that support insitutions and learners.
