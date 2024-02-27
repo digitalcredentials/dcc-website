@@ -32,6 +32,23 @@ team:
     website: https://ezike.io/
     linkedin: https://www.linkedin.com/in/kayodeezike
     github: https://github.com/kezike
+
+  - name: James Chartrand
+    title: Senior Software Engineer
+    bio: <b>James Chartrand</b> has developed software for over thirty years, mostly in higher-ed, primarily designing and developing systems for collection, edit, analysis and publication of research data, with a focus on digital credentialing over the last five years.
+    linkedin: https://www.linkedin.com/in/james-chartrand-4544b717
+    photo: /images/members/jchartrand.jpg
+   
+  - name: Philipp Schmidt
+    title: Advisor
+    bio: <b>Philipp Schmidt</b> is CTO of Axim Collaborative and a research scientist and advisor for digital credentials at MIT. Prior to joining Axim, he was the Director of Digital Learning at the <a href="https://media.mit.edu/">MIT Media Lab</a>. He co-authored the <a href="http://www.capetowndeclaration.org/">Cape Town Open Education Declaration</a> and has developed a number of open standards for digital academic credentials including <a href="https://wiki.mozilla.org/images/5/59/OpenBadges-Working-Paper_012312.pdf">Mozilla Open Badges</a>. Philipp holds a CS degree from FH Furtwangen in Germany and an MBA from MIT.
+    photo: /images/members/pschmidt.jpg
+
+  - name: Brandon Muramatsu
+    title: Associate Director, Special Projects, MIT Open Learning
+    bio: <b>Brandon Muramatsu</b> works at the intersection of learning, technology, innovation and scale, with a special focus on open education. Brandon leads the design and implementation of local, national and international strategic education initiatives at <a href="http://web.mit.edu/">MIT</a> for <a href="https://openlearning.mit.edu/">MIT Open Learning</a>. Current work includes the development of an infrastructure for digital academic credentials and the establishment of a STEAM high school utilizing open educational resources and project based learning. He earned his B.S. (1993) and M.S. (1995) in <a href="https://www.me.berkeley.edu/">Mechanical Engineering</a> from the <a href="https://www.berkeley.edu/">University of California, Berkeley</a>.
+    photo: /images/members/bmuramatsu.jpg
+    website: http://www.mura.org/
 ---
 
 The DCC is lead by a team of professionals who are passionate about building technology and tools that support insitutions and learners.
