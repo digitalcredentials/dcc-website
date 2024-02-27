@@ -9,34 +9,6 @@ team:
     photo: /images/members/klemoie.jpg
     linkedin: https://www.linkedin.com/in/kerrilemoie/
 
-  - name: Gillian Walsh
-    anchor: gillian-walsh
-    title: Program Coordinator
-    bio: <b>Gillian Walsh</b> is the Program Coordinator for the MIT Refugee Action Hub (ReACT) and the Digital Credentials Consortium (DCC). Her work focuses on the design, implementation and evaluation of academic programming and technologies that promote equitable pathways for meaningful careers for learners across the world, particularly those from vulnerable communities. Gillian holds a BA in History from Kent State University and a Masters in International Higher Education and Intercultural Relations from Lesley University.
-    photo: /images/members/gwalsh.jpg
-    linkedin: https://www.linkedin.com/in/gwalsh311
-
-  - name: Dmitri Zagidulin
-    anchor: dmitri-zagidulin
-    title: Lead Technical Architect
-    bio: <b>Dmitri Zagidulin</b>, a distributed systems engineer and authentication and credentials expert, is the Technical Architect for the DCC. He also participates in hands-on development of core decentralization libraries, helps organize conferences, and contributes to open standards.
-    photo: /images/members/dzagidulin.jpg
-
-    - name: Kayode Ezike
-    title: Software Engineer
-    bio: My name is <b>Kayode Ezike</b>, but you can call me Ayo. I was born to two Nigerian Igbo immigrants in New York, where I have lived for most of my life, outside of school. When it was time for college, I shifted my focus to Electrical Engineering and Computer Science before specializing as a graduate student in system design and application development in Self-Sovereign Identity (SSI). Much of my work these days focuses on technologies that enable users to leverage their personal data for access to new opportunities. Outside of the DCC, this work happens primarily at Gobekli and other partner organizations that I am privileged to support. When I am not working, I enjoy singing, writing, lifting, and playing basketball.
-    photo: /images/members/kezike.jpg
-    website: https://ezike.io/
-    linkedin: https://www.linkedin.com/in/kayodeezike
-    github: https://github.com/kezike
-
-  - name: James Chartrand
-    anchor: james-chartrand
-    title: Senior Software Engineer
-    bio: <b>James Chartrand</b> has developed software for over thirty years, mostly in higher-ed, primarily designing and developing systems for collection, edit, analysis and publication of research data, with a focus on digital credentialing over the last five years.
-    linkedin: https://www.linkedin.com/in/james-chartrand-4544b717/
-    photo: /images/members/jchartrand.jpg
-
   - name: Philipp Schmidt
     anchor: philipp-schmidt
     title: Advisor
@@ -49,6 +21,35 @@ team:
     bio: <b>Brandon Muramatsu</b> works at the intersection of learning, technology, innovation and scale, with a special focus on open education. Brandon leads the design and implementation of local, national and international strategic education initiatives at <a href="http://web.mit.edu/">MIT</a> for <a href="https://openlearning.mit.edu/">MIT Open Learning</a>. Current work includes the development of an infrastructure for digital academic credentials and the establishment of a STEAM high school utilizing open educational resources and project based learning. He earned his B.S. (1993) and M.S. (1995) in <a href="https://www.me.berkeley.edu/">Mechanical Engineering</a> from the <a href="https://www.berkeley.edu/">University of California, Berkeley</a>.
     photo: /images/members/bmuramatsu.jpg
     website: http://www.mura.org/
+      
+  - name: Dmitri Zagidulin
+    anchor: dmitri-zagidulin
+    title: Lead Technical Architect
+    bio: <b>Dmitri Zagidulin</b>, a distributed systems engineer and authentication and credentials expert, is the Technical Architect for the DCC. He also participates in hands-on development of core decentralization libraries, helps organize conferences, and contributes to open standards.
+    photo: /images/members/dzagidulin.jpg
+
+  - name: Kayode Ezike
+    anchor: kayode-ezike
+    title: Software Engineer
+    bio: My name is <b>Kayode Ezike</b>, but you can call me Ayo. I was born to two Nigerian Igbo immigrants in New York, where I have lived for most of my life, outside of school. When it was time for college, I shifted my focus to Electrical Engineering and Computer Science before specializing as a graduate student in system design and application development in Self-Sovereign Identity (SSI). Much of my work these days focuses on technologies that enable users to leverage their personal data for access to new opportunities. Outside of the DCC, this work happens primarily at Gobekli and other partner organizations that I am privileged to support. When I am not working, I enjoy singing, writing, lifting, and playing basketball.
+    photo: /images/members/kezike.jpg
+    website: https://ezike.io/
+    linkedin: https://www.linkedin.com/in/kayodeezike
+    github: https://github.com/kezike
+
+  - name: Gillian Walsh
+    anchor: gillian-walsh
+    title: Program Coordinator
+    bio: <b>Gillian Walsh</b> is the Program Coordinator for the MIT Refugee Action Hub (ReACT) and the Digital Credentials Consortium (DCC). Her work focuses on the design, implementation and evaluation of academic programming and technologies that promote equitable pathways for meaningful careers for learners across the world, particularly those from vulnerable communities. Gillian holds a BA in History from Kent State University and a Masters in International Higher Education and Intercultural Relations from Lesley University.
+    photo: /images/members/gwalsh.jpg
+    linkedin: https://www.linkedin.com/in/gwalsh311
+
+  - name: James Chartrand
+    anchor: james-chartrand
+    title: Senior Software Engineer
+    bio: <b>James Chartrand</b> has developed software for over thirty years, mostly in higher-ed, primarily designing and developing systems for collection, edit, analysis and publication of research data, with a focus on digital credentialing over the last five years.
+    linkedin: https://www.linkedin.com/in/james-chartrand-4544b717/
+    photo: /images/members/jchartrand.jpg
 ---
 
 The DCC is lead by a team of professionals who are passionate about building technology and tools that support insitutions and learners.
@@ -56,3 +57,5 @@ The DCC is lead by a team of professionals who are passionate about building tec
 
 
 {% include team-members.html %}
+
+
