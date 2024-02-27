@@ -14,6 +14,11 @@ team:
     bio: <b>Gillian Walsh</b> is the Program Coordinator for the Digital Credentials Consortium (DCC). Her work focuses on the design, implementation and evaluation of academic programming and technologies that promote equitable pathways for meaningful careers for learners across the world, particularly those from vulnerable communities. Gillian holds a BA in History from Kent State University and a Masters in International Higher Education and Intercultural Relations from Lesley University.
     photo: /images/members/gwalsh.jpg
     linkedin: https://www.linkedin.com/in/gwalsh311
+
+  - name: Dmitri Zagidulin
+    title: Lead Technical Architect
+    bio: <b>Dmitri Zagidulin</b>, a distributed systems engineer and authentication and credentials expert, is the Technical Architect for the DCC. He also participates in hands-on development of core decentralization libraries, helps organize conferences, and contributes to open standards.
+    photo: /images/members/dzagidulin.jpg
 ---
 
 The DCC is lead by a team of professionals who are passionate about building technology and tools that support insitutions and learners.
