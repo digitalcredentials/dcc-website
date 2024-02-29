@@ -21,22 +21,22 @@ Dean of Continuing Education <br> University of California, Irvine
 Associate Director, Institute for the Future of Education<br> Tecnológico de Monterrey
 
 <b> Stephen Harmon </b><br>
-Director of Education Innovation, Center for 21st Century Universities<br> Georgia Institute of Technology
+Executive Director, Center for 21st Century Universities<br> Georgia Institute of Technology
 
-<b> Darin Hobbs </b><br>
-Vice President of Academic Records, Credentials & Career<br> Western Governors University
+<b> Darin R. Hobbs </b><br>
+Vice President, Learning & Employment Records<br> Western Governors University
 
 <b> Henry Leitner </b><br>
-Associate Dean and Chief Innovation Technology Officer<br> Division of Continuing Education, Harvard University
+Chief Innovation Officer, Division of Continuing Education <br>  Harvard University
 
 <b> Alberto Leporati </b> <br>
-Associate Professor, Computer Science<br> Università degli Studi di Milano-Bicocca
+Associate Professor, Department of Informatics, Systems and Communication<br> Università degli Studi di Milano-Bicocca
 
 </div>
 <div class="col-lg-6" markdown="1">
 
 <b> Christoph Meinel </b><br>
-President and CEO<br> Hasso Plattner Institute for IT-Systems Engineering 
+Former President and CEO<br> Hasso Plattner Institute 
 
 <b> Mihnea Moldoveanu </b><br>
 Professor and Vice Dean of Learning and Innovation Rotman School of Management<br> University of Toronto
@@ -48,9 +48,9 @@ William A. M. Burden Professor of Physics<br> Massachusetts Institute of Technol
 Dean, Extended Education<br> University of California, Berkeley
 
 <b> Heather Sheardown </b><br>
-Dean, Faculty of Engineering<br> McMaster University
+Professor and Dean of Engineering, McMaster University<br> McMaster University
 
 <b> Willem van Valkenburg </b><br>
-Executive Director TU Delft Extension School for Continuing Education<br> Delft University of Technology
+Executive Director, TU Delft Extension School<br> Delft University of Technology
 </div>
 </div>
