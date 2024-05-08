@@ -44,7 +44,7 @@ What would an academic degree look like if it was designed today? Or a professio
   <div class="container-md">
   <div class="content" markdown="1">
 
-Our mission is to create a trusted, distributed, and shared infrastructure that will become the standard for issuing, storing, displaying, and verifying academic credentials, digitally.
+The Digital Credentials Consortium is advancing the use and understanding of portable, verifiable digital academic credentials in higher education through technology leadership, research, and advocacy.
 
   </div>
   </div>
