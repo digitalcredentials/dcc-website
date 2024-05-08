@@ -13,7 +13,7 @@ call-to-action:
 
 ## Community at Large
 
-For the Community at Large, Digital Credentials Consortium provides many resources including our [publications]({{ site.baseurl }}/publications) and [open source software](https://github.com/digitalcredentials) to help you learn more about digital academic credentials.
+For the Community at Large, Digital Credentials Consortium provides many resources including our [publications]({{ site.baseurl }}/resources) and [open source software](https://github.com/digitalcredentials) to help you learn more about digital academic credentials.
 
 Community members, both individuals and organizations, are invited to participate in the World Wide Web Consortium’s [Verifiable Credentials for Education (VC-EDU) Task Force](https://w3c-ccg.github.io/vc-ed/).
 
