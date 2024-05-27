@@ -44,8 +44,7 @@ What would an academic degree look like if it was designed today? Or a professio
   <div class="container-md">
   <div class="content" markdown="1">
 
-The Digital Credentials Consortium is advancing the use and understanding of portable, verifiable digital academic credentials in higher education through technology leadership, research, and advocacy.
-
+The Digital Credentials Consortium is advancing the use and understanding of portable, verifiable digital academic credentials in higher education through open source technology development and leadership, research, and advocacy.
   </div>
   </div>
 </div>
