@@ -8,6 +8,40 @@ The Digital Credentials Consortium is exploring how recent advances in credentia
 Building on earlier efforts by the participating institutions, we are designing a governance system and technology infrastructure for academic credentials—transforming credentials into tokens of social and human capital that can create new opportunities for participation in education and industry. 
 
 
+## Our Activities
+
+### Standards Support
+
+The DCC contributes to the efforts of open standards bodies that foster interoperability and collaboration around verifiable credentials including:
+
+* The World Wide Web Consortium (W3C) [Verifiable Credentials for Education Task Force (VC-EDU)](https://w3c-ccg.github.io/vc-ed/)
+* [W3C Credentials Community Working Group](https://www.w3.org/community/credentials/)
+* [Open Wallet Foundation](https://openwallet.foundation)
+
+And DCC works with 1EdTech on Open Badges and the Comprehensive Learner Record.
+
+### Ecosystem Map
+Through the convening of stakeholders representing higher education, workforce boards, human resources platforms, advocacy groups and think tanks, the DCC collaborated on mapping the Learning and Employment Record (LER) Ecosystem. This digital tool describes the LER lifecycle and the workstreams and interactions between key stakeholders, including the value proposition for learners, administrators, and employers. [Visit the LER Ecosystem Map](https://lermap.t3networkhub.org/). 
+
+### Open Source Software
+All of the software developed by DCC for issuing and verifying credentials, its wallet and verifier, and underlying libraries are [open source and available on Github](https://github.com/digitalcredentials/).
+
+### Credential Issuing
+The DCC maintains open source software and code libraries to issue verifiable academic digital credentials. Organizations and individuals can run stand alone credential issuing software or integrate DCC libraries to issue credentials from their own locally developed software.
+
+### Wallet for Digital Academic Credentials
+The DCC [Learner Credential Wallet (LCW)](https://lcw.app/) is an open source mobile application for storing and sharing academic achievements with verifiable credentials that is available for iOS and Android.
+
+### Verification of Digital Academic Credentials
+Supported digital academic credentials can be verified at DCC’s [VerifierPlus](https://verifierplus.org/) website. This fully functional verifier is one of many verification sites we envision for digital academic credentials.
+
+### Registries
+The DCC maintains a number of registries to enable a verifier to confirm that a given Verifiable Credential was signed by a known issuer. DCC’s registries include:
+* DCC Member Registry: For DCC Member production issuers
+* DCC Pilot Registry: For DCC Member pilots
+* Community Registry: For community members, curated by the DCC
+* Sandbox Registry: For testing only
+
 <!-- Grid format that places text block and images side by side at wide screen size -->
 <div class="row">
 <div class="col-lg-5"  markdown="1">
@@ -44,38 +78,3 @@ Building on earlier efforts by the participating institutions, we are designing 
 
 </div>
 </div>
-
-
-## Our Activities
-
-### Standards Support
-
-The DCC contributes to the efforts of open standards bodies that foster interoperability and collaboration around verifiable credentials including:
-
-* The World Wide Web Consortium (W3C) [Verifiable Credentials for Education Task Force (VC-EDU)](https://w3c-ccg.github.io/vc-ed/)
-* [W3C Credentials Community Working Group](https://www.w3.org/community/credentials/)
-* [Open Wallet Foundation](https://openwallet.foundation)
-
-And DCC works with 1EdTech on Open Badges and the Comprehensive Learner Record.
-
-### Ecosystem Map
-Through the convening of stakeholders representing higher education, workforce boards, human resources platforms, advocacy groups and think tanks, the DCC collaborated on mapping the Learning and Employment Record (LER) Ecosystem. This digital tool describes the LER lifecycle and the workstreams and interactions between key stakeholders, including the value proposition for learners, administrators, and employers. [Visit the LER Ecosystem Map](https://lermap.t3networkhub.org/). 
-
-### Open Source Software
-All of the software developed by DCC for issuing and verifying credentials, its wallet and verifier, and underlying libraries are [open source and available on Github](https://github.com/digitalcredentials/).
-
-### Credential Issuing
-The DCC maintains open source software and code libraries to issue verifiable academic digital credentials. Organizations and individuals can run stand alone credential issuing software or integrate DCC libraries to issue credentials from their own locally developed software.
-
-### Wallet for Digital Academic Credentials
-The DCC [Learner Credential Wallet (LCW)](https://lcw.app/) is an open source mobile application for storing and sharing academic achievements with verifiable credentials that is available for iOS and Android.
-
-### Verification of Digital Academic Credentials
-Supported digital academic credentials can be verified at DCC’s [VerifierPlus](https://verifierplus.org/) website. This fully functional verifier is one of many verification sites we envision for digital academic credentials.
-
-### Registries
-The DCC maintains a number of registries to enable a verifier to confirm that a given Verifiable Credential was signed by a known issuer. DCC’s registries include:
-* DCC Member Registry: For DCC Member production issuers
-* DCC Pilot Registry: For DCC Member pilots
-* Community Registry: For community members, curated by the DCC
-* Sandbox Registry: For testing only
