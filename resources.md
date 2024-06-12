@@ -24,7 +24,7 @@ title: Resources
 * Lemoie, K., (2022) Digital Credentials Consortium Overview [slide deck]. InCommon Technical Advisory Committee Charter. [{{ site.url | prepend: site.baseurl }}/docs/2022-10-08_InCommon_TAC.pdf]({{ site.baseurl }}/docs/2022-10-08_InCommon_TAC.pdf)
 
   ## Community Call Recordings
-* Mühle, A. (2022) Digital Credentials for Higher Education Institutions - DiBiHo & Lemoie, K. (2022) Open Badges 3.0 [Webinar]. DCC Community Call, Sept 22, 2022. [Recording](https://mit.zoom.us/rec/share/bZOfPdkSTYhh3rPYzqs7b_Vm3ePuAug4ceM9ii9Rb8iOMbr-ssablQoV27Yq-Kq0.UlC0YPDXRrsEVER8)
+* Mühle, A. (2022) Digital Credentials for Higher Education Institutions - DiBiHo (2022) Open Badges 3.0 [Webinar]. DCC Community Call, Sept 22, 2022. [Recording](https://mit.zoom.us/rec/share/bZOfPdkSTYhh3rPYzqs7b_Vm3ePuAug4ceM9ii9Rb8iOMbr-ssablQoV27Yq-Kq0.UlC0YPDXRrsEVER8)
 * Lemoie, K. (2022) Open Badges 3.0 & W3C Verifiable Credentials [Webinar]. DCC Community Call, December 8, 2022. [Recording](https://mit.zoom.us/rec/share/eT2coyj7goIRko-kAygcCDrEKCXPChYvZCb-IDYPZ5W-A9IBYjDw9IQTLdGx5LdP.GJU8KYWrd6GjDKRm?startTime=1670522729000)
 * Lee, J, Parhar, Y. & Gupta, K. (2023) Learner's Credentials - Center for 21st Century Universities, Georgia Institute of Technology [Webinar]. DCC Community Call, March 9, 2023. [Recording](https://mit.zoom.us/rec/share/tz3cr-1z9J9d_Jqjrr0wQoEITsqnXhStVpWnWnhPuIpK0zZj-LjvhOtVw_H_XkhX.pRQ-Vvnj2MbVF98S?startTime=1678385076000)
 * Grant, S. & Ward, R. (2023) Implementing Micro-credentialing Initiatives in Higher Education [Webinar]. DCC Community Call, July 12, 2023. [Recording](https://mit.zoom.us/rec/share/ckXKysL7YFM2OjPbK1qc1sZrJLQimBSPn7uvjRUTNVcuBgs29I9Ack2Gsr9AuqzT.V2RgkyKg7PhmPzpb?startTime=1689177935000)
