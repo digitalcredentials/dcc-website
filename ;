@@ -1,0 +1,16 @@
+Revert "removing former team members from the team page"
+
+This reverts commit 95ecc4064545e4ef3848542ed4d2ea23e91cb1fe.
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   team.md
+#
+# Changes not staged for commit:
+#	modified:   .DS_Store
+#

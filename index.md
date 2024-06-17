@@ -12,7 +12,7 @@ call-to-action:
   <header>
   <div class="container-md content" markdown="1">
 
-# We are building an infrastructure for digital academic credentials that can support the education systems of the future.
+# The Digital Credentials Consortium is advancing the use and understanding of portable, verifiable digital academic credentials in higher education through open source technology development and leadership, research, and advocacy.
 
 Read: [Whitepaper (PDF)](/docs/white-paper-building-digital-credential-infrastructure-future.pdf) &#124; [Credentials to Employment: The Last Mile (PDF)](/docs/Credentials-to-Employment-The-Last-Mile.pdf)
 
@@ -42,9 +42,8 @@ What would an academic degree look like if it was designed today? Or a professio
 <!-- Mission header block -->
 <div class="quote-block">
   <div class="container-md">
-  <div class="content" markdown="1">
+  <div class="content" markdown="1">Our mission is to create a trusted, distributed, and shared infrastructure that will become the standard for issuing, storing, displaying, and verifying academic credentials, digitally.
 
-The Digital Credentials Consortium is advancing the use and understanding of portable, verifiable digital academic credentials in higher education through open source technology development and leadership, research, and advocacy.
   </div>
   </div>
 </div>
