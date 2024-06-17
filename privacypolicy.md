@@ -27,20 +27,51 @@ MIT uses risk-assessed administrative, technical and physical security measures 
 <b>How long we keep your personal information</b><br>
 We retain your informationn in accordance with MIT policy or until we have been asked to delete.
 
-<b>Rights for Individuals in the European Economic Area </b><br>
-You have the right in certain circumstances to (1) access your personal information; (2) to correct or erase information; (3) restrict processing; and (4) object to communications, direct marketing, or profiling.  To the extent applicable, the EU’s General Data Protection Regulation provides further information about your rights.  You also have the right to lodge complaints with your national or regional data protection authority.  
+<b>Rights for Individuals in the European Economic Area (EEA) or United Kingdom (UK) </b>
 
-If you are inclined to exercise these rights, we request an opportunity to discuss with you any concerns you may have. To protect the personal information we hold, we may also request further information to verify your identity when exercising these rights.  Upon a request to erase information, we will maintain a core set of personal data to ensure we do not contact you inadvertently in the future, as well as any information necessary for MIT archival purposes.  We may also need to retain some financial information for legal purposes, including US IRS compliance.  In the event of an actual or threatened legal claim, we may retain your information for purposes of establishing, defending against or exercising our rights with respect to such claim.
+You have the right in certain circumstances to (1) access your personal information; (2) to correct or erase information; (3) restrict processing; and (4) object to communications, direct marketing, or profiling.  To the extent applicable, the EEA’s General Data Protection Regulation (GDPR) provides further information about your rights.  You also have the right to lodge complaints with your national or regional data protection authority.   
 
-By providing information directly to MIT, you consent to the transfer of your personal information outside of the European Economic Area to the United States.  You understand that the current laws and regulations of the United States may not provide the same level of protection as the data and privacy laws and regulations of the EEA.  
+ 
 
-You are under no statutory or contractual obligation to provide any personal data to us.
+If you are inclined to exercise these rights, we request an opportunity to discuss with you any concerns you may have. To protect the personal information we hold, we may also request further information to verify your identity when exercising these rights.  Upon a request to erase information, we will maintain a core set of personal data to ensure we do not contact you inadvertently in the future, as well as any information necessary for MIT archival purposes.  We may also need to retain some financial information for legal purposes, including US IRS compliance.  In the event of an actual or threatened legal claim, we may retain your information for purposes of establishing, defending against or exercising our rights with respect to such claim. 
 
+ 
 
-<b>Additional Information</b><br>
-We may change this Privacy Statement from time to time.  If we make any significant changes in the way we treat your personal information we will make this clear on our MIT websites or by contacting you directly. 
+By providing information directly to MIT, you consent to the transfer of your personal information outside of the European Economic Area to the United States.  You understand that the current laws and regulations of the United States may not provide the same level of protection as the data and privacy laws and regulations of the EEA.   
 
-The controller for your personal information is MIT.  
+ 
 
-<b>This policy was last updated in JANUARY 2024.</b>
+You are under no statutory or contractual obligation to provide any personal data to us. The controller for your personal information is MIT.   
+
+ 
+
+If you are in the EEA or UK and wish to assert any of your applicable GDPR rights, please contact dataprotection@mit.edu. You may also contact MIT’s representatives listed below: 
+
+ 
+
+<b>MIT Representative in the European Economic Area </b><br>
+J-PAL Europe <br>
+Email: jpaleurope@povertyactionlab.org <br>
+Address: 48 Boulevard Jourdan, 75014 Paris, France 
+
+<b> MIT Representative in the United Kingdom </b><br>
+MIT Press UK <br>
+Address: 71 Queen Victoria Street, London, United Kingdom, EC4V 4BE  
+
+ 
+
+ 
+
+<b>Additional Information </b>
+ 
+
+We may change this Privacy Statement from time to time.  If we make any significant changes in the way we treat your personal information we will make this clear on our MIT websites or by contacting you directly.  
+
+ 
+
+ 
+
+ 
+
+<b>This policy was last updated in APRIL 2024. </b>
 
