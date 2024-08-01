@@ -10,6 +10,13 @@ Building on earlier efforts by the participating institutions, we are designing 
 
 ## Our Activities
 
+### Issuer Registry Research and Pilot
+
+The DCC is collaborating with [Credential Engine](https://credentialengine.org/) on a project exploring the current state of issuer registries, stored lists of data which verify the identity of an issuer of a credential. The project team will conduct comprehensive research on existing registries, identifying their functions and limitations with the goal of developing a working prototype and set of guidelines for organizations seeking to develop issuer registries for issuing verifiable credentials. 
+
+The Issuer Registry Project will seek input and expertise from the digital credentials community in part through the formation of an advisory group and the piloting of technology which will test implementation, hosting, and governance. See the [Issuer Research Advisory Group invitation](https://wiki.dcconsortium.org/app/page/1mw_tUoyhqeigNYf8L47kbVx-p3KMAEL9XYHy5lsUGC4?p=1h1VJHHv2zSe0n9Ltg-KQevSuqWbGcExy) for information on how you can collaborate with us on this work. 
+
+
 ### Standards Support
 
 The DCC contributes to the efforts of open standards bodies that foster interoperability and collaboration around verifiable credentials including:
