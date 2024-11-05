@@ -14,7 +14,8 @@ Digital Credential Consortium members are non-profit or state-funded higher educ
 * Tecnológico De Monterrey (Mexico) <sup>*†</sup>
 * Technical University of Munich (Germany) <sup>*†</sup>
 * University of California, Berkeley (USA) <sup>*†</sup>
-* University of California, Irvine (USA) <sup>*†</sup>
+* University of California, Irvine (USA) <sup>†‡</sup>
+* University of Lille (France) <sup>‡</sup>
 * University of Milano-Bicocca (Italy) <sup>*†</sup>
 * University of Toronto (Canada) <sup>*†</sup>
 * Western Governors University (USA) <sup>*</sup>
@@ -24,6 +25,8 @@ Digital Credential Consortium members are non-profit or state-funded higher educ
 <sup>*</sup> Core Member
 <br>
 <sup>†</sup> Founding Member
+<br>
+<sup>‡</sup> Member
 </p>
 
 <div id="contact" class="call-to-action pt-4 pb-4">
