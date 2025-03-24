@@ -14,9 +14,6 @@ The DCC is governed by a Leadership Council, elected by its membership. The Lead
 <b> Alexander Braun </b><br>
 Senior Vice President Digitalization and IT Systems and Chief Information Officer <br> Technical University of Munich 
 
-<b> Kristine Collins </b><br>
-Dean of Continuing Education <br> University of California, Irvine
-
 <b> José Escamilla </b><br>
 Associate Director, Institute for the Future of Education<br> Tecnológico de Monterrey
 
