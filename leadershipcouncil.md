@@ -35,8 +35,8 @@ Associate Professor, Department of Informatics, Systems and Communication<br> Un
 </div>
 <div class="col-lg-6" markdown="1">
 
-<b> Christoph Meinel </b><br>
-Former President and CEO<br> Hasso Plattner Institute 
+<b> Christiane Herzog </b><br>
+Extended Management Board <br> Hasso Plattner Institute 
 
 <b> Mihnea Moldoveanu </b><br>
 Professor and Vice Dean of Learning and Innovation Rotman School of Management<br> University of Toronto
