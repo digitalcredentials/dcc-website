@@ -145,8 +145,8 @@ Contact emails and internal DCC member mailing lists will be used to communicate
 
 <div class="row">
 <div class="col-lg-12"  markdown="1">
-##Privacy Policy and Terms of Use
-######Establishes the legal and contractual rights and obligations of the issuer registry with respect to data providers and data users.
+## Privacy Policy and Terms of Use
+###### Establishes the legal and contractual rights and obligations of the issuer registry with respect to data providers and data users.
 
 This section is still being developed. 
 </div>
@@ -201,8 +201,8 @@ TBD
 
 <div class="row">
 <div class="col-lg-12"  markdown="1">
-##Issuer Information and Verification
-######Details the processes and requirements for onboarding, verifying, and maintaining issuer records.
+## Issuer Information and Verification
+###### Details the processes and requirements for onboarding, verifying, and maintaining issuer records.
 </div>
 </div>
 
@@ -338,8 +338,8 @@ digitalcredentials@mit.edu
 
 <div class="row">
 <div class="col-lg-12"  markdown="1">
-##Data Download Format
-######Details the processes and policies regarding downloading issuer registry data.
+## Data Download Format
+###### Details the processes and policies regarding downloading issuer registry data.
 </div>
 </div>
 
@@ -451,8 +451,8 @@ None implemented.
 
 <div class="row">
 <div class="col-lg-12"  markdown="1">
-##Security and Operations 
-######Describes cybersecurity and technical operations information regarding how the issuer registry code is operated and maintained.
+## Security and Operations 
+###### Describes cybersecurity and technical operations information regarding how the issuer registry code is operated and maintained.
 </div>
 </div>
 
