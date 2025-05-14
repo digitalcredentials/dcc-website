@@ -60,4 +60,20 @@ A contact email will be stored internally by the DCC (not publicly posted) in or
 </div>
 </div>
 
+<div class="row">
+<div class="col-lg-12"  markdown="1">
+## Governing Parties and Oversight
+###### Addresses the roles and responsibilities of the governing bodies and mechanisms for ensuring transparent and effective oversight of an issuer registry.
+</div>
+</div>
+
+<div class="row">
+<div class="col-lg-12"  markdown="1">
+
+**Organization: Organizational mission.**
+
+The Digital Credentials Consortium’s mission is to advance the use and understanding of privacy-enhanced, portable, verifiable digital credentials in higher education through open source technology development and leadership, research and advocacy.
+</div>
+</div>
+
 
