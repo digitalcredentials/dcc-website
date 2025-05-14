@@ -104,7 +104,7 @@ h4 {
 }
 
 h6 {
-  padding-top: 0.5em;
+  margin-top: 0.5em !important;
   padding-bottom: 0.35em;
 }
 
