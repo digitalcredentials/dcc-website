@@ -381,8 +381,8 @@ DCC support staff may be contacted at digitalcredentials@mit.edu
 
 <div class="row">
 <div class="col-lg-12"  markdown="1">
-##Technical Standards 
-######Establishes the technical foundation for an issuer registry based on specific standards used.
+## Technical Standards 
+###### Establishes the technical foundation for an issuer registry based on specific standards used.
 </div>
 </div>
 
