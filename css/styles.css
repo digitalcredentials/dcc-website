@@ -103,6 +103,11 @@ h4 {
   letter-spacing: -0.4px;
 }
 
+h6 {
+  padding-top: 0.5em;
+  padding-bottom: 0.35em;
+}
+
 h6.post-author {
   padding-top: 0.35em;
   padding-bottom: 0.35em;
