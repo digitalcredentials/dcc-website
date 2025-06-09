@@ -11,6 +11,7 @@ title: Resources
 * Schmidt, J.P., Muramatsu, B., Walsh, G., & Zagidulin D. (2022) *Open Source Student Wallet Final Report.* [{{ site.url | prepend: site.baseurl }}/docs/Open%20Source%20Student%20Wallet%20Final%20Report%20-%20Public%20Web%20Version.pdf]({{ site.baseurl }}/docs/Open%20Source%20Student%20Wallet%20Final%20Report%20-%20Public%20Web%20Version.pdf)
 * Lemoie, K., Schmidt, J., & Muramatsu, B. (2023). *Making Sense of the Key Data Standards for Verifiable LERs* [Whitepaper]. Digital Credentials Consortium. [{{ site.url | prepend: site.baseurl }}/docs/DCC-Making-Sense-of-Key-Data-Standards-for-Verifiable-LERs.pdf]({{ site.baseurl }}/docs/DCC-Making-Sense-of-Key-Data-Standards-for-Verifiable-LERs.pdf)
 * Kitchens, J., Lemoie, K., Joy, R., Schwartz, R., & Walsh, G. (2025). *Issuer Identity Registry Research Report: Designing Trust Infrastructure for W3C Verifiable Credentials Being Used for Learning and Employment Records.* [{{ site.url | prepend: site.baseurl }}/docs/Credential-Engine-and-Digital-Credentials-Consortium_-Issuer-Identity-Registry-Research-Report.pdf]({{ site.baseurl }}/docs/Credential-Engine-and-Digital-Credentials-Consortium_-Issuer-Identity-Registry-Research-Report.pdf)
+* Kitchens, J., Lemoie, K., & Schwartz, R. (2025) *Governance Framework for Issuer Identity Registries.* [{{ site.url | prepend: site.baseurl }}/docs/Governance-Framework-for-Issuer-Identity-Registries.pdf]({{ site.url | prepend: site.baseurl }}/docs/Governance-Framework-for-Issuer-Identity-Registries.pdf.)
 
 
 ## Presentations
