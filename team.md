@@ -12,7 +12,7 @@ team:
   - name: Gillian Walsh
     title: Operations and Project Manager
     bio: <b>Gillian Walsh</b> is the Operations and Project Manager for the Digital Credentials Consortium (DCC). Her work focuses on the design, implementation and evaluation of academic programming and technologies that promote equitable pathways for meaningful careers for learners across the world, particularly those from vulnerable communities. Gillian holds a BA in History from Kent State University and a Masters in International Higher Education and Intercultural Relations from Lesley University.
-    photo: /images/members/gwalsh.jpg
+    photo: /images/members/P1020665.JPG
     linkedin: https://www.linkedin.com/in/gwalsh311
 
   - name: Dmitri Zagidulin
