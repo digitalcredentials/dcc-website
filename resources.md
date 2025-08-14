@@ -3,9 +3,14 @@ layout: default
 title: Resources
 ---
 
-## Governance Framework 
+## Resources 
 
-[Governance Framework for Issuer Identity Registries](https://wiki.dcconsortium.org/app/page/1znC51_uzFhgoh1y9SdQuxIlreHjORSeB?p=1h1VJHHv2zSe0n9Ltg-KQevSuqWbGcExy)
+* [Learner Credential Wallet Specification](https://github.com/digitalcredentials/dcc-website/blob/70f1681aa4e102ac571b226aa1704f5982846ecf/docs/Learner-Credential-Wallet-Specification-May-2021.pdf)
+* [Governance Framework for Issuer Identity Registries](https://wiki.dcconsortium.org/app/page/1znC51_uzFhgoh1y9SdQuxIlreHjORSeB?p=1h1VJHHv2zSe0n9Ltg-KQevSuqWbGcExy)
+* [Credential to Employment: The Last Mile](docs/Credentials-to-Employment-The-Last-Mile.pdf)
+* [Issuer Identity Registry Research Report](docs/Credential-Engine-and-Digital-Credentials-Consortium_-Issuer-Identity-Registry-Research-Report.pdf)
+* [Making Sense of Key Standards for Verifiable LERs](https://github.com/digitalcredentials/dcc-website/blob/70f1681aa4e102ac571b226aa1704f5982846ecf/docs/DCC-Making-Sense-of-Key-Data-Standards-for-Verifiable-LERs.pdf)
+* [Building the Digital Credential Infrastructure for the Future](https://github.com/digitalcredentials/dcc-website/blob/70f1681aa4e102ac571b226aa1704f5982846ecf/docs/white-paper-building-digital-credential-infrastructure-future.pdf)
 
 
 ## Community Call Recordings
