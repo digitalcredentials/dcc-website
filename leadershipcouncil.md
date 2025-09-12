@@ -14,10 +14,13 @@ The DCC is governed by a Leadership Council, elected by its membership. The Lead
 <b> Alexander Braun </b><br>
 Senior Vice President Digitalization and IT Systems and Chief Information Officer <br> Technical University of Munich 
 
+<b> Christopher Capozzola (Co-chair) </b><br>
+Senior Associate Dean for MIT Open Learning and Professor of History <br> Massachusetts Institute of Technology
+
 <b> José Escamilla </b><br>
 Associate Director, Institute for the Future of Education<br> Tecnológico de Monterrey
 
-<b> Stephen Harmon </b><br>
+<b> Stephen Harmon (Co-chair) </b><br>
 Executive Director, Center for 21st Century Universities<br> Georgia Institute of Technology
 
 <b> Darin R. Hobbs </b><br>
@@ -37,9 +40,6 @@ Extended Management Board <br> Hasso Plattner Institute
 
 <b> Mihnea Moldoveanu </b><br>
 Professor and Vice Dean of Learning and Innovation Rotman School of Management<br> University of Toronto
-
-<b> Krishna Rajagopal (Chair) </b><br>
-William A. M. Burden Professor of Physics<br> Massachusetts Institute of Technology
 
 <b> Richard Russo </b><br>
 Dean, Extended Education<br> University of California, Berkeley
