@@ -14,7 +14,7 @@ call-to-action:
 
 # The Digital Credentials Consortium is advancing the understanding and use of privacy-enhanced, portable, verifiable digital credentials in higher education through open source technology development and leadership, research, and advocacy.
 
-Read: [Whitepaper (PDF)](/docs/white-paper-building-digital-credential-infrastructure-future.pdf) &#124; [Credentials to Employment: The Last Mile (PDF)](/docs/Credentials-to-Employment-The-Last-Mile.pdf) &#124; [Knowledge Base](https://wiki.dcconsortium.org/)
+## Read: [Knowledge Base](https://wiki.dcconsortium.org/) | [Blog](https://blog.dcconsortium.org/)
 
   </div>
   </header>

@@ -10,10 +10,12 @@ Digital Credential Consortium members are non-profit or state-funded higher educ
 * Georgia Institute of Technology (USA) <sup>*†</sup>
 * Harvard University (USA) <sup>*†</sup>
 * Hasso Plattner Institute, University of Potsdam (Germany) <sup>*†</sup>
+* Izmir University of Economics (Türkiye) <sup>‡</sup>
 * Massachusetts Institute of Technology (USA) <sup>*†</sup>
 * McMaster University (Canada) <sup>*†</sup>
 * Tecnológico De Monterrey (Mexico) <sup>*†</sup>
 * Technical University of Munich (Germany) <sup>*†</sup>
+* Universidad Autónoma de Chile (Chile) <sup>‡</sup> 
 * University of California, Berkeley (USA) <sup>*†</sup>
 * University of California, Irvine (USA) <sup>†‡</sup>
 * University of Lille (France) <sup>‡</sup>
