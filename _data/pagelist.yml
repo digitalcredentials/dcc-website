@@ -16,6 +16,8 @@ pages:
         url: /leadershipcouncil
   - page: Resources
     url: /resources
+  - page: DCC Recommended Standards
+    url: /resources/dcc-standards
   - page: Get Involved
     url: /get-involved
     subpages:
