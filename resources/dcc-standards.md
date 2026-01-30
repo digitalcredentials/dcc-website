@@ -107,5 +107,11 @@ title: DCC Recommended Standards
         <td>&nbsp;</td>
         <td>Yes</td>
       </tr>
+    <tfoot>
+      <tr>
+        <th scope="row">Last Updated</th>
+        <td colspan="4">January 30, 2026</td>
+    </tr>
+  </tfoot>
   </tbody>
 </table>
