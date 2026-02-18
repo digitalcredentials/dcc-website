@@ -29,7 +29,7 @@ title: DCC Recommended Standards
         <td>No - TBD</td>
       </tr>
        <tr>
-        <td><a href="https://github.com/digitalcredentials/dcc-members-oidf" target="_blank">DCC & Credential Engine Issuer-Verifier Registry</a></td>
+        <td><a href="https://github.com/digitalcredentials/dcc-members-oidf" target="_blank">DCC & Credential Engine Issuer Identity Registry Recommendation</a></td>
         <td>DID Provenance/Verification Endpoints</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
