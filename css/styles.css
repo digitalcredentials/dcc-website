@@ -437,15 +437,6 @@ ul.bullets-special {
 }
 
 /* Table style */
-.table {
-  margin-top: 2rem;
-  width: 90%;
-  justify-self: center;
-  align-self: center;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
 
 thead {
   position: sticky;
@@ -466,6 +457,26 @@ table td {
 /* Override rule above to left align specific columns */
 table td:nth-child(1){
   text-align: left;
+}
+
+/* chart table */
+
+table.chart-table {
+  border: 1px solid gray;
+}
+
+table.chart-table tr td {
+  border: 1px solid gray;
+  padding: 1em;
+}
+
+table.chart-table tr.header {
+  background-color: lightgray;
+  font-weight: 600;
+}
+
+table.chart-table td.last-update {
+  font-style:  oblique;
 }
 
 
