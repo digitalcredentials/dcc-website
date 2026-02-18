@@ -19,6 +19,10 @@ pages:
     subppages: 
       - page: DCC Recommended Standards
         url: /dcc-standards
+      - page: Knowledge Base
+        url: https://wiki.dcconsortium.org/
+      - page: Blog
+        url: https://blog.dcconsortium.org/
   - page: Get Involved
     url: /get-involved
     subpages:
