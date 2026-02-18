@@ -18,7 +18,7 @@ pages:
     url: /resources
     subppages: 
       - page: DCC Recommended Standards
-        url: /resources/dcc-standards
+        url: /dcc-standards
   - page: Get Involved
     url: /get-involved
     subpages:
