@@ -119,9 +119,16 @@ title: DCC Recommended Standards
         <td>&nbsp;</td>
         <td>Yes - Experimental</td>
       </tr>
+	 <tr>
+        <td><a href="https://w3c-ccg.github.io/zcap-spec/" target="_blank">Authorization Capabilities for Linked Data</a></td>
+        <td>Authorization Control</td>
+        <td>0.3</td>
+        <td>ZCAP-LD</td>
+        <td>Exploring</td>
+      </tr>
     <tfoot>
       <tr>
-        <td class="last-update" colspan="2">Last Updated: February 18, 2026</td>
+        <td class="last-update" colspan="2">Last Updated: May 7, 2026</td>
     </tr>
   </tfoot>
   </tbody>
