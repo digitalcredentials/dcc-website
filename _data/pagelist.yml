@@ -18,7 +18,7 @@ pages:
     url: /resources
     subpages: 
       - page: Blog
-        url: https://blog.dcconsortium.org/
+        url: https://blog.dccommons.org/
       - page: DCC Recommended Standards
         url: /dcc-standards
       - page: Knowledge Base
