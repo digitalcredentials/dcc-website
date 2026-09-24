@@ -4,7 +4,7 @@ title: Digital Credentials Consortium
 call-to-action:
   header: Help us build the digital credential infrastructure that fits the future of education.
   button-text: Sign up for updates
-  link: http://eepurl.com/gic0Xf
+  link: https://dcconsortium.us1.list-manage.com/subscribe?u=902720d29ec167c46538191ec&id=c3be18fce0
 ---
 
 <!-- Homepage Header Block w/ Whitepaper link -->

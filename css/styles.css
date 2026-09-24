@@ -274,6 +274,77 @@ a.dropdown-item:hover {
 /* end of navigation */
 
 
+/******************************/
+/*     Transition Banner      */
+/******************************/
+/* Sitewide notice announcing the rename to the Digital Credentials Commons.
+Reuses the call-to-action band's vocabulary -- off-white ground, light black
+text, maroon pill for the action -- at a smaller scale, since this one sits at
+the top of every page rather than at the end of one. It stays in normal
+document flow beneath the fixed navbar, so --nav-height-full / --nav-height-min
+and the sticky table headers that key off them need no adjustment. */
+.transition-banner {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: var(--off-white);
+  text-align: center;
+}
+
+.transition-banner .container-md {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  column-gap: 1.5rem;
+  row-gap: 0.75rem;
+}
+
+.transition-banner p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 100;
+  font-size: 1.2rem;
+  line-height: 160%;
+  color: var(--black);
+}
+
+.transition-banner-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  column-gap: 1.5rem;
+  row-gap: 0.5rem;
+}
+
+/* Same override the call-to-action and page-content blocks make, scaled down
+for a band that persists at the top of the page. Both actions hold a 44px
+minimum height so they stay comfortable targets on touch screens. */
+.transition-banner .btn-solid-lg {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0.4rem 1.75rem;
+  font-size: 1.1rem;
+  color: var(--white);
+}
+
+.transition-banner-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  color: var(--link);
+  white-space: nowrap;
+}
+
+.transition-banner-secondary:hover {
+  color: var(--link-hover);
+}
+/* end of transition banner */
+
+
 /**********************/
 /*      Homepage      */
 /**********************/
@@ -672,6 +743,11 @@ p.call-to-action-mini {
 
 /* Small screen width */
 @media only screen and (max-width: 768px) {
+  /* Transition banner */
+  .transition-banner p {
+    font-size: 1.1rem;
+  }
+
   /* Header type */
   .home-header h1{
     font-size: 1.8rem;
@@ -717,6 +793,39 @@ p.call-to-action-mini {
 
 /* X-small screen width */
 @media only screen and (max-width: 576px) {
+  /* Transition banner: stack the message above the actions, and give each
+  action a full-width tap target instead of sitting them side by side. */
+  .transition-banner {
+    padding-top: 0.875rem;
+    padding-bottom: 0.875rem;
+  }
+
+  .transition-banner .container-md {
+    flex-direction: column;
+    row-gap: 0.875rem;
+  }
+
+  .transition-banner p {
+    font-size: 1.05rem;
+    line-height: 150%;
+  }
+
+  .transition-banner-actions {
+    flex-direction: column;
+    align-self: stretch;
+    row-gap: 0.75rem;
+  }
+
+  .transition-banner .btn-solid-lg {
+    display: flex;
+    padding: 0.5rem 1.25rem;
+  }
+
+  .transition-banner-secondary {
+    display: flex;
+    white-space: normal;
+  }
+
   h2 {
     font-size: 1.4rem;
     line-height: 1.8rem;
