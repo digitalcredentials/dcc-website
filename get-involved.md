@@ -4,7 +4,7 @@ title: Get Involved!
 call-to-action:
   header: The Digital Credentials Consortium holds regular community calls for individuals, institutions and members to learn more about current topics in digital academic credentials.
   button-text: Join the Community Mailing List
-  link: http://eepurl.com/gic0Xf
+  link: https://dcconsortium.us1.list-manage.com/subscribe?u=902720d29ec167c46538191ec&id=c3be18fce0
 ---
 
 <!-- Grid format that places text block and images side by side at wide screen size -->
